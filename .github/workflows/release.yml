@@ -5,6 +5,11 @@ name: Release
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag to rebuild, e.g. v0.7.7"
+        required: true
 
 permissions:
   contents: write
@@ -27,17 +32,18 @@ jobs:
 
       - name: Set download URL for this release
         run: |
-          TAG="${GITHUB_REF_NAME}"
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
           URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/petal-throne.zip"
           MANIFEST="https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/system.json"
           jq --arg url "$URL" --arg man "$MANIFEST" --arg v "${TAG#v}" '.download=$url | .manifest=$man | .version=$v' system.json > system.tmp && mv system.tmp system.json
 
       - name: Zip system
-        run: zip -r petal-throne.zip system.json module templates styles lang packs data README.md LICENSE.md CHANGELOG.md
+        run: mkdir -p dist/petal-throne && cp -r system.json module templates styles lang packs data assets README.md LICENSE.md CHANGELOG.md dist/petal-throne/ && (cd dist && zip -r ../petal-throne.zip petal-throne)
 
       - name: Upload release assets
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
           files: |
             system.json
             petal-throne.zip
