@@ -1,0 +1,58 @@
+{
+  "_id": "Ivv7TR8VKiyIiLG0",
+  "name": "Kurukú",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "1-1",
+    "hp": {
+      "value": 2,
+      "max": 2
+    },
+    "ac": 9,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 10-100; treasure A: 20",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (7); stats Sec. 1222 no. 29",
+    "biography": "<p>Little six-legged creatures with a pair of small hands just below a blunt, ape-like snout.</p><p>They never attack and always flee if approached, but 50% try to snatch a bright object from a random nearby traveller (60% success), running off giggling like a person. 20% they drop it while fleeing; otherwise it is gone unless the Kurukú is cornered. Missiles need +1 to hit them.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 29,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Kurukú",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!Ivv7TR8VKiyIiLG0"
+}

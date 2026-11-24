@@ -1,0 +1,29 @@
+{
+  "_id": "SrE8kIoKT74zAULB",
+  "name": "Kilt of Firyá Cloth (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Lower or middle class. Medium quality; finer pieces cost 2-3 times as much.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.340",
+    "cost": 0.15,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "3-7 Hlásh",
+    "sgEncumbrance": "0/.1",
+    "category": "clothing",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 95,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SrE8kIoKT74zAULB"
+}

@@ -1,0 +1,50 @@
+{
+  "_id": "iBopo8Xpkp4rnPWr",
+  "name": "Scroll language: modern or ancient (Sec. 1610)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "eM6x5XAjr79kNaRC",
+      "type": "text",
+      "name": "Modern language",
+      "text": "Modern language",
+      "description": "Modern language",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 60,
+      "range": [
+        1,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iBopo8Xpkp4rnPWr.eM6x5XAjr79kNaRC"
+    },
+    {
+      "_id": "bWzxHFfUD4gmsMNK",
+      "type": "text",
+      "name": "Ancient language",
+      "text": "Ancient language",
+      "description": "Ancient language",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 40,
+      "range": [
+        61,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iBopo8Xpkp4rnPWr.bWzxHFfUD4gmsMNK"
+    }
+  ],
+  "folder": "8NYsZ6x2pVHejYUr",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!iBopo8Xpkp4rnPWr"
+}

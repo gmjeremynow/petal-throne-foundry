@@ -1,0 +1,58 @@
+{
+  "_id": "2Y26L9TUfFW1ja7Z",
+  "name": "Qól",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "1+1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "4-40",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 2,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "2 K",
+      "lair": "Lair 40: 10-100; treasure D: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (16); stats Sec. 1222 no. 45",
+    "biography": "<p>Mutants bred from human stock by the Priests of Ksárul: roughly human but with a slender reptilian neck and a flat, diamond-shaped serpent head.</p><p>They see well in darkness and fear light. They fight with poisoned weapons, arrows included, and bite in the same round; both call for saves against poison. They attack only if they outnumber the party by 5-6; otherwise they try to flee. Each carries at most 2 Káitars.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 45,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Qól",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!2Y26L9TUfFW1ja7Z"
+}

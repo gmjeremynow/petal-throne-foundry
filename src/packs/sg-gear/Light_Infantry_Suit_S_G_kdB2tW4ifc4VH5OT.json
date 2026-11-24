@@ -1,0 +1,27 @@
+{
+  "_id": "kdB2tW4ifc4VH5OT",
+  "name": "Light Infantry Suit (S&G)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Averaged suit: light helmet, breastplate pectoral, vambraces, leather tunic. For skirmishers, slingers, sappers, archers, artillerymen and some marines. Swords & Glory armour is bought piece by piece. The 1975 armour classes count only leather, chainmail, plate and shields, so this piece does not change armour class on its own; agree the suit's armour class with the referee.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 32.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "32-104 Káitars",
+    "sgEncumbrance": "4.5/13",
+    "armourType": "piece",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 42,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!kdB2tW4ifc4VH5OT"
+}

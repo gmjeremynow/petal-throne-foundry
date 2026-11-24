@@ -1,0 +1,34 @@
+{
+  "_id": "HlVxkZuglbj5UKDr",
+  "name": "The Eye of the Creeping Fog of Doom",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>A gas cloud 100 ft square moving 60 ft a turn: 50% nerve gas, 40% contact gas, 10% harmless. Needs 140 ft of open space; watch the wind.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 9",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "",
+    "duration": "4 turns",
+    "targeting": "area",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!HlVxkZuglbj5UKDr"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "Bv1IEvHzsEiS2atV",
+  "name": "The Alluring Maiden of Ngá",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>An android assassin shaped like a beautiful girl (ebon hair, paper-white skin). Stalks and kills her owner's chosen victim with noose, dagger or poison, never giving up until the victim is dead; she may carry 1-3 Eyes (roll randomly). AC I, 6 hit dice. Mindless (cannot be detected by telepathy, cannot speak, cannot be given other tasks). Each mission uses 10 charges (round to the nearest 10). At the start of each mission the owner must roll 8+ on d20 or she attacks him instead.</p><p>Charges: roll d100 when found.</p><p>How many exist: two known. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 1",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Bv1IEvHzsEiS2atV"
+}

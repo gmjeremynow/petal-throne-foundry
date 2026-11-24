@@ -1,0 +1,31 @@
+{
+  "_id": "bZiLYOvtXeEp8aZ5",
+  "name": "The Amulet of Warding Off Thúnru'u",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>1-6 Thúnru'u flee for two turns (they fight if meleed). No save; once per group.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 12",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "30 ft",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!bZiLYOvtXeEp8aZ5"
+}

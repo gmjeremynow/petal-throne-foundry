@@ -1,0 +1,58 @@
+{
+  "_id": "FJmRI4TA1xAkjsnY",
+  "name": "Qáqtla",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "5",
+    "hp": {
+      "value": 18,
+      "max": 18
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-3",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 2-12",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (9); stats Sec. 1222 no. 44",
+    "biography": "<p>A snake-like creature up to 10 ft long covered in strong scale armour, with a whip of poisoned tentacles.</p><p>It lives in riverbanks and on the seashore, always attacks and never checks morale. Anyone struck must save against poison.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 44,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Qáqtla",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!FJmRI4TA1xAkjsnY"
+}

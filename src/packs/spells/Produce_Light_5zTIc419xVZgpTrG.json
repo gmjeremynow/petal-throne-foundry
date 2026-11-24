@@ -1,0 +1,35 @@
+{
+  "_id": "5zTIc419xVZgpTrG",
+  "name": "Produce Light",
+  "type": "spell",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>A soft radiance around the user.</p>",
+    "source": "EPT 1975 Sec. 432",
+    "kind": "professional",
+    "profession": "priest",
+    "group": 0,
+    "rank": 3,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft radius",
+    "duration": "10 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "0cjba5Sr9ifPDCeD",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5zTIc419xVZgpTrG"
+}

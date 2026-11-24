@@ -1,0 +1,25 @@
+{
+  "_id": "mfH326q9Ssm3rGZv",
+  "name": "Plate Armour (Chlén-hide)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 50,
+    "weight": 9000,
+    "quantity": 1,
+    "armourType": "plate",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 32,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mfH326q9Ssm3rGZv"
+}

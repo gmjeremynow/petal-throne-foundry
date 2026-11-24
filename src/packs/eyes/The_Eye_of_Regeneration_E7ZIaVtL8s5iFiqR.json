@@ -1,0 +1,34 @@
+{
+  "_id": "E7ZIaVtL8s5iFiqR",
+  "name": "The Eye of Regeneration",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Regrows a lost limb or organ; one charge per limb. Does not raise the dead.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 23",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 23,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!E7ZIaVtL8s5iFiqR"
+}

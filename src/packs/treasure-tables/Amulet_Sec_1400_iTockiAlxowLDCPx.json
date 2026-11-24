@@ -1,0 +1,222 @@
+{
+  "_id": "iTockiAlxowLDCPx",
+  "name": "Amulet (Sec. 1400)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "qNSuP0eQzkmnWDPR",
+      "type": "document",
+      "name": "The Amulet Against the Iniquitous Nshé",
+      "text": "The Amulet Against the Iniquitous Nshé",
+      "description": "The Amulet Against the Iniquitous Nshé",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.qNSuP0eQzkmnWDPR",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.Ztr9Qx2lzzbRNJ9U"
+    },
+    {
+      "_id": "yKdMl57Q2QjiBXa7",
+      "type": "document",
+      "name": "The Amulet of Finding Treasure in the Underworld",
+      "text": "The Amulet of Finding Treasure in the Underworld",
+      "description": "The Amulet of Finding Treasure in the Underworld",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.yKdMl57Q2QjiBXa7",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.eyq0xnI2hvmyMp9b"
+    },
+    {
+      "_id": "33UwCjcS3lGpfVor",
+      "type": "document",
+      "name": "The Amulet of the Good God",
+      "text": "The Amulet of the Good God",
+      "description": "The Amulet of the Good God",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.33UwCjcS3lGpfVor",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.8j1bTO8OJ9w4eAtE"
+    },
+    {
+      "_id": "r0bw4lBgloPzz1Xp",
+      "type": "document",
+      "name": "The Amulet of Invincible Steel",
+      "text": "The Amulet of Invincible Steel",
+      "description": "The Amulet of Invincible Steel",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.r0bw4lBgloPzz1Xp",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.1L9qtmzu70RxKzW2"
+    },
+    {
+      "_id": "7Ir1KrRtLp7Qyelv",
+      "type": "document",
+      "name": "The Amulet of Mastery Over Rényu",
+      "text": "The Amulet of Mastery Over Rényu",
+      "description": "The Amulet of Mastery Over Rényu",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.7Ir1KrRtLp7Qyelv",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.E0HlPDaZheqUqLlv"
+    },
+    {
+      "_id": "DaUWgtXSjLbXtzwA",
+      "type": "document",
+      "name": "The Amulet of Perceiving the Scintillation of Metals",
+      "text": "The Amulet of Perceiving the Scintillation of Metals",
+      "description": "The Amulet of Perceiving the Scintillation of Metals",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.DaUWgtXSjLbXtzwA",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.8dEUhrpnlroq0Daj"
+    },
+    {
+      "_id": "oylUifBMfAIaTDGC",
+      "type": "document",
+      "name": "The Amulet of Peace Amongst the Servers of Ksárul",
+      "text": "The Amulet of Peace Amongst the Servers of Ksárul",
+      "description": "The Amulet of Peace Amongst the Servers of Ksárul",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.oylUifBMfAIaTDGC",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.zYLzPsuIxGXKBVzP"
+    },
+    {
+      "_id": "PiNIJJ0QPJLs5IjS",
+      "type": "document",
+      "name": "The Amulet of Power Over the Undead",
+      "text": "The Amulet of Power Over the Undead",
+      "description": "The Amulet of Power Over the Undead",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.PiNIJJ0QPJLs5IjS",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.0G95kA0M1zyh3jq4"
+    },
+    {
+      "_id": "uw9Tf5x2WywhbUaX",
+      "type": "document",
+      "name": "The Amulet of Protection Against the Grey Hand",
+      "text": "The Amulet of Protection Against the Grey Hand",
+      "description": "The Amulet of Protection Against the Grey Hand",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.uw9Tf5x2WywhbUaX",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.vaTYpyMFAAJ0d4uu"
+    },
+    {
+      "_id": "9LbLxqFUM5lsFgat",
+      "type": "document",
+      "name": "The Amulet of Ruling the Ru'ún",
+      "text": "The Amulet of Ruling the Ru'ún",
+      "description": "The Amulet of Ruling the Ru'ún",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.9LbLxqFUM5lsFgat",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.M8iLxStnFY2eev9Q"
+    },
+    {
+      "_id": "8z0ZO1Sdla8J951u",
+      "type": "document",
+      "name": "The Amulet of Safety Amidst Putrefaction",
+      "text": "The Amulet of Safety Amidst Putrefaction",
+      "description": "The Amulet of Safety Amidst Putrefaction",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.8z0ZO1Sdla8J951u",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.JEz6m9FlExQzDKql"
+    },
+    {
+      "_id": "w1VfSBlA2jXWDCnm",
+      "type": "document",
+      "name": "The Amulet of Warding Off Thúnru'u",
+      "text": "The Amulet of Warding Off Thúnru'u",
+      "description": "The Amulet of Warding Off Thúnru'u",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!iTockiAlxowLDCPx.w1VfSBlA2jXWDCnm",
+      "documentUuid": "Compendium.petal-throne.amulets.Item.bZiLYOvtXeEp8aZ5"
+    }
+  ],
+  "folder": "b0c2cRbpuZuv6NHJ",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!iTockiAlxowLDCPx"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "2BuO613cZf0K5lOs",
+  "name": "Chnélh",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "1-1",
+    "hp": {
+      "value": 2,
+      "max": 2
+    },
+    "ac": 7,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "20-400",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 30: 40-800; treasure A: 20",
+      "special": "A/U"
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (2); stats Sec. 1222 no. 7",
+    "biography": "<p>Mutants bred from Earth ape stock by the Priests of Ksárul: roughly human-shaped, with long sharp jaws and teeth, a vestigial nose, and large jewel-like round eyes under heavy brows.</p><p>Semi-intelligent but untrainable. They attack parties they outnumber and run from parties as strong or stronger. They fight with clubs and spears. 10% chance each carries 1 Káitar.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 7,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Chnélh",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!2BuO613cZf0K5lOs"
+}

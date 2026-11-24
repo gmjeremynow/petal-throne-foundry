@@ -1,0 +1,58 @@
+{
+  "_id": "y6TeMwxYcsEeL1vq",
+  "name": "Hlýss",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "10-100",
+    "attitude": "Hostile",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 2,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "H: 40",
+      "lair": "Lair 50: 100-600; treasure H: 40",
+      "special": ""
+    },
+    "special": "Per ship: 20-120; treasure aboard ship: G: 30.",
+    "source": "EPT 1975 Sec. 1127 (4); stats Sec. 1222 no. 21",
+    "biography": "<p>Insect-like remnants of the world before men: six legs, light chitin armour, and a row of razor-sharp mandibles beneath a proboscis. The tail carries a paralysing sting. They set captured gems and jewellery permanently into their body armour, so high-ranking Hlýss glitter with jewels.</p><p>Two attacks a round: a hand weapon (often a jagged sword shaped like a lightning bolt) and the sting (save against poison or be paralysed and carried off to feed the Hlýss Mother and her young). They live on their island and in hive-like ships grown from a stony secretion. Any party includes one Hlýss of levels II-XII with magical weapons and Eyes; 50% chance the rest are fighters of levels II-XII. Friendly to the Ssú, sometimes neutral to the Hláka. Their horrible appearance means fighters of levels I-IV need +1 to hit them.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 21,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hlýss",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!y6TeMwxYcsEeL1vq"
+}

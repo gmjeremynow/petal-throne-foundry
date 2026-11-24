@@ -1,0 +1,58 @@
+{
+  "_id": "0oeZmGGgTdV1RLZx",
+  "name": "Hrá",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "7",
+    "hp": {
+      "value": 24,
+      "max": 24
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "B: 80",
+      "lair": "Lair 20: 2-40; treasure F: 60",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (6); stats Sec. 1222 no. 22",
+    "biography": "<p>Great grey undead monsters, creations of the ancient Priests of Ksárul.</p><p>They fight as men do with swords and lances, drain victims of blood and fluids to a shrivelled husk, and cannot bear light. Reduced to 0 hit points they rise again in two turns and pursue (90%) unless touched with the Amulet of the Good God. A Priest of Ksárul has 15% to control one on the first round, unless it surprised the party.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 22,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hrá",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!0oeZmGGgTdV1RLZx"
+}

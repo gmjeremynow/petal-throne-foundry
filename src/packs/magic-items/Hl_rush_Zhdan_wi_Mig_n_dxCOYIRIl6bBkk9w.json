@@ -1,0 +1,31 @@
+{
+  "_id": "dxCOYIRIl6bBkk9w",
+  "name": "Hlórush Zhdanáwi Migún",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of Eyes'</i>. Written in Mihálli.</p><p>For Priests or Magic Users of level VI+: how to build 1d6 Eyes (chosen at random from Sec. 1310), four months each; materials may be costly or scarce. Each Eye's instructions fade once it is built, and there is a 20% chance per week the book fades if work has not begun. Fighters cannot use it.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 19",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dxCOYIRIl6bBkk9w"
+}

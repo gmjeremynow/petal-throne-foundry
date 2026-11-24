@@ -1,0 +1,35 @@
+{
+  "_id": "vKXoW6R8Tmk0TNPf",
+  "name": "Creatures (Group II)",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Creates 1-2 three-hit-dice beings that serve the caster.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 3,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "3 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 4,
+    "waitAfter": "Cannot be cast at levels I-III. IV-VI: one week before any other spell; VII-VIII: two days; IX: one day; above IX: none."
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 3,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vKXoW6R8Tmk0TNPf"
+}

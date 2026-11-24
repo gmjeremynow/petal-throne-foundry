@@ -1,0 +1,22 @@
+{
+  "_id": "a1MxOwxIgdQxgflt",
+  "name": "Broadsword and dagger man",
+  "type": "skill",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Two blows per round at +1 to the score needed; no shield.</p><p>Warrior skills are gained in this order (Sec. 430).</p>",
+    "source": "EPT 1975 Sec. 430-431",
+    "group": "warrior",
+    "rank": 9,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "ZtkLoQnKKklPA2TP",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!a1MxOwxIgdQxgflt"
+}

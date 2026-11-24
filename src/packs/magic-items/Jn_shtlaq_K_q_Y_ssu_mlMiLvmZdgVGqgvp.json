@@ -1,0 +1,31 @@
+{
+  "_id": "mlMiLvmZdgVGqgvp",
+  "name": "Jnéshtlaq Kéq Yóssu",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Tome of Black Mold'</i>. Written in ancient N'lýssa.</p><p>A Priest or Magic User of level V+ is taken to the Tomb of the Lord of Black Mold in the Secret City of Schyák in N'lýss for one turn and may carry off what he can (the referee rolls two Type I treasures to choose from; the Eye of Retaining All Things and the Magical Chest of the Topaz God do not work there; mind the load limits of Sec. 920), then returns. Lesser characters and all Warriors take 2d6 and the book crumbles. Usable once.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 14",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mlMiLvmZdgVGqgvp"
+}

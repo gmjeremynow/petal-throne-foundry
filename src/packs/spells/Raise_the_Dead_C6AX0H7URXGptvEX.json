@@ -1,0 +1,35 @@
+{
+  "_id": "C6AX0H7URXGptvEX",
+  "name": "Raise the Dead",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Animates 2d6 dead beings as obedient zombies with their old hit dice; they hit at -2 and deal -3 damage.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 14,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "10 ft",
+    "duration": "12 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 14,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!C6AX0H7URXGptvEX"
+}

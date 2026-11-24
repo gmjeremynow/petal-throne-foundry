@@ -1,0 +1,25 @@
+{
+  "_id": "VSNjZhUwdr4ymM5n",
+  "name": "Chainmail (Chlén-hide)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 40,
+    "weight": 6500,
+    "quantity": 1,
+    "armourType": "chain",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 31,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VSNjZhUwdr4ymM5n"
+}

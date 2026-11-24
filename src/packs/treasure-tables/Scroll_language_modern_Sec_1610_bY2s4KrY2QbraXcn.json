@@ -1,0 +1,162 @@
+{
+  "_id": "bY2s4KrY2QbraXcn",
+  "name": "Scroll language: modern (Sec. 1610)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "x0P9r0KLVyr1OR9e",
+      "type": "text",
+      "name": "Tsolyáni",
+      "text": "Tsolyáni",
+      "description": "Tsolyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.x0P9r0KLVyr1OR9e"
+    },
+    {
+      "_id": "lhMF7LOSsGtUtxtK",
+      "type": "text",
+      "name": "Salarvyáni",
+      "text": "Salarvyáni",
+      "description": "Salarvyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        5,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.lhMF7LOSsGtUtxtK"
+    },
+    {
+      "_id": "0RljplcxqhyyJYTB",
+      "type": "text",
+      "name": "Mu'ugalavyáni",
+      "text": "Mu'ugalavyáni",
+      "description": "Mu'ugalavyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.0RljplcxqhyyJYTB"
+    },
+    {
+      "_id": "6N7Ew91pmQUxdZ3o",
+      "type": "text",
+      "name": "Livyáni",
+      "text": "Livyáni",
+      "description": "Livyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        11,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.6N7Ew91pmQUxdZ3o"
+    },
+    {
+      "_id": "22YRL2pXyzvLVHu8",
+      "type": "text",
+      "name": "Yán Koryáni",
+      "text": "Yán Koryáni",
+      "description": "Yán Koryáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        14,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.22YRL2pXyzvLVHu8"
+    },
+    {
+      "_id": "5kcUP2OMFBMFnSaK",
+      "type": "text",
+      "name": "Saá Allaqiyáni",
+      "text": "Saá Allaqiyáni",
+      "description": "Saá Allaqiyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.5kcUP2OMFBMFnSaK"
+    },
+    {
+      "_id": "3yq8S5lUDoB8oo2u",
+      "type": "text",
+      "name": "Milumanayáni",
+      "text": "Milumanayáni",
+      "description": "Milumanayáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.3yq8S5lUDoB8oo2u"
+    },
+    {
+      "_id": "B20HTif0uqkRUI1K",
+      "type": "text",
+      "name": "Pecháni",
+      "text": "Pecháni",
+      "description": "Pecháni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.B20HTif0uqkRUI1K"
+    },
+    {
+      "_id": "677SyQQYYeENTF1V",
+      "type": "text",
+      "name": "Ghatóni",
+      "text": "Ghatóni",
+      "description": "Ghatóni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!bY2s4KrY2QbraXcn.677SyQQYYeENTF1V"
+    }
+  ],
+  "folder": "8NYsZ6x2pVHejYUr",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!bY2s4KrY2QbraXcn"
+}

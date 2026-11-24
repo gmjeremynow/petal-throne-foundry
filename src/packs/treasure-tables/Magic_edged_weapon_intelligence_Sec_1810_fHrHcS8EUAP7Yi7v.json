@@ -1,0 +1,114 @@
+{
+  "_id": "fHrHcS8EUAP7Yi7v",
+  "name": "Magic edged weapon: intelligence (Sec. 1810)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "F7COf4gNJms0FIIO",
+      "type": "text",
+      "name": "No intelligence",
+      "text": "No intelligence",
+      "description": "No intelligence",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 50,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fHrHcS8EUAP7Yi7v.F7COf4gNJms0FIIO"
+    },
+    {
+      "_id": "lSDaGX4Z5Mt4NFxr",
+      "type": "text",
+      "name": "Low: the owner senses only simple emotions (empathy)",
+      "text": "Low: the owner senses only simple emotions (empathy)",
+      "description": "Low: the owner senses only simple emotions (empathy)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fHrHcS8EUAP7Yi7v.lSDaGX4Z5Mt4NFxr"
+    },
+    {
+      "_id": "4MkHyLCteIEDqsmN",
+      "type": "text",
+      "name": "Communicates telepathically with its owner only",
+      "text": "Communicates telepathically with its owner only",
+      "description": "Communicates telepathically with its owner only",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fHrHcS8EUAP7Yi7v.4MkHyLCteIEDqsmN"
+    },
+    {
+      "_id": "nj5jxfACtfunktSC",
+      "type": "text",
+      "name": "Speaks aloud",
+      "text": "Speaks aloud",
+      "description": "Speaks aloud",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fHrHcS8EUAP7Yi7v.nj5jxfACtfunktSC"
+    },
+    {
+      "_id": "pvctTIuSXcaywfkz",
+      "type": "text",
+      "name": "Very intelligent: speaks one other modern language besides Tsolyáni (or the local tongue)",
+      "text": "Very intelligent: speaks one other modern language besides Tsolyáni (or the local tongue)",
+      "description": "Very intelligent: speaks one other modern language besides Tsolyáni (or the local tongue)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fHrHcS8EUAP7Yi7v.pvctTIuSXcaywfkz"
+    },
+    {
+      "_id": "uTlXvVZ6m4XaNN3S",
+      "type": "text",
+      "name": "Extremely intelligent: speaks two extra modern languages",
+      "text": "Extremely intelligent: speaks two extra modern languages",
+      "description": "Extremely intelligent: speaks two extra modern languages",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fHrHcS8EUAP7Yi7v.uTlXvVZ6m4XaNN3S"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!fHrHcS8EUAP7Yi7v"
+}

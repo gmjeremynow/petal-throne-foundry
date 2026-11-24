@@ -1,0 +1,31 @@
+{
+  "_id": "8T7rg68nX1xFCY8k",
+  "name": "Púrohlan Znamríshsha Kagékte",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of the Unnamed God'</i>. Written in ancient Salarvyáni of the Bednállja Dynasty.</p><p>Anyone of level V+ who can read it calls a god or cohort to aid him for two turns (d20: 1 Hnálla, 2 Karakán, 3 Thúmis, 4 Avánthe, 5 Belkhánu, 6 Drá, 7 Chegárra, 8 Keténgku, 9 Dilinála, 10 Qón, 11 Hrü'ü, 12 Vimúhla, 13 Ksárul, 14 Sárku, 15 Dlamélish, 16 Wurú, 17 Chiténg, 18 Grugánu, 19 Durritlámish, 20 Hriháyal); an evil deity may thus serve a good character or the reverse. The referee decides the service. Vanishes once used.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 24",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8T7rg68nX1xFCY8k"
+}

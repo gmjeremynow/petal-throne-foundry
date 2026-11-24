@@ -1,0 +1,31 @@
+{
+  "_id": "x13VsGBCefGWPHC7",
+  "name": "The Cup of Súbadim the Sorcerer",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Pours a stream of any liquid the user wishes (water, oil, flammable chemicals, acid) to a range of 1\"; one melee round per charge.</p><p>Charges: roll d100 when found.</p><p>How many exist: one. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 6",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!x13VsGBCefGWPHC7"
+}

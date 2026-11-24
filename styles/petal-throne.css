@@ -1,0 +1,277 @@
+/* Empire of the Petal Throne (Unofficial) - sheet styles
+   Palette: lapis, ochre and burnt red on parchment, after Tsolyáni illumination. */
+
+.petal-throne.sheet.pt-drop-over .window-content { outline: 2px dashed #8a5a2b; outline-offset: -4px; }
+.petal-throne .pt-talent-mod { margin-left: 4px; font-size: 0.85em; color: var(--pt-red, #8b2a1a); white-space: nowrap; }
+.petal-throne .pt-slots { margin: 6px 0 8px; padding: 6px 8px; border: 1px solid #c9b48a; border-radius: 4px; background: rgba(255,255,255,0.35); position: relative; }
+.petal-throne .pt-slot-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 2px 0; }
+.petal-throne .pt-slot-title { font-weight: bold; margin-right: 4px; min-width: 9em; }
+.petal-throne .pt-slot { padding: 1px 8px; border-radius: 10px; border: 1px solid #b89b62; background: #f6ecd2; white-space: nowrap; }
+.petal-throne .pt-slot b { font-size: 1.1em; }
+.petal-throne .pt-slot.open { background: #e4efd6; border-color: #7c9a52; }
+.petal-throne .pt-slot.full { opacity: 0.65; }
+.petal-throne .pt-slot.over { background: #f3d3cc; border-color: #a0402c; color: #7a2617; }
+.petal-throne .pt-slot-edit { position: absolute; right: 8px; top: 6px; font-size: 0.85em; }
+.petal-throne .pt-load { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; padding: 6px 8px; border: 1px solid #c9b48a; border-radius: 4px; background: rgba(255,255,255,0.35); margin: 4px 0; }
+.petal-throne .pt-load-heavy b, .petal-throne b.pt-load-heavy { color: #8a5a00; }
+.petal-throne .pt-load-armoured b, .petal-throne b.pt-load-armoured { color: #8b3a1a; }
+.petal-throne .pt-load-over, .petal-throne b.pt-load-over { color: #a0261a; }
+.petal-throne .pt-load.pt-load-over { background: #f3d3cc; border-color: #a0402c; }
+.petal-throne .pt-coins-carried { display: inline-flex; gap: 4px; align-items: center; margin-top: 4px; }
+.petal-throne .pt-restrict { color: #a0261a; font-size: 0.85em; }
+.petal-throne {
+  --pt-ink: #2a2118;
+  --pt-muted: #6b5a45;
+  --pt-paper: #f3ead6;
+  --pt-paper-2: #e9dcbd;
+  --pt-line: #b9a37a;
+  --pt-accent: #8c2f1d;
+  --pt-accent-2: #1f4e79;
+  --pt-gold: #b8862b;
+  --pt-good: #2f6b2f;
+  --pt-bad: #8c2f1d;
+  font-family: "Signika", "Palatino Linotype", serif;
+  color: var(--pt-ink);
+}
+
+.petal-throne .window-content {
+  background: var(--pt-paper);
+  color: var(--pt-ink);
+  padding: 0;
+}
+
+.petal-throne .pt-sheet-inner { display: flex; flex-direction: column; height: 100%; }
+
+.petal-throne .sheet-header {
+  display: flex; gap: 12px; padding: 10px 12px 8px;
+  background: linear-gradient(180deg, var(--pt-paper-2), var(--pt-paper));
+  border-bottom: 3px double var(--pt-line);
+}
+.petal-throne .sheet-header .profile { width: 104px; height: 104px; object-fit: cover; border: 2px solid var(--pt-gold); border-radius: 4px; cursor: pointer; flex: 0 0 auto; }
+.petal-throne .sheet-header .profile.small { width: 56px; height: 56px; }
+.petal-throne .item-header { align-items: center; }
+.petal-throne .header-fields { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.petal-throne .charname { margin: 0; border: none; }
+.petal-throne .charname input { font-size: 1.6em; font-weight: 700; border: none; border-bottom: 1px solid var(--pt-line); background: transparent; width: 100%; height: auto; color: var(--pt-accent); }
+
+.petal-throne .header-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.petal-throne .header-grid label { display: flex; flex-direction: column; font-size: 0.75em; text-transform: uppercase; letter-spacing: .04em; color: var(--pt-muted); }
+.petal-throne .header-grid select { font-size: 1.15em; text-transform: none; color: var(--pt-ink); }
+
+.petal-throne .header-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.petal-throne .stat { display: flex; flex-direction: column; align-items: center; border: 1px solid var(--pt-line); border-radius: 4px; background: rgba(255,255,255,.35); padding: 2px 4px; }
+.petal-throne .stat-label { font-size: .7em; text-transform: uppercase; letter-spacing: .05em; color: var(--pt-muted); }
+.petal-throne .stat-value { font-size: 1.5em; font-weight: 700; color: var(--pt-accent-2); line-height: 1.1; }
+.petal-throne .stat-sub { font-size: .7em; color: var(--pt-muted); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.petal-throne .stat-input { width: 90%; text-align: center; font-size: 1.2em; font-weight: 700; }
+.petal-throne .hp { display: flex; align-items: center; gap: 2px; font-weight: 700; }
+.petal-throne .hp input { width: 3.2em; text-align: center; font-size: 1.15em; }
+
+.petal-throne nav.sheet-tabs { display: flex; gap: 2px; padding: 0 8px; border-bottom: 1px solid var(--pt-line); background: var(--pt-paper-2); flex: 0 0 auto; }
+.petal-throne nav.sheet-tabs .item { padding: 4px 10px; color: var(--pt-muted); font-weight: 600; border-bottom: 3px solid transparent; }
+.petal-throne nav.sheet-tabs .item.active { color: var(--pt-accent); border-bottom-color: var(--pt-accent); text-shadow: none; }
+
+.petal-throne .sheet-body { flex: 1; overflow-y: auto; padding: 8px 12px 16px; }
+.petal-throne section.tab { display: none; }
+.petal-throne section.tab.active { display: block; }
+
+.petal-throne h3 { margin: 10px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--pt-line); color: var(--pt-accent); font-size: 1.05em; display: flex; align-items: center; gap: 6px; }
+.petal-throne h3 .add { margin-left: auto; color: var(--pt-muted); font-size: .9em; }
+
+.petal-throne .two-col { display: grid; grid-template-columns: 1.1fr 1fr; gap: 16px; }
+
+.petal-throne table.pt-attrs { width: 100%; border-collapse: collapse; margin: 0; background: transparent; border: none; }
+.petal-throne table.pt-attrs th, .petal-throne table.pt-attrs td { padding: 2px 4px; text-align: center; border-bottom: 1px dotted var(--pt-line); }
+.petal-throne table.pt-attrs tbody th { text-align: left; color: var(--pt-ink); }
+.petal-throne table.pt-attrs thead, .petal-throne table.pt-attrs thead tr { background: var(--pt-paper-2); }
+.petal-throne table.pt-attrs thead th { font-size: .8em; font-weight: bold; letter-spacing: .04em; text-transform: uppercase; color: var(--pt-ink); background: var(--pt-paper-2); text-shadow: none; border-bottom: 1px solid var(--pt-line); padding: 3px 4px; }
+.petal-throne table.pt-attrs a.pt-talent-check { color: var(--pt-ink); cursor: pointer; }
+.petal-throne table.pt-attrs a.pt-talent-check i { font-size: .8em; color: var(--pt-accent); margin-right: 2px; }
+.petal-throne table.pt-attrs a.pt-talent-check:hover { color: var(--pt-accent); text-decoration: underline; }
+.petal-throne table.pt-attrs input { width: 3.4em; text-align: center; }
+.petal-throne table.pt-attrs .band { font-style: italic; text-align: left; }
+.petal-throne table.pt-attrs .note-row td { font-size: .75em; color: var(--pt-muted); text-align: left; border-bottom: 1px dotted var(--pt-line); padding-top: 0; }
+.petal-throne table.pt-attrs tr:has(+ .note-row) th, .petal-throne table.pt-attrs tr:has(+ .note-row) td { border-bottom: none; }
+
+.petal-throne .kv-grid { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; align-items: center; }
+.petal-throne .kv-grid.inline { grid-template-columns: repeat(6, auto); justify-content: start; }
+.petal-throne .kv-grid.wide { grid-template-columns: 180px 1fr; }
+.petal-throne .kv-grid > span { color: var(--pt-muted); font-size: .9em; }
+.petal-throne .kv-grid input[type=number] { width: 5em; }
+.petal-throne .kv-grid .triple { display: flex; gap: 4px; }
+.petal-throne .kv-grid .triple input { width: 5em; }
+
+.petal-throne details.adjust { margin: 6px 0; padding: 4px 6px; border: 1px dashed var(--pt-line); border-radius: 4px; }
+.petal-throne details.adjust summary { cursor: pointer; color: var(--pt-muted); font-size: .9em; }
+
+.petal-throne .saves { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; }
+.petal-throne .button-row { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0; }
+.petal-throne button { background: var(--pt-paper-2); border: 1px solid var(--pt-line); color: var(--pt-ink); line-height: 1.6; flex: 0 1 auto; width: auto; padding: 0 8px; }
+.petal-throne button:hover { border-color: var(--pt-accent); box-shadow: 0 0 4px var(--pt-gold); }
+.petal-throne button b { color: var(--pt-accent-2); margin-left: 4px; }
+.petal-throne button.glow { border-color: var(--pt-gold); box-shadow: 0 0 6px var(--pt-gold); font-weight: 700; }
+
+.petal-throne ol.item-list { list-style: none; margin: 0; padding: 0; }
+.petal-throne .item-row { display: flex; align-items: center; gap: 6px; padding: 2px 2px; border-bottom: 1px dotted var(--pt-line); }
+.petal-throne .item-row:hover { background: rgba(184, 134, 43, .12); }
+.petal-throne .item-img { width: 26px; height: 26px; border: none; cursor: pointer; flex: 0 0 auto; }
+.petal-throne .item-name { flex: 1; cursor: pointer; font-weight: 600; }
+.petal-throne .item-meta { color: var(--pt-muted); font-size: .85em; flex: 0 1 auto; text-align: right; }
+.petal-throne .uses { min-width: 3em; text-align: center; font-weight: 700; color: var(--pt-accent-2); }
+.petal-throne .item-controls { display: flex; gap: 6px; flex: 0 0 auto; }
+.petal-throne .item-controls a { color: var(--pt-muted); }
+.petal-throne .item-controls a.on { color: var(--pt-accent); }
+
+.petal-throne textarea { width: 100%; font-family: inherit; background: rgba(255,255,255,.5); }
+.petal-throne .hint { font-size: .8em; color: var(--pt-muted); margin: 4px 0; }
+.petal-throne .pt-warn { color: var(--pt-bad); font-weight: 600; }
+
+/* Chat cards */
+.pt-card { font-family: "Signika", serif; }
+.pt-card .pt-card-title { font-weight: 700; color: #8c2f1d; border-bottom: 1px solid #b9a37a; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+.pt-card .pt-card-body p { margin: 3px 0; }
+.pt-card .pt-result { font-weight: 700; padding: 0 6px; border-radius: 3px; }
+.pt-card .pt-result.success { color: #fff; background: #2f6b2f; }
+.pt-card .pt-result.failure { color: #fff; background: #8c2f1d; }
+.pt-card .pt-crit { color: #b8862b; font-weight: 700; }
+.pt-card .pt-warn { color: #8c2f1d; }
+.pt-card .hint { font-size: .85em; color: #6b5a45; }
+.pt-card button { margin: 3px 0; line-height: 1.6; }
+.pt-card table.pt-table { width: 100%; font-size: .9em; }
+.pt-card table.pt-table th { text-align: left; }
+
+.pt-dialog .form-group { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+.pt-dialog .form-group label { flex: 1; }
+.pt-dialog .form-group input, .pt-dialog .form-group select { flex: 1; }
+.pt-dialog .hint { font-size: .85em; opacity: .8; }
+
+/* Form controls: override the core dark theme so values stay readable on parchment. */
+.petal-throne input[type="text"],
+.petal-throne input[type="number"],
+.petal-throne select,
+.petal-throne textarea {
+  background: #fbf6ea;
+  color: var(--pt-ink);
+  border: 1px solid var(--pt-line);
+  border-radius: 3px;
+  box-shadow: none;
+}
+.petal-throne select option { background: #fbf6ea; color: var(--pt-ink); }
+.petal-throne input:focus, .petal-throne select:focus, .petal-throne textarea:focus {
+  border-color: var(--pt-accent-2);
+  box-shadow: 0 0 4px var(--pt-gold);
+  outline: none;
+}
+.petal-throne input:disabled, .petal-throne select:disabled { opacity: .6; }
+.petal-throne .charname input { background: transparent; border: none; border-bottom: 1px solid var(--pt-line); }
+.petal-throne input[type="checkbox"] { accent-color: var(--pt-accent); }
+
+/* ---------- Readability pass (0.1.2) ---------- */
+
+/* Names: plain sheet font at a sensible size (the core h1 style was oversizing them). */
+.petal-throne .charname { font-size: 1rem; line-height: 1.2; }
+.petal-throne .charname input,
+.petal-throne .item-name-input {
+  font-family: "Signika", "Palatino Linotype", serif;
+  font-size: 1.6rem; font-weight: 700; text-transform: none; letter-spacing: 0;
+  color: var(--pt-accent); height: auto; padding: 2px 4px;
+  background: transparent; border: none; border-bottom: 1px solid var(--pt-line); border-radius: 0; width: 100%;
+}
+
+/* Checkboxes: native light boxes instead of the dark theme squares. */
+.petal-throne input[type="checkbox"] {
+  appearance: auto; -webkit-appearance: checkbox;
+  width: 16px; height: 16px; margin: 0 6px 0 0; flex: 0 0 auto;
+  background: #fbf6ea; accent-color: var(--pt-accent);
+}
+.petal-throne input[type="checkbox"]::before,
+.petal-throne input[type="checkbox"]::after { content: none; display: none; }
+
+/* Item sheet header */
+.petal-throne.item .item-header {
+  display: flex; gap: 12px; align-items: center; padding: 10px 14px;
+  background: linear-gradient(180deg, var(--pt-paper-2), var(--pt-paper));
+  border-bottom: 3px double var(--pt-line);
+}
+.petal-throne .item-icon { width: 56px; height: 56px; border: 2px solid var(--pt-gold); border-radius: 4px; cursor: pointer; flex: 0 0 auto; background: var(--pt-accent-2); }
+.petal-throne .item-title { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.petal-throne .item-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.petal-throne .tag { font-size: .8rem; padding: 0 8px; border-radius: 10px; background: var(--pt-paper-2); border: 1px solid var(--pt-line); color: var(--pt-muted); text-transform: capitalize; }
+.petal-throne .tag.type { background: var(--pt-accent); border-color: var(--pt-accent); color: #fff; }
+
+/* Summary stat block */
+.petal-throne dl.stat-block {
+  display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 8px 0 12px;
+  padding: 8px 12px; background: rgba(255,255,255,.45); border: 1px solid var(--pt-line); border-left: 4px solid var(--pt-accent-2); border-radius: 3px;
+}
+.petal-throne dl.stat-block dt { font-weight: 700; color: var(--pt-muted); font-size: .9rem; }
+.petal-throne dl.stat-block dd { margin: 0; font-size: .95rem; }
+
+.petal-throne .desc-head { display: flex; align-items: center; gap: 8px; }
+.petal-throne .desc-head h3 { flex: 1; }
+.petal-throne button.small { font-size: .85rem; line-height: 1.5; padding: 0 8px; }
+.petal-throne .description { font-size: 1rem; line-height: 1.5; padding: 2px 2px 8px; }
+.petal-throne .description p { margin: 0 0 .6em; }
+.petal-throne textarea.desc-edit { min-height: 200px; font-size: .95rem; }
+
+/* Details: two-column field grid with labels above inputs */
+.petal-throne .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; padding-top: 6px; }
+.petal-throne .field-grid .field { display: flex; flex-direction: column; gap: 2px; margin: 0; }
+.petal-throne .field-grid .field > span { font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; color: var(--pt-muted); }
+.petal-throne .field-grid .field input, .petal-throne .field-grid .field select { width: 100%; height: 30px; }
+.petal-throne .field-grid .wide { grid-column: 1 / -1; }
+.petal-throne .field-grid .triple { display: flex; gap: 6px; }
+.petal-throne .field-grid .triple > * { flex: 1; min-width: 0; }
+.petal-throne .field-grid .checks { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 4px 0; }
+.petal-throne .field-grid .checks label { display: flex; align-items: center; font-size: .92rem; }
+
+/* 0.1.3: keep core dark-theme text colours and shadows out of the sheets */
+.petal-throne dl.stat-block dt,
+.petal-throne dl.stat-block dd { text-shadow: none; }
+.petal-throne dl.stat-block dt { color: var(--pt-muted); font-family: "Signika", "Palatino Linotype", serif; }
+.petal-throne dl.stat-block dd { color: var(--pt-ink); font-weight: 600; }
+.petal-throne .description, .petal-throne .description * { color: var(--pt-ink); text-shadow: none; }
+.petal-throne h3, .petal-throne label, .petal-throne span, .petal-throne p { text-shadow: none; }
+.petal-throne .tag { text-transform: none; }
+.petal-throne input.item-name-input[type="text"],
+.petal-throne .charname input[type="text"] {
+  background: transparent; border: none; border-bottom: 1px solid var(--pt-line); border-radius: 0;
+  box-shadow: none; color: var(--pt-accent);
+}
+.petal-throne dl.stat-block dd.source { font-weight: 400; font-style: italic; color: var(--pt-muted); }
+
+/* 0.1.5: locked creature stat blocks, rich text, attack results */
+.petal-throne .name-row { display: flex; align-items: center; gap: 8px; }
+.petal-throne .name-row .charname { flex: 1; }
+.petal-throne .charname.static { font-family: "Signika", "Palatino Linotype", serif; font-size: 1.6rem; font-weight: 700; color: var(--pt-accent); border-bottom: 1px solid var(--pt-line); padding: 2px 4px; margin: 0; }
+.petal-throne button.lock { flex: 0 0 auto; }
+.petal-throne .hp-max { font-size: 1.15em; min-width: 2.4em; text-align: center; }
+.petal-throne .rich-text { margin-bottom: 10px; }
+.pt-card .pt-hits { font-weight: 700; font-size: 1.05em; color: #1f4e79; }
+.pt-card table.pt-table td { font-weight: 600; }
+.pt-card .pt-desc { margin: 4px 0; padding: 4px 6px; border-left: 3px solid #b9a37a; background: rgba(185,163,122,.12); font-size: .95em; }
+.pt-card .pt-desc p { margin: 0 0 .4em; }
+.pt-card .pt-desc p:last-child { margin-bottom: 0; }
+
+/* 0.1.9: locked item fields read as plain text */
+.petal-throne fieldset.lockable { border: none; margin: 0; padding: 0; min-width: 0; }
+.petal-throne fieldset.lockable:disabled input,
+.petal-throne fieldset.lockable:disabled select {
+  opacity: 1; background: transparent; border-color: transparent; border-bottom: 1px dotted var(--pt-line);
+  border-radius: 0; color: var(--pt-ink); cursor: default; appearance: none; -webkit-appearance: none;
+}
+.petal-throne fieldset.lockable:disabled input[type="checkbox"] { appearance: auto; -webkit-appearance: checkbox; border: none; opacity: .85; }
+.petal-throne fieldset.lockable:disabled input::placeholder { color: transparent; }
+.petal-throne .item-title .name-row { display: flex; align-items: center; gap: 8px; }
+.petal-throne .item-title .name-row .item-name-input { flex: 1; }
+.petal-throne .item-name-static {
+  flex: 1; font-family: "Signika", "Palatino Linotype", serif; font-size: 1.6rem; font-weight: 700;
+  color: var(--pt-accent); border-bottom: 1px solid var(--pt-line); padding: 2px 4px; line-height: 1.3;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* Apply Monster Art button in the Actors tab spans the full row under Create Actor / Create Folder */
+.pt-apply-art { flex: 1 0 100%; margin-top: 4px; }
+.petal-throne .treasure-buttons { display: flex; gap: 4px; margin: 4px 0 8px; }
+.petal-throne .treasure-buttons button { flex: 1; }
+.pt-treasure-dialog label { display: flex; align-items: center; gap: 6px; margin: 4px 0; }

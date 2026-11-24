@@ -1,0 +1,58 @@
+{
+  "_id": "ZS2VV1SmuShcZ0YF",
+  "name": "Nenyélu",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1-6",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 2,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 6-36",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (7); stats Sec. 1222 no. 36",
+    "biography": "<p>Long, sinuous, black eel-like fish driven by many small sharp side fins, with a pair of small hands just behind the snake-like head.</p><p>Two attacks a round: a jagged stone thrown or swung with its hands, and a poisonous bite (save against poison; even a successful save takes 1d6).</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 36,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Nenyélu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!ZS2VV1SmuShcZ0YF"
+}

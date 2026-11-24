@@ -1,0 +1,35 @@
+{
+  "_id": "5tY7rNy0rkabgR9n",
+  "name": "Telepathy",
+  "type": "spell",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Two-way silent speech with one character; useless without a shared language.</p>",
+    "source": "EPT 1975 Sec. 432",
+    "kind": "professional",
+    "profession": "priest",
+    "group": 0,
+    "rank": 7,
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "240 ft",
+    "duration": "1 turn",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "0cjba5Sr9ifPDCeD",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5tY7rNy0rkabgR9n"
+}

@@ -1,0 +1,210 @@
+{
+  "_id": "3yYc56e6PEjiieMI",
+  "name": "Scroll type (Sec. 1610)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "Xo4S34FSdQc5I1Su",
+      "type": "text",
+      "name": "Type I: one spell of Group I",
+      "text": "Type I: one spell of Group I",
+      "description": "Type I: one spell of Group I",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.Xo4S34FSdQc5I1Su"
+    },
+    {
+      "_id": "XZEQgVDQOdj8qGfa",
+      "type": "text",
+      "name": "Type II: two spells of Group I",
+      "text": "Type II: two spells of Group I",
+      "description": "Type II: two spells of Group I",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.XZEQgVDQOdj8qGfa"
+    },
+    {
+      "_id": "LNrJWslIyH8cRiYs",
+      "type": "text",
+      "name": "Type III: one spell of Group I and one of Group II",
+      "text": "Type III: one spell of Group I and one of Group II",
+      "description": "Type III: one spell of Group I and one of Group II",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.LNrJWslIyH8cRiYs"
+    },
+    {
+      "_id": "g9ZX3k33UV22NG1u",
+      "type": "text",
+      "name": "Type IV: two spells of Group I and one of Group II",
+      "text": "Type IV: two spells of Group I and one of Group II",
+      "description": "Type IV: two spells of Group I and one of Group II",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.g9ZX3k33UV22NG1u"
+    },
+    {
+      "_id": "EMdT3k5kgUCgSDYb",
+      "type": "text",
+      "name": "Type V: two spells of Group II",
+      "text": "Type V: two spells of Group II",
+      "description": "Type V: two spells of Group II",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.EMdT3k5kgUCgSDYb"
+    },
+    {
+      "_id": "cCt1eYr4yrrWeRRi",
+      "type": "text",
+      "name": "Type VI: one spell of Group III",
+      "text": "Type VI: one spell of Group III",
+      "description": "Type VI: one spell of Group III",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.cCt1eYr4yrrWeRRi"
+    },
+    {
+      "_id": "J45T66RQPlakdIFa",
+      "type": "text",
+      "name": "Type VII: two spells of Group III",
+      "text": "Type VII: two spells of Group III",
+      "description": "Type VII: two spells of Group III",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.J45T66RQPlakdIFa"
+    },
+    {
+      "_id": "CtCGQS3VBnjg1rD4",
+      "type": "text",
+      "name": "Type VIII: one spell of Group II and two of Group III",
+      "text": "Type VIII: one spell of Group II and two of Group III",
+      "description": "Type VIII: one spell of Group II and two of Group III",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.CtCGQS3VBnjg1rD4"
+    },
+    {
+      "_id": "WhWvelxy4pAyO0vk",
+      "type": "text",
+      "name": "Type IX: ESP and Revivify",
+      "text": "Type IX: ESP and Revivify",
+      "description": "Type IX: ESP and Revivify",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.WhWvelxy4pAyO0vk"
+    },
+    {
+      "_id": "Yb4vk1eTUm6oUftr",
+      "type": "text",
+      "name": "Type X: Necromancy and the Grey Hand",
+      "text": "Type X: Necromancy and the Grey Hand",
+      "description": "Type X: Necromancy and the Grey Hand",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.Yb4vk1eTUm6oUftr"
+    },
+    {
+      "_id": "abItIhjI8nIOhy0z",
+      "type": "text",
+      "name": "Type XI: Remove Curse, Monster Control and Cure Serious Wounds",
+      "text": "Type XI: Remove Curse, Monster Control and Cure Serious Wounds",
+      "description": "Type XI: Remove Curse, Monster Control and Cure Serious Wounds",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.abItIhjI8nIOhy0z"
+    },
+    {
+      "_id": "NtFuTiOZ4Ukep5G0",
+      "type": "text",
+      "name": "Type XII: Cursed Scroll",
+      "text": "Type XII: Cursed Scroll",
+      "description": "Type XII: Cursed Scroll",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!3yYc56e6PEjiieMI.NtFuTiOZ4Ukep5G0"
+    }
+  ],
+  "folder": "8NYsZ6x2pVHejYUr",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!3yYc56e6PEjiieMI"
+}

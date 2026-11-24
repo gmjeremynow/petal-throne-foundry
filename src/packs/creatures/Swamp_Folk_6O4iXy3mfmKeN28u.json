@@ -1,0 +1,58 @@
+{
+  "_id": "6O4iXy3mfmKeN28u",
+  "name": "Swamp Folk",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "1+1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ac": 5,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "2-200",
+    "attitude": "Friendly",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "D: 20",
+      "lair": "Lair 20: 4-400; treasure E: 40",
+      "special": ""
+    },
+    "special": "Per ship: 4-80; treasure aboard ship: D: 30.",
+    "source": "EPT 1975 Sec. 1127 (11); stats Sec. 1222 no. 57",
+    "biography": "<p>Squat, round, rubbery white beings 4-6 ft tall with six limbs. A bony crest rises from a long sloping forehead and sweeps back to a point, and a flap of skin hangs from it over the shoulders and upper back.</p><p>They live in the swamps of the lower Putuhénu River in southern Mu'ugalavyá. Friendly to men (ignore reaction rolls of 1-20). They use no magic, but sense sloping passages, traps and dimensional nexus points (80%). They avoid fighting, but are fine sailors and often crew Mu'ugalavyáni ships.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 57,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Swamp Folk",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!6O4iXy3mfmKeN28u"
+}

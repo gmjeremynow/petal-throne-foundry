@@ -1,0 +1,25 @@
+{
+  "_id": "j5JjOIgitP6x23TH",
+  "name": "Shield (Chlén-hide)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 10,
+    "weight": 1200,
+    "quantity": 1,
+    "armourType": "shield",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 34,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!j5JjOIgitP6x23TH"
+}

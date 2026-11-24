@@ -1,0 +1,82 @@
+{
+  "_id": "JreVAWNYRPXvsnLJ",
+  "name": "Miscellaneous treasure: which kind (Sec. 2230)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "D045OzE5reOVXNS9",
+      "type": "text",
+      "name": "Amulet (Sec. 1400)",
+      "text": "Amulet (Sec. 1400)",
+      "description": "Amulet (Sec. 1400)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 7,
+      "range": [
+        1,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!JreVAWNYRPXvsnLJ.D045OzE5reOVXNS9"
+    },
+    {
+      "_id": "8McfuSyEuSy0mnNg",
+      "type": "text",
+      "name": "Scroll (Sec. 1600)",
+      "text": "Scroll (Sec. 1600)",
+      "description": "Scroll (Sec. 1600)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 9,
+      "range": [
+        8,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!JreVAWNYRPXvsnLJ.8McfuSyEuSy0mnNg"
+    },
+    {
+      "_id": "9EwjSr2DcBDhKHxH",
+      "type": "text",
+      "name": "Miscellaneous magical item (Sec. 1500)",
+      "text": "Miscellaneous magical item (Sec. 1500)",
+      "description": "Miscellaneous magical item (Sec. 1500)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!JreVAWNYRPXvsnLJ.9EwjSr2DcBDhKHxH"
+    },
+    {
+      "_id": "r17vZFuVKy6fJQiV",
+      "type": "text",
+      "name": "Book (Sec. 1700)",
+      "text": "Book (Sec. 1700)",
+      "description": "Book (Sec. 1700)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!JreVAWNYRPXvsnLJ.r17vZFuVKy6fJQiV"
+    }
+  ],
+  "folder": "hwf7YrQCP4mxv9Oi",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!JreVAWNYRPXvsnLJ"
+}

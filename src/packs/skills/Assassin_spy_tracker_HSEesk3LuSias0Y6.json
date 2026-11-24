@@ -1,0 +1,22 @@
+{
+  "_id": "HSEesk3LuSias0Y6",
+  "name": "Assassin-spy-tracker",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Hides in shadows, passes unseen and tracks. Success uses the chance table by level.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": true,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!HSEesk3LuSias0Y6"
+}

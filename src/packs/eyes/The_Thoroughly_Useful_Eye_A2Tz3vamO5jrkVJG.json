@@ -1,0 +1,34 @@
+{
+  "_id": "A2Tz3vamO5jrkVJG",
+  "name": "The Thoroughly Useful Eye",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Recharges another Eye by one charge a day; never needs recharging itself. Rarest of all; never for sale.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 36",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": "rare"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 36,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!A2Tz3vamO5jrkVJG"
+}

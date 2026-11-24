@@ -1,0 +1,31 @@
+{
+  "_id": "y61T5uJvvdUNdrsU",
+  "name": "Li'ób Miffánsa Missrábchi'i MikKsárulkchi",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of Sending Forth the Servant of Great Ksárul'</i>. Written in modern Livyáni.</p><p>Calls the demon Origób for two turns (20 melee rounds): serpentine, six sucker-tipped mouths, 15 hit dice, AC I, six hit chances a round, moves 15\"; its bites are poisonous (Neutralise Poison or an Eye of Healing within one turn). A Priest or Magic User must master it: 17+ on d20 at levels I-III, 14+ at IV-VII, 12+ at VIII+, or it turns on him. Fighters and nonhumans cannot use it and are unaffected.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 11",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!y61T5uJvvdUNdrsU"
+}

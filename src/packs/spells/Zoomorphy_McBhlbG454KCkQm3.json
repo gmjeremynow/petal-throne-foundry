@@ -1,0 +1,35 @@
+{
+  "_id": "McBhlbG454KCkQm3",
+  "name": "Zoomorphy",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Magic Users only. 1-6 opponents behave as an animal the caster knows (without its form or hit dice), until an Eye of Transformation.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "magicUser",
+    "group": 2,
+    "rank": 18,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "permanent",
+    "targeting": "area",
+    "save": "vs. Spells",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 18,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!McBhlbG454KCkQm3"
+}

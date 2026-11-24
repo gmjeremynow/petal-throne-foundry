@@ -1,0 +1,58 @@
+{
+  "_id": "HDzKJbOywhxa9izL",
+  "name": "Shánu'u",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "3+1",
+    "hp": {
+      "value": 12,
+      "max": 12
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "15/24",
+    "numberAppearing": "2-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 30: 4-24",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (9); stats Sec. 1222 no. 51",
+    "biography": "<p>Warm-blooded winged killers covered in greyish fur, 20-30 ft long including a long tufted tail. Larger, heavier cousins of the Hláka.</p><p>50% chance it attacks humans, 50% that it just avoids them. A Hláka in the party has a 50% chance to control 1-6 Shánu'u for three combat rounds; this cannot be renewed.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 51,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Shánu'u",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 3,
+    "height": 3
+  },
+  "_key": "!actors!HDzKJbOywhxa9izL"
+}

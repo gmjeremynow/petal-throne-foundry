@@ -1,0 +1,29 @@
+{
+  "_id": "sAYQGV7XK55FsBPQ",
+  "name": "Cape or Mantle (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>The better military version of the traveller's cloak.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 10.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "10-55 Káitars",
+    "sgEncumbrance": "2/4",
+    "category": "clothing",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 52,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!sAYQGV7XK55FsBPQ"
+}

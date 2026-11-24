@@ -1,0 +1,58 @@
+{
+  "_id": "qVsXSJo8cBKOXMpN",
+  "name": "Sagún",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "10",
+    "hp": {
+      "value": 35,
+      "max": 35
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "1-3",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 50",
+      "lair": "Lair 30: 2-6; treasure D: 70",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (19); stats Sec. 1222 no. 49",
+    "biography": "<p>A fungus killer-guardian made by the ancients: about eight feet tall, pallid and convoluted, leafy-looking, swaying on a mobile stalk, with woody claws.</p><p>It strikes with its claws, and 60% of rounds it also releases spores; anyone who breathes them (60%) must save against poison, and needs Cure Disease or an Eye of Healing within two rounds or the spores sprout in the lungs and kill.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 49,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sagún",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!qVsXSJo8cBKOXMpN"
+}

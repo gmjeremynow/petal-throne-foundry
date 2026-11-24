@@ -1,0 +1,58 @@
+{
+  "_id": "6LIhUZIoXtVZr6rb",
+  "name": "Sró",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "5/9/13",
+    "hp": {
+      "value": 32,
+      "max": 32
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "9/12/20",
+    "numberAppearing": "1-3",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 2,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "15-20 ft:40:5:2|25-35 ft:40:9:3|40-60 ft:20:13:5",
+    "treasure": {
+      "carried": "A: 30",
+      "lair": "Lair 40: 1-6; treasure E: 40",
+      "special": "W/U"
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (10); stats Sec. 1222 no. 55",
+    "biography": "<p>Six-legged dragon-like mutants of an ancient reptile stock that walk, swim and fly, with a pair of small arms just beneath a long dragon head and a jagged-toothed beak. They range from 15-20 ft to 40-60 ft long.</p><p>Each round, 75% it swings a huge broadsword in each hand, 25% it bites. Intelligent enough to gather treasure; 60% chance it can be talked out of attacking with a gift of jewellery.</p><p>Sizes: 15-20 ft 5 HD (40%), 25-35 ft 9 HD (40%), 40-60 ft 13 HD (20%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 55,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sró",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 3,
+    "height": 3
+  },
+  "_key": "!actors!6LIhUZIoXtVZr6rb"
+}

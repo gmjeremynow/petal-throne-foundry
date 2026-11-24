@@ -1,0 +1,58 @@
+{
+  "_id": "06XZtS87urttm4Vi",
+  "name": "Ghár",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "8",
+    "hp": {
+      "value": 28,
+      "max": 28
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "4",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 3,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 60: 1-6",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (3); stats Sec. 1222 no. 15",
+    "biography": "<p>A heavily armoured river or shore beast 12-15 ft long with a turtle-like shell, three sets of powerful jaws hidden in cavities beneath it, and a spiked tail.</p><p>It shoots out its jaws to 10 ft and can bite three times a round, and lashes attackers behind it with its tail. It always attacks and never checks morale. The inside of its shell is like mother-of-pearl and worth 80-1,600 Káitars.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 15,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ghár",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!06XZtS87urttm4Vi"
+}

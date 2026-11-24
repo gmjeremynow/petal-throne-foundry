@@ -1,0 +1,22 @@
+{
+  "_id": "B904LDdq2fL8I0GN",
+  "name": "Ship-builder",
+  "type": "skill",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Builds ships given men and tools: about a month for a small boat, six months for a large vessel.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "skilled",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "TET5rHgjO21nQLcq",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!B904LDdq2fL8I0GN"
+}

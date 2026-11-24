@@ -1,0 +1,58 @@
+{
+  "_id": "aWHWkOZc2euyQys3",
+  "name": "Dzór",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "6+3",
+    "hp": {
+      "value": 24,
+      "max": 24
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "2-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 2,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "C: 40",
+      "lair": "Lair 40: 4-24; treasure D: 40, E: 10",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (4); stats Sec. 1222 no. 12",
+    "biography": "<p>Huge, shambling, hairy forest giants 10-12 ft tall, with a horny beak and three round eyes with nictitating lids.</p><p>Generally neutral; they ignore parties unless attacked. Keen night sight and poor day sight: +2 to hit at night, -2 by day. They fight with clubs and maces (they dislike edged weapons) and add +2 damage per hit. They check morale normally. Semi-intelligent but cannot speak or be trained.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 12,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dzór",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!aWHWkOZc2euyQys3"
+}

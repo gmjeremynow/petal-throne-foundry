@@ -1,0 +1,34 @@
+{
+  "_id": "V9KbFtiwjjKI7sXl",
+  "name": "The Eye of Calling Forth an Unconquerable Army",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Up to 1d100 automatons per charge: AC 2, 3+1 HD, move 9, sword and shield. Fighters only.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 8",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!V9KbFtiwjjKI7sXl"
+}

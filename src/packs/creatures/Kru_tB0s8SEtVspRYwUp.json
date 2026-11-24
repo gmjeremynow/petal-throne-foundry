@@ -1,0 +1,58 @@
+{
+  "_id": "tB0s8SEtVspRYwUp",
+  "name": "Kruá",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "3/8/16",
+    "hp": {
+      "value": 28,
+      "max": 28
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "9/12/18",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "10 ft:60:3:1|15-20 ft:30:8:2|30-40 ft:10:16:4",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 50: 1-6",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (5); stats Sec. 1222 no. 27",
+    "biography": "<p>A platter-shaped, shelled crustacean with six long spidery legs and two saw-toothed fighting arms ending in massive pincers. Sizes run 10 ft across, 15-20 ft, and 30-40 ft.</p><p>Missiles, even magic arrows, bounce off its armour: it must be disabled by cutting off its legs and arms. Blood turns it away (60% it leaves after a sacrifice), and it scuttles back to the depths chittering. Each size moves at a different speed (9, 12, 18).</p><p>Sizes: 10 ft 3 HD (60%), 15-20 ft 8 HD (30%), 30-40 ft 16 HD (10%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 27,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Kruá",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!tB0s8SEtVspRYwUp"
+}

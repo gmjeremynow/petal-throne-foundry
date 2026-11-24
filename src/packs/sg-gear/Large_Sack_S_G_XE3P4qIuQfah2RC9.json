@@ -1,0 +1,29 @@
+{
+  "_id": "XE3P4qIuQfah2RC9",
+  "name": "Large Sack (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>20,000-30,000 cc. Encumbrance shown is empty.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.330",
+    "cost": 4.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "4-8 Káitars",
+    "sgEncumbrance": "1/2",
+    "category": "gear",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 77,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XE3P4qIuQfah2RC9"
+}

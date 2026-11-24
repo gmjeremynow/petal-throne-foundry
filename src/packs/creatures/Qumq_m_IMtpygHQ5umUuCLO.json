@@ -1,0 +1,58 @@
+{
+  "_id": "IMtpygHQ5umUuCLO",
+  "name": "Qumqúm",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "9",
+    "hp": {
+      "value": 32,
+      "max": 32
+    },
+    "ac": 6,
+    "acMagic": 3,
+    "move": "12",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 40",
+      "lair": "Lair 30: 2-6; treasure F: 70",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (17); stats Sec. 1222 no. 46",
+    "biography": "<p>A spectral creature invisible to humans (though not to Pé Chói) that roars terribly as it moves. It wields a heavy poleaxe forged long ago by the Brethren of the Scarlet Nail, a sect of the priesthood of Sárku.</p><p>Its roar can be heard 500 ft away. Because it is invisible, everyone but a Pé Chói needs +3 to hit it. Fire repels it (40%). The Abominable Eye of Detestation drives it off and the Incomparable Eye of Command controls it, though it gets a saving throw against each.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 46,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Qumqúm",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!IMtpygHQ5umUuCLO"
+}

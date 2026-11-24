@@ -1,0 +1,22 @@
+{
+  "_id": "ah5INgeo8zqEm55V",
+  "name": "Animal-trainer",
+  "type": "skill",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Trains any creature not totally hostile to man in 1-3 months.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "skilled",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "TET5rHgjO21nQLcq",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ah5INgeo8zqEm55V"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "YZhe1ozIPyilGABH",
+  "name": "Swordsman",
+  "type": "skill",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Warrior skills are gained in this order (Sec. 430).</p>",
+    "source": "EPT 1975 Sec. 430-431",
+    "group": "warrior",
+    "rank": 4,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "ZtkLoQnKKklPA2TP",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!YZhe1ozIPyilGABH"
+}

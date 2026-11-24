@@ -1,0 +1,31 @@
+{
+  "_id": "4EIRdNYLz3GFgOcL",
+  "name": "Barukán Lli Fèshdrubál-Chrén",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Labyrinth of Mutable Destiny'</i>. Written in modern Yán Koryáni.</p><p>Dedicated to Fnér-Khmíshu (a Yán Koryáni form of Belkhánu). For good Priests or Magic Users of level IV+: 2d6 minor wishes, each with a 30% chance of the OPPOSITE result. Evil Priests or Magic Users take 2d6; Warriors cannot identify or use it.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 21",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 21000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4EIRdNYLz3GFgOcL"
+}

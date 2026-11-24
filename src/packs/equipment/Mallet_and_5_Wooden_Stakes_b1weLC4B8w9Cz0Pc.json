@@ -1,0 +1,27 @@
+{
+  "_id": "b1weLC4B8w9Cz0Pc",
+  "name": "Mallet and 5 Wooden Stakes",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 2,
+    "weight": 0,
+    "quantity": 1,
+    "category": "gear",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 53,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!b1weLC4B8w9Cz0Pc"
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "aPR9Fh1fyQZyFTFS",
+  "name": "Two-handed Mace or Flail (S&G)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Heavy weapon: 1d6+1, Strength over 80. Shares the two-handed sword's price row. 1975 rules values applied by weapon kind (Sec. 721): most weapons 1d6; daggers and light missiles 1d4; mace, flail, morning star, battleaxe, halberd, poleaxe and pike 1d6+1 with Strength over 80.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 11.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "11-20 Káitars",
+    "sgEncumbrance": "4/10",
+    "category": "melee",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 1,
+    "magic": 0,
+    "minStr": 81,
+    "twoHanded": true,
+    "noShield": true,
+    "edged": false,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 0,
+      "medium": 0,
+      "long": 0
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 6
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!aPR9Fh1fyQZyFTFS"
+}

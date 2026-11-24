@@ -1,0 +1,58 @@
+{
+  "_id": "UhG29vgxCUuQ4bMz",
+  "name": "Shunned Ones",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "2-200",
+    "attitude": "Hostile",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "D: 30",
+      "lair": "Lair 40: 4-400; treasure E: 50",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1127 (9); stats Sec. 1222 no. 54",
+    "biography": "<p>Tall, ragged, spectral beings, roughly human in shape but with very long arms and legs. They give off an overpowering stench.</p><p>An extremely ancient race, perhaps older than the Ssú, living in sealed cities in the foothills of Yán Kór's mountains. They leave only to hunt magical items in the labyrinths under ruined cities. 60% of parties include a Magic User of levels V-X with Eyes and bonus spells. Humans smell them at 200 ft; nonplayer humans must then check morale or flee.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 54,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Shunned Ones",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!UhG29vgxCUuQ4bMz"
+}

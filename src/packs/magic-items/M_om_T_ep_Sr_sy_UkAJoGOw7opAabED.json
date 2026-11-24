@@ -1,0 +1,31 @@
+{
+  "_id": "UkAJoGOw7opAabED",
+  "name": "Mó'om Té'ep Srásy",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Exquisite Codicil of Srá'</i>. Written in ancient Llyáni.</p><p>For Priests or Magic Users of level VI+: instructions to build one Ru'ún and up to six Qól (Sec. 1221 nos. (18) and (16)), who serve their maker loyally and for good. The writing disappears once used. Warriors cannot use it.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 20",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!UkAJoGOw7opAabED"
+}

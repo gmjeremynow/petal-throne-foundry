@@ -1,0 +1,31 @@
+{
+  "_id": "qto5DtP85FyiQ42H",
+  "name": "The Silver Serpent of Nayári of the Silken Thighs",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>A six-inch silver serpent of the Bednálljan queen: sent to a place, it crawls 6\" per turn, bites whoever is there (-2 on saves vs. poison for all beings), returns and switches off. 75% chance the victim does not see it, whatever his level. If attacked: AC II, 2 hit dice, -2 to opponents' hit chances. Charge indicator behind the head.</p><p>Charges: roll d100 when found.</p><p>How many exist: one. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 20",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 20000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!qto5DtP85FyiQ42H"
+}

@@ -1,0 +1,15 @@
+<div class="rich-text">
+  <div class="desc-head">
+    <h3>{{localize label}}</h3>
+    {{#if canEditText}}
+    <button type="button" class="small" data-action="toggleText" data-field="{{field}}">
+      {{#if editingText}}<i class="fa-solid fa-check"></i> {{localize "PT.Done"}}{{else}}<i class="fa-solid fa-pen"></i> {{localize "PT.Edit"}}{{/if}}
+    </button>
+    {{/if}}
+  </div>
+  {{#if editingText}}
+    <textarea name="system.{{field}}" rows="10" class="desc-edit">{{raw}}</textarea>
+  {{else}}
+    <div class="description">{{#if raw}}{{{enriched}}}{{else}}<p class="hint">{{localize "PT.NoDescription"}}</p>{{/if}}</div>
+  {{/if}}
+</div>

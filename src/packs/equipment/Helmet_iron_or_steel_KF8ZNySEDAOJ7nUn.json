@@ -1,0 +1,25 @@
+{
+  "_id": "KF8ZNySEDAOJ7nUn",
+  "name": "Helmet (iron or steel)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>No price in the 1975 list.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 0,
+    "weight": 865,
+    "quantity": 1,
+    "armourType": "helmet",
+    "material": "steel",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 37,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!KF8ZNySEDAOJ7nUn"
+}

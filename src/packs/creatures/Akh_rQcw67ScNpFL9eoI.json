@@ -1,0 +1,58 @@
+{
+  "_id": "rQcw67ScNpFL9eoI",
+  "name": "Akhó",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "6/10/16",
+    "hp": {
+      "value": 35,
+      "max": 35
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "small:50:6:1|medium:30:10:3|extra-large:20:16:5",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 50: 1-6",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (1); stats Sec. 1222 no. 2",
+    "biography": "<p>A monstrous, sinewy, cucumber-shaped body with one glaring red eye on top, twenty steel-hard tentacles, and below them a huge maw lined with leafy membranes that dissolve prey with acid.</p><p>It lives at the bottom of the sea or large waters and attacks ships: 60% it attacks the hull (the referee decides how much damage the hull can take), 40% it snatches defenders off the deck. 15% it has swallowed a glittering object (treasure type C).</p><p>Sizes: small 6 HD (50%), medium 10 HD (30%), extra-large 16 HD (20%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 2,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Akhó",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 3,
+    "height": 3
+  },
+  "_key": "!actors!rQcw67ScNpFL9eoI"
+}

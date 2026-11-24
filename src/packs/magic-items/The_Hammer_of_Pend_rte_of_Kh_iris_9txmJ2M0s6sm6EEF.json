@@ -1,0 +1,31 @@
+{
+  "_id": "9txmJ2M0s6sm6EEF",
+  "name": "The Hammer of Pendárte of Khéiris",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Warhammer +2 on hit chances and +3 on damage; returns to the user's hand when thrown. No charges.</p><p>How many exist: one, said to be hidden in Yán Kór. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 10",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!9txmJ2M0s6sm6EEF"
+}

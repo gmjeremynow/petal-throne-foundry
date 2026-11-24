@@ -1,0 +1,35 @@
+{
+  "_id": "4WomYsTYIvXCzYxQ",
+  "name": "The Silver Halo of Soul Stealing",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Takes one being's soul. Only Dispel Magic restores it (60%). Deflected by Invulnerability or Dispel Evil/Good, with 25% to strike someone nearby.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 19,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "permanent",
+    "targeting": "aimed",
+    "save": "vs. Spells",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 19,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4WomYsTYIvXCzYxQ"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "dhQIvL6k2pdlOTdP",
+  "name": "Zrné",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "6",
+    "hp": {
+      "value": 21,
+      "max": 21
+    },
+    "ac": 5,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "4-24",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 8-48",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (12); stats Sec. 1222 no. 68",
+    "biography": "<p>Muddy-grey six-legged beasts about eight feet long, with a monstrous head full of rows of needle-pointed barbed teeth and a tough hide.</p><p>Ordinary missiles cannot pierce its hide. Its back legs let it leap high over obstacles onto prey. The barbed teeth break off in the wound and take a combat round to remove; if they cannot all be removed (60% chance), the victim must save against poison or die within two combat rounds. It never checks morale.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 68,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Zrné",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!dhQIvL6k2pdlOTdP"
+}

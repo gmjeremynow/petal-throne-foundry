@@ -1,0 +1,58 @@
+{
+  "_id": "AeHeESVaMggP4VeH",
+  "name": "Pygmy Folk",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "1-1",
+    "hp": {
+      "value": 2,
+      "max": 2
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "6",
+    "numberAppearing": "1-100",
+    "attitude": "Friendly",
+    "intelligent": true,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": -1,
+    "dmgBonus": -1,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 20",
+      "lair": "Lair 60: 10-1,000; treasure C: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1127 (7); stats Sec. 1222 no. 43",
+    "biography": "<p>Small rodent-like people about three feet tall, with sharp little faces, large round ears, glittering black eyes and three-fingered hands.</p><p>They hear through walls and doors automatically and see in pitch darkness. Capricious but friendly to men. With ordinary weapons they get -1 to hit and -1 damage because of their size. Once attacked they are ferocious and never check morale. Their home lies far to the south and east of Tsolyánu, but they travel and trade widely and drive famously hard bargains.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 43,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Pygmy Folk",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!AeHeESVaMggP4VeH"
+}

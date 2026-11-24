@@ -1,0 +1,31 @@
+{
+  "_id": "wQnJm9f33SewL8Y0",
+  "name": "The Trumpet of Metállja",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>The horn of the Salarvyáni hero: summons any android or automaton within 6\" to obey the user for two turns. Needs Strength 96+ to blow (Sec. 411). Indicator in Ancient Salarvyáni. NOT rechargeable.</p><p>Charges: roll d100 when found.</p><p>How many exist: one. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 23",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wQnJm9f33SewL8Y0"
+}

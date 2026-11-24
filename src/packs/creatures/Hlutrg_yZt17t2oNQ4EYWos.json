@@ -1,0 +1,58 @@
+{
+  "_id": "yZt17t2oNQ4EYWos",
+  "name": "Hlutrgú",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 7,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "10-60",
+    "attitude": "Hostile",
+    "intelligent": true,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "C: 30",
+      "lair": "Lair 40: 100-600; treasure D: 60",
+      "special": ""
+    },
+    "special": "Per ship: 12-72; treasure aboard ship: C: 50.",
+    "source": "EPT 1975 Sec. 1127 (3); stats Sec. 1222 no. 20",
+    "biography": "<p>Rubbery, four-legged swamp beings with skull-like heads, wide fanged mouths, and four long arms.</p><p>They hate humans and other nonhumans alike and attack without checking morale, spearing or throwing darts. Men have long fought to keep them to their own swamps, but raiding parties and pirate ships still emerge. They are infamous for torturing captives.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 20,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hlutrgú",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!yZt17t2oNQ4EYWos"
+}

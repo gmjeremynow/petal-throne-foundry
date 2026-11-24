@@ -1,0 +1,35 @@
+{
+  "_id": "5BPM2DeiGGw3iHQb",
+  "name": "Cold",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Hits 1-3 beings (d6: 1-2 one, 3-4 two, 5-6 three) for 5d6.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 2,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "20 ft",
+    "duration": "",
+    "targeting": "area",
+    "save": "vs. Spells",
+    "damage": "5d6",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 2,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5BPM2DeiGGw3iHQb"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "VzTuLPpfZ52M2rWN",
+  "name": "Composite Bow",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>The text gives a maximum of about 650-700 ft; 700 is used.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 50,
+    "weight": 0,
+    "quantity": 1,
+    "category": "missile",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 100,
+      "medium": 450,
+      "long": 700
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 14,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VzTuLPpfZ52M2rWN"
+}

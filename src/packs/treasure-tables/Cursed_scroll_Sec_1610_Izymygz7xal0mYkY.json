@@ -1,0 +1,146 @@
+{
+  "_id": "Izymygz7xal0mYkY",
+  "name": "Cursed scroll (Sec. 1610)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "m5U6WLFWIQa0gCyA",
+      "type": "text",
+      "name": "All within 10 ft take 2d6 damage",
+      "text": "All within 10 ft take 2d6 damage",
+      "description": "All within 10 ft take 2d6 damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 6,
+      "range": [
+        1,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.m5U6WLFWIQa0gCyA"
+    },
+    {
+      "_id": "4TxdF4ZuPiRcEXQg",
+      "type": "text",
+      "name": "An Underworld being of the referee's choice appears",
+      "text": "An Underworld being of the referee's choice appears",
+      "description": "An Underworld being of the referee's choice appears",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        7,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.4TxdF4ZuPiRcEXQg"
+    },
+    {
+      "_id": "Za8fdATIFgXuyKlg",
+      "type": "text",
+      "name": "All within 10 ft are struck with a rotting plague, fatal within two turns unless Cure Serious Wounds or the Eye of Healing is applied",
+      "text": "All within 10 ft are struck with a rotting plague, fatal within two turns unless Cure Serious Wounds or the Eye of Healing is applied",
+      "description": "All within 10 ft are struck with a rotting plague, fatal within two turns unless Cure Serious Wounds or the Eye of Healing is applied",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        11,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.Za8fdATIFgXuyKlg"
+    },
+    {
+      "_id": "JY9tsC3SyXP6Hf1l",
+      "type": "text",
+      "name": "All within 10 ft are turned into creatures of the referee's choice",
+      "text": "All within 10 ft are turned into creatures of the referee's choice",
+      "description": "All within 10 ft are turned into creatures of the referee's choice",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        14,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.JY9tsC3SyXP6Hf1l"
+    },
+    {
+      "_id": "UGxrlm7S51TGEkkQ",
+      "type": "text",
+      "name": "All within 10 ft are transported to a random hex of the large terrain map",
+      "text": "All within 10 ft are transported to a random hex of the large terrain map",
+      "description": "All within 10 ft are transported to a random hex of the large terrain map",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.UGxrlm7S51TGEkkQ"
+    },
+    {
+      "_id": "gTMXElrujK8CJnOG",
+      "type": "text",
+      "name": "All within 10 ft are paralysed (save vs. paralysis)",
+      "text": "All within 10 ft are paralysed (save vs. paralysis)",
+      "description": "All within 10 ft are paralysed (save vs. paralysis)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.gTMXElrujK8CJnOG"
+    },
+    {
+      "_id": "k79hSd7aMZKOF08q",
+      "type": "text",
+      "name": "All within 10 ft are slain (no save; revival possible)",
+      "text": "All within 10 ft are slain (no save; revival possible)",
+      "description": "All within 10 ft are slain (no save; revival possible)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.k79hSd7aMZKOF08q"
+    },
+    {
+      "_id": "x85AepB9455spHZa",
+      "type": "text",
+      "name": "Kukligásh the Eater appears: 14 ft, like a ragged tent, four tentacles (four hit chances a round), 12 hit dice, AC II; attacks at once; cannot be subdued, driven off by spells or slain: at 0 hit points he vanishes, leaving an emerald worth d100 × 100 Káitars; matches a party's Haste",
+      "text": "Kukligásh the Eater appears: 14 ft, like a ragged tent, four tentacles (four hit chances a round), 12 hit dice, AC II; attacks at once; cannot be subdued, driven off by spells or slain: at 0 hit points he vanishes, leaving an emerald worth d100 × 100 Káitars; matches a party's Haste",
+      "description": "Kukligásh the Eater appears: 14 ft, like a ragged tent, four tentacles (four hit chances a round), 12 hit dice, AC II; attacks at once; cannot be subdued, driven off by spells or slain: at 0 hit points he vanishes, leaving an emerald worth d100 × 100 Káitars; matches a party's Haste",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Izymygz7xal0mYkY.x85AepB9455spHZa"
+    }
+  ],
+  "folder": "8NYsZ6x2pVHejYUr",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!Izymygz7xal0mYkY"
+}

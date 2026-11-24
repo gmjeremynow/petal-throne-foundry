@@ -1,0 +1,35 @@
+{
+  "_id": "mSIzac7bHsxAQuxU",
+  "name": "Teleportation",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>User and 1d12 beings go to a place the user knows. Beyond range: 25% safe; otherwise 50% lost forever, 30% elsewhere on Tékumel, 20% on another planet.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 20,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "360 ft",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 20,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mSIzac7bHsxAQuxU"
+}

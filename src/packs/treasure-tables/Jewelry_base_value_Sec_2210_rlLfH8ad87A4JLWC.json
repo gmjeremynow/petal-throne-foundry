@@ -1,0 +1,130 @@
+{
+  "_id": "rlLfH8ad87A4JLWC",
+  "name": "Jewelry base value (Sec. 2210)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "YcioXOM6jCZ54lrQ",
+      "type": "text",
+      "name": "3d6 × 100",
+      "text": "3d6 × 100",
+      "description": "3d6 × 100",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 20,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.YcioXOM6jCZ54lrQ"
+    },
+    {
+      "_id": "dzPhSomDuFZBiudF",
+      "type": "text",
+      "name": "1d6 × 1,000",
+      "text": "1d6 × 1,000",
+      "description": "1d6 × 1,000",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 30,
+      "range": [
+        21,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.dzPhSomDuFZBiudF"
+    },
+    {
+      "_id": "LAozh3NGS0InA4jV",
+      "type": "text",
+      "name": "1d8 × 1,000",
+      "text": "1d8 × 1,000",
+      "description": "1d8 × 1,000",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 20,
+      "range": [
+        51,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.LAozh3NGS0InA4jV"
+    },
+    {
+      "_id": "dDrlpjd5Tc2Wc11d",
+      "type": "text",
+      "name": "1d12 × 1,000",
+      "text": "1d12 × 1,000",
+      "description": "1d12 × 1,000",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.dDrlpjd5Tc2Wc11d"
+    },
+    {
+      "_id": "xG2VfIzJnR2A4wAq",
+      "type": "text",
+      "name": "2d6 × 2,000",
+      "text": "2d6 × 2,000",
+      "description": "2d6 × 2,000",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.xG2VfIzJnR2A4wAq"
+    },
+    {
+      "_id": "aUjpZADhEXcTbWRr",
+      "type": "text",
+      "name": "1d8 × 5,000",
+      "text": "1d8 × 5,000",
+      "description": "1d8 × 5,000",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 9,
+      "range": [
+        91,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.aUjpZADhEXcTbWRr"
+    },
+    {
+      "_id": "nGZ3kX9NOZmFcfad",
+      "type": "text",
+      "name": "1d6 × 10,000",
+      "text": "1d6 × 10,000",
+      "description": "1d6 × 10,000",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rlLfH8ad87A4JLWC.nGZ3kX9NOZmFcfad"
+    }
+  ],
+  "folder": "hwf7YrQCP4mxv9Oi",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!rlLfH8ad87A4JLWC"
+}

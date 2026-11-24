@@ -1,0 +1,40 @@
+{
+  "_id": "nn8If7b1mlsLmHvp",
+  "name": "Two-handed Sword (Chlén-hide)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>The great broadsword of N'lüss: Strength 90+, no shield, one fighter per 10-ft space.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 15,
+    "weight": 1900,
+    "quantity": 1,
+    "category": "melee",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 2,
+    "magic": 0,
+    "minStr": 90,
+    "twoHanded": true,
+    "noShield": true,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 0,
+      "medium": 0,
+      "long": 0
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 6
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nn8If7b1mlsLmHvp"
+}

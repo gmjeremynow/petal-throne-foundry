@@ -1,0 +1,58 @@
+{
+  "_id": "Y4SzgMW1q7M3stMB",
+  "name": "Lrí",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "4",
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "6/24",
+    "numberAppearing": "1-10",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 2-20",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (8); stats Sec. 1222 no. 31",
+    "biography": "<p>Stilt-legged, insect-like flyers related to the Hlýss, with long segmented tails ending in a sting.</p><p>The sting paralyses (save against paralysis). The Lrí tries to fly off with a paralysed victim (60%) to feed its young in its lair; the party has a 40% chance to find the lair. If the victim is not found within three moves, he is eaten and has only a 5% chance of revival. A rescued victim is cured by Heal Serious Wounds or an Eye of healing and needs two days before fighting again.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 31,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Lrí",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!Y4SzgMW1q7M3stMB"
+}

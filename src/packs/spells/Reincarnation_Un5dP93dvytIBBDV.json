@@ -1,0 +1,35 @@
+{
+  "_id": "Un5dP93dvytIBBDV",
+  "name": "Reincarnation",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Reincarnates one dead being in another form, keeping its hit dice. Undone by Dispel Magic (still dead).</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 15,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "10 ft",
+    "duration": "permanent",
+    "targeting": "none",
+    "save": "none",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 15,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Un5dP93dvytIBBDV"
+}

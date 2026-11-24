@@ -1,0 +1,34 @@
+{
+  "_id": "MqwSSqGMqviRJS77",
+  "name": "The Eye of Ruling as a King in Glory",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>10-1,000 humans and nonhumans of levels I-II obey the user. Smashing the Eye ends it.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 28",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "120 ft",
+    "duration": "10 turns",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 28,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!MqwSSqGMqviRJS77"
+}

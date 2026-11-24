@@ -1,0 +1,29 @@
+{
+  "_id": "Tq549pDaZZzqbTp9",
+  "name": "Chlén Calf (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.370",
+    "cost": 26.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "26-45 Káitars",
+    "sgEncumbrance": "",
+    "category": "transport",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 122,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Tq549pDaZZzqbTp9"
+}

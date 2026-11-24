@@ -1,0 +1,31 @@
+{
+  "_id": "E8s1UvjbPY6zxOcr",
+  "name": "Zrú Hsún Tí Ch'à",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Excellent Travelling Volume'</i>. Written in Tsáqw.</p><p>Anyone who can read it may, once, carry himself and 1-10 companions (or the equivalent weight) to any place on Tékumel he has been before. It can be kept until needed; it does not bring them back.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 16",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!E8s1UvjbPY6zxOcr"
+}

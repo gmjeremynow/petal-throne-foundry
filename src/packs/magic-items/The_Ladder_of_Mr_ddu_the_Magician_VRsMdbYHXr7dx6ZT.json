@@ -1,0 +1,31 @@
+{
+  "_id": "VRsMdbYHXr7dx6ZT",
+  "name": "The Ladder of Mríddu the Magician",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Folds to the size of a hand (six ounces) and unfolds into a ladder over 50 feet long holding six men; tiny claws at the top hold it fast until released. Reusable.</p><p>How many exist: said to be three. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 13",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VRsMdbYHXr7dx6ZT"
+}

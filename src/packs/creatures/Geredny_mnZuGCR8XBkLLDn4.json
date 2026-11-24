@@ -1,0 +1,58 @@
+{
+  "_id": "mnZuGCR8XBkLLDn4",
+  "name": "Gerednyá",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "3/18",
+    "numberAppearing": "6-36",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 12-72",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (3); stats Sec. 1222 no. 14",
+    "biography": "<p>Long, slender, greyish-green worms with thin, membrane-like wings, a stinging prehensile tail and a needle-sharp proboscis.</p><p>Each round a Gerednyá strikes with its tail (60%; save against poison) or its proboscis (40%). Fire drives them off: 60% chance each round to drive away 1-6. Armourers pay 100 Káitars for each wing case, which holds a chemical used in moulding Chlén-hide.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 14,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Gerednyá",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!mnZuGCR8XBkLLDn4"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "P83he6mzSzSpfWnG",
+  "name": "Change Self or Others",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>User and 1-6 others take any animal, insect, nonhuman or human form (not a specific person). Undone by Remove Curse. Changed casters cannot cast. Blocked by Control of Self.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 2,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "permanent",
+    "targeting": "area",
+    "save": "vs. Spells",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 2,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!P83he6mzSzSpfWnG"
+}

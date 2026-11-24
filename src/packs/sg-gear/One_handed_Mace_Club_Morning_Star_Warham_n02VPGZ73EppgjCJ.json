@@ -1,0 +1,42 @@
+{
+  "_id": "n02VPGZ73EppgjCJ",
+  "name": "One-handed Mace, Club, Morning Star, Warhammer or Flail (S&G)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Heavy weapon: 1d6+1, Strength over 80. Club and warhammer are not named in the 1975 rules; they are treated like the mace on this row. 1975 rules values applied by weapon kind (Sec. 721): most weapons 1d6; daggers and light missiles 1d4; mace, flail, morning star, battleaxe, halberd, poleaxe and pike 1d6+1 with Strength over 80.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 6.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "6-15 Káitars",
+    "sgEncumbrance": "1/4",
+    "category": "melee",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 1,
+    "magic": 0,
+    "minStr": 81,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": false,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 0,
+      "medium": 0,
+      "long": 0
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 8
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!n02VPGZ73EppgjCJ"
+}

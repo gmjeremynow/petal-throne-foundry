@@ -1,0 +1,58 @@
+{
+  "_id": "fzRpy4mD498dCwTP",
+  "name": "Ssú",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "2+3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "10-120",
+    "attitude": "Hostile",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 30",
+      "lair": "Lair 50: 20-240; treasure H: 50",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1127 (10); stats Sec. 1222 no. 56",
+    "biography": "<p>Tall, slender, six-limbed beings wrapped in what look like greyish shrouds (really a loose skin that keeps shredding away). They smell of musty cinnamon and make a high, sweet chiming sound.</p><p>Ancient and deadly enemies of mankind, whom they blame for destroying the original Tékumel. They live north of Salarvyá and long to retake their old fortress of Ssuganár. Every Ssú met outside its land has one priestly and one magic user skill (roll which); every party of 10+ has a Magic User of levels IV-XV. Ssú of level IV+ can hypnotise 1-3 persons once a day (20% chance each round; save or fight for the Ssú until it dies). Friendly to the Hlýss, sometimes to the Hláka, neutral to the Shunned Ones. They are said to cross human borders by lost ancient tunnels.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 56,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ssú",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!fzRpy4mD498dCwTP"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "E1XllvNmJwAsRBir",
+  "name": "Medium Warship (bireme)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 40000,
+    "weight": 0,
+    "quantity": 1,
+    "category": "transport",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 70,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!E1XllvNmJwAsRBir"
+}

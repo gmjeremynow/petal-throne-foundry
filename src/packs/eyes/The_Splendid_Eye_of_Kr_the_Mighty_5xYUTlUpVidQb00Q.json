@@ -1,0 +1,34 @@
+{
+  "_id": "5xYUTlUpVidQb00Q",
+  "name": "The Splendid Eye of Krá the Mighty",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Pulls or pushes up to 1,000 lb or walls 3 ft thick; as a weapon 4d6 within arm's reach (save to dodge).</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 34",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "arm's reach / 5 ft",
+    "duration": "",
+    "targeting": "aimed",
+    "save": "vs. Eyes",
+    "damage": "4d6",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 34,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5xYUTlUpVidQb00Q"
+}

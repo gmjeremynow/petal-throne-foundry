@@ -1,0 +1,58 @@
+{
+  "_id": "mM8zXZYzRtEgUEfB",
+  "name": "Shén",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "10-120",
+    "attitude": "Neutral",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "D: 30",
+      "lair": "Lair 80: 100-1,200; treasure H: 70",
+      "special": ""
+    },
+    "special": "Per ship: 2-200; treasure aboard ship: D: 40.",
+    "source": "EPT 1975 Sec. 1127 (8); stats Sec. 1222 no. 53",
+    "biography": "<p>Tall, dragon-like beings with gleaming black scales that look like demonic warriors in fantastic plate armour. They have long beak-like snouts and a glittering crest of slender spines that can be raised or laid flat, often capped with metal like a helmet. They walk upright on two legs, with two arms and a muscular tail ending in a mace-like horny knob.</p><p>An imported interstellar race living in the hot volcanic lands south of Livyánu. Each round, 70% they strike with weapons (curved jagged swords, spears, halberds, bows) and 30% with the tail, which does 1d4 with no damage bonus (corrigenda). A Shén of low Dexterity may lash a companion by accident in battle-rage. Neutral to slightly hostile to men, but will help a party for a price. Keep Ahoggyá well away from them.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 53,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Shén",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!mM8zXZYzRtEgUEfB"
+}

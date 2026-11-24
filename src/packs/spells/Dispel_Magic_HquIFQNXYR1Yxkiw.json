@@ -1,0 +1,35 @@
+{
+  "_id": "HquIFQNXYR1Yxkiw",
+  "name": "Dispel Magic",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Suspends many spells (e.g. Mind-Bar, Petrification), amulet powers and weapon or armour enchantments. No effect on Eyes or ancient devices.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 5,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "120 ft",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 5,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!HquIFQNXYR1Yxkiw"
+}

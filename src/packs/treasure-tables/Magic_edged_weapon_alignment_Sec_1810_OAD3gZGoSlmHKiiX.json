@@ -1,0 +1,66 @@
+{
+  "_id": "OAD3gZGoSlmHKiiX",
+  "name": "Magic edged weapon: alignment (Sec. 1810)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "RpHQsD74ofoLYFlU",
+      "type": "text",
+      "name": "Good",
+      "text": "Good",
+      "description": "Good",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 40,
+      "range": [
+        1,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!OAD3gZGoSlmHKiiX.RpHQsD74ofoLYFlU"
+    },
+    {
+      "_id": "B4nhzlwktpG2fD3s",
+      "type": "text",
+      "name": "Evil",
+      "text": "Evil",
+      "description": "Evil",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 50,
+      "range": [
+        41,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!OAD3gZGoSlmHKiiX.B4nhzlwktpG2fD3s"
+    },
+    {
+      "_id": "Rd6iGIjUc1V7vucR",
+      "type": "text",
+      "name": "No alignment (serves either side)",
+      "text": "No alignment (serves either side)",
+      "description": "No alignment (serves either side)",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!OAD3gZGoSlmHKiiX.Rd6iGIjUc1V7vucR"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!OAD3gZGoSlmHKiiX"
+}

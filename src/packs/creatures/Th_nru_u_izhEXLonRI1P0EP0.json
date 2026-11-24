@@ -1,0 +1,58 @@
+{
+  "_id": "izhEXLonRI1P0EP0",
+  "name": "Thúnru'u",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "5",
+    "hp": {
+      "value": 18,
+      "max": 18
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "2-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 4-24; treasure D: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (22); stats Sec. 1222 no. 59",
+    "biography": "<p>An archaic, roughly man-like being, doughy and blubbery, with two saucer-shaped eyes, a greyish beak, and rolls of skin hanging about it like a robe.</p><p>It prefers to kill Káyi, but attacks men to eat their eyes, which it relishes above all. It always attacks humans unless repelled by the smell of Tsúral buds (80%). Certain spells and Eyes can control it, and it sometimes serves a magician or an evil Priest or Warrior.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 59,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Thúnru'u",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!izhEXLonRI1P0EP0"
+}

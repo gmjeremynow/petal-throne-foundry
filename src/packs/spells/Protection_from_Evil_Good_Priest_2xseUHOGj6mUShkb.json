@@ -1,0 +1,35 @@
+{
+  "_id": "2xseUHOGj6mUShkb",
+  "name": "Protection from Evil/Good (Priest)",
+  "type": "spell",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Undead cannot enter; +1 to all saving throws; attackers' damage -2.</p>",
+    "source": "EPT 1975 Sec. 432",
+    "kind": "professional",
+    "profession": "priest",
+    "group": 0,
+    "rank": 8,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "10-ft circle",
+    "duration": "3 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "0cjba5Sr9ifPDCeD",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!2xseUHOGj6mUShkb"
+}

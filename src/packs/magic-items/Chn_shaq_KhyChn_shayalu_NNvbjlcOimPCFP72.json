@@ -1,0 +1,31 @@
+{
+  "_id": "NNvbjlcOimPCFP72",
+  "name": "Chnéshaq KhyChnéshayalu",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Mystery of Mysteries'</i>. Written in Classical Tsolyáni.</p><p>+5% to the chance of Divine Intervention. Usable by anyone of any profession, level, race or alignment. Disappears once read.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 12",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!NNvbjlcOimPCFP72"
+}

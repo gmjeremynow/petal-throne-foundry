@@ -1,0 +1,31 @@
+{
+  "_id": "8dEUhrpnlroq0Daj",
+  "name": "The Amulet of Perceiving the Scintillation of Metals",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Points to the largest metal hoard in range for two turns. Charges rolled on d100.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 6",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "20 ft",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8dEUhrpnlroq0Daj"
+}

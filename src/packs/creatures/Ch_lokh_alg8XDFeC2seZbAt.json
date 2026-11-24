@@ -1,0 +1,58 @@
+{
+  "_id": "alg8XDFeC2seZbAt",
+  "name": "Chólokh",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "1+1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "6/18",
+    "numberAppearing": "1-20",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 2,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 50: 2-40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (1); stats Sec. 1222 no. 8",
+    "biography": "<p>A six-legged insect-like flyer with brownish-grey chitin. Long, shimmering, gauzy wings fold away beneath a hard shell cover. Beside its strong mandibles it has eight small tentacles.</p><p>It throws sharp rock fragments with its tentacles from 10-60 ft away (1d6 on a hit), then closes and strikes again in the same round, at the same or another victim. It always attacks and never checks morale.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 8,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Chólokh",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!alg8XDFeC2seZbAt"
+}

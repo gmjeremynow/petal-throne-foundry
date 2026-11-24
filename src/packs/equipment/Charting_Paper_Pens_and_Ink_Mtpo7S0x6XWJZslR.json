@@ -1,0 +1,27 @@
+{
+  "_id": "Mtpo7S0x6XWJZslR",
+  "name": "Charting Paper, Pens and Ink",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 3,
+    "weight": 0,
+    "quantity": 1,
+    "category": "gear",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 51,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Mtpo7S0x6XWJZslR"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "cOenE5BvzLEScym8",
+  "name": "Control Person (Priest)",
+  "type": "spell",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Controls 1-6 persons or intelligent nonhumans (not animals, Underworld creatures or automatons). No effect above 7th level.</p>",
+    "source": "EPT 1975 Sec. 432",
+    "kind": "professional",
+    "profession": "priest",
+    "group": 0,
+    "rank": 10,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "50 ft",
+    "duration": "3 turns",
+    "targeting": "none",
+    "save": "vs. Spells",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "0cjba5Sr9ifPDCeD",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!cOenE5BvzLEScym8"
+}

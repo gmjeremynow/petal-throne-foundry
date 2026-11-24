@@ -1,0 +1,35 @@
+{
+  "_id": "Tm7aPsfTZ40P9Mlx",
+  "name": "Telekinesis",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": "<p>Moves solid objects through air or water: 1 ounce and 10 ft per level. Can stun an unarmoured man on a hit but not kill. Cannot move edged weapons or missiles.</p>",
+    "source": "EPT 1975 Sec. 433",
+    "kind": "professional",
+    "profession": "magicUser",
+    "group": 0,
+    "rank": 5,
+    "uses": {
+      "value": 2,
+      "max": 2,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "10 ft per level",
+    "duration": "",
+    "targeting": "aimed",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "Nt1jpEWAedKdOvHt",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Tm7aPsfTZ40P9Mlx"
+}

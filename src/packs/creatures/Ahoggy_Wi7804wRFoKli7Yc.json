@@ -1,0 +1,58 @@
+{
+  "_id": "Wi7804wRFoKli7Yc",
+  "name": "Ahoggyá",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "10-120",
+    "attitude": "Neutral",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "F: 40",
+      "lair": "Lair 40: 20-240; treasure G: 50",
+      "special": ""
+    },
+    "special": "Per ship: 10-60; treasure aboard ship: D: 30.",
+    "source": "EPT 1975 Sec. 1127 (1); stats Sec. 1222 no. 1",
+    "biography": "<p>Knobbly, brownish, bristly beings 4-5 ft tall but enormously broad and strong. Four powerful arms rise from the top of the body; the eyes and mouth sit beneath them inside a horny protective ring. They stand on four thick, muscular legs.</p><p>A once-proud interstellar species, now living mostly in swampy colonies in southern Salarvyá and across the straits in Háida Pakála. Highly intelligent; they speak human tongues with a dreadful accent. Neutral and wanting to be left alone, they rarely help men and never gladly (ignore friendly reaction rolls of 71-100 and reroll). They use all ordinary and magical weapons, preferring a jagged curved sword, a halberd or a composite bow. Sleep does not affect them and hypnosis does little.</p><p>Armour class from the full entry; the summary table leaves it blank.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ahoggyá",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!Wi7804wRFoKli7Yc"
+}

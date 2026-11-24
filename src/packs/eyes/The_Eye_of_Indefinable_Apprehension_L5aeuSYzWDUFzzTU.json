@@ -1,0 +1,34 @@
+{
+  "_id": "L5aeuSYzWDUFzzTU",
+  "name": "The Eye of Indefinable Apprehension",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Panic: 1d100 beings of levels I-III, 1-6 of IV-VII, one of VIII+. Not automatons, undead or supernatural Underworld creatures.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 16",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "40 ft",
+    "duration": "3 turns",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 16,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!L5aeuSYzWDUFzzTU"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "JEz6m9FlExQzDKql",
+  "name": "The Amulet of Safety Amidst Putrefaction",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Wearer and 1-6 comrades move unharmed among the Shunned Ones for four turns. Charges rolled on d100.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 11",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!JEz6m9FlExQzDKql"
+}

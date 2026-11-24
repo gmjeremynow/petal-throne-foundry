@@ -1,0 +1,35 @@
+{
+  "_id": "4EEQzRqwle1IAC5n",
+  "name": "The Hands of Krá the Mighty",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Grapples and crushes: on a failed save, roll 1d6 for the number of d6 of damage.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 7,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "120 ft",
+    "duration": "",
+    "targeting": "aimed",
+    "save": "vs. Spells",
+    "damage": "(1d6)d6",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 7,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!4EEQzRqwle1IAC5n"
+}

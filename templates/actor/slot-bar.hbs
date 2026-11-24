@@ -1,0 +1,21 @@
+<div class="pt-slots">
+  {{#if slots.set}}
+    {{#if (ptEq which "skills")}}
+    <div class="pt-slot-row"><span class="pt-slot-title">{{localize "PT.Slots.Original"}}</span>
+      {{#each slots.original}}<span class="pt-slot {{cls}}" data-tooltip="{{used}} / {{allowed}}"><b>{{left}}</b> {{label}}</span>{{/each}}
+    </div>
+    {{/if}}
+    <div class="pt-slot-row"><span class="pt-slot-title">{{localize "PT.Slots.ProfessionalLeft"}}</span>
+      <span class="pt-slot {{slots.profession.cls}}" data-tooltip="{{slots.profession.used}} / {{slots.profession.allowed}}"><b>{{slots.profession.left}}</b> {{slots.profession.label}}</span>
+      {{#if slots.profession.extra}}<span class="hint">{{slots.profession.extra}}</span>{{/if}}
+    </div>
+    {{#if (ptEq which "spells")}}
+    <div class="pt-slot-row"><span class="pt-slot-title">{{localize "PT.Slots.Bonus"}}</span>
+      {{#each slots.bonus}}<span class="pt-slot {{cls}}" data-tooltip="{{used}} / {{allowed}}"><b>{{left}}</b> {{label}}</span>{{/each}}
+    </div>
+    {{/if}}
+  {{else}}
+    <p class="hint">{{localize "PT.Slots.NotSet"}}</p>
+  {{/if}}
+  {{#if editable}}<a class="pt-slot-edit" data-action="editSlots" data-tooltip="{{localize 'PT.Slots.Edit'}}"><i class="fa-solid fa-pen"></i> {{localize "PT.Slots.Adjust"}}</a>{{/if}}
+</div>

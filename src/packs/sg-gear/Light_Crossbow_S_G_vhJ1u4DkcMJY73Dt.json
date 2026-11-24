@@ -1,0 +1,42 @@
+{
+  "_id": "vhJ1u4DkcMJY73Dt",
+  "name": "Light Crossbow (S&G)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Ranges of the 1975 light crossbow. 1975 rules values applied by weapon kind (Sec. 721): most weapons 1d6; daggers and light missiles 1d4; mace, flail, morning star, battleaxe, halberd, poleaxe and pike 1d6+1 with Strength over 80.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 60.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "60-150 Káitars",
+    "sgEncumbrance": "4/8",
+    "category": "missile",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 100,
+      "medium": 400,
+      "long": 550
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 16,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vhJ1u4DkcMJY73Dt"
+}

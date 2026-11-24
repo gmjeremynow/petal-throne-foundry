@@ -1,0 +1,31 @@
+{
+  "_id": "0G95kA0M1zyh3jq4",
+  "name": "The Amulet of Power Over the Undead",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Vorodlá, Tsóggu, Hrá, Hurú'u, Mrúr and Shédra retreat 80%. Magic Users only. Once per group of undead; no charge limit.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 8",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "30 ft",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0G95kA0M1zyh3jq4"
+}

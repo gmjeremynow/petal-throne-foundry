@@ -1,0 +1,40 @@
+{
+  "_id": "DimcDjVj1QgWpbge",
+  "name": "Staff-sling",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Range 550-600 ft in the text; 600 used. Damage as for the Sling. Range bands set in proportion to the bow bands, as Sec. 722 directs.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 8,
+    "weight": 0,
+    "quantity": 1,
+    "category": "missile",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": false,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 100,
+      "medium": 450,
+      "long": 600
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 18,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!DimcDjVj1QgWpbge"
+}

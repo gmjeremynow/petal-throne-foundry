@@ -1,0 +1,31 @@
+{
+  "_id": "Yx2ijc1HwI0LOCdj",
+  "name": "Duré'ep Tkásh Sneqsíva",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Pessimistic Treatise of Total Inaction'</i>. Written in Milumanayáni.</p><p>Dedicated to Drá the Uncaring; blank but for the title. A reader of level I-VI falls into total, permanent indifference (not eating, drinking or caring whether he lives) unless the Amulet of the Good God is applied within ten turns. Level VII+ saves on 12+ on d20 (no effect if saved). Works once, then disappears.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 18",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Yx2ijc1HwI0LOCdj"
+}

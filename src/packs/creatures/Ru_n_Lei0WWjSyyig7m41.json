@@ -1,0 +1,58 @@
+{
+  "_id": "Lei0WWjSyyig7m41",
+  "name": "Ru'ún",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "11",
+    "hp": {
+      "value": 38,
+      "max": 38
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1-6",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 3,
+    "damageDice": "",
+    "hitBonus": 1,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 80",
+      "lair": "Lair 20: 2-12; treasure F: 80",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (18); stats Sec. 1222 no. 48",
+    "biography": "<p>A man-like bronze demon automaton about seven feet tall, its body covered in a fine net of hair-thin wires.</p><p>Set by the ancients to guard dimensional nexus points and treasures. Highly intelligent, but it will not talk with men. Three attacks a round: an electric shock from its wires (automatic 2d6), a +1 sword, and a device that throws steel bolts 30 ft. It sees invisible planes and hears what even Pé Chói cannot, so it is never surprised. It obeys only the Incomparable Eye of Command and the Amulet of Ruling the Ru'ún (it gets a save).</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 48,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ru'ún",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!Lei0WWjSyyig7m41"
+}

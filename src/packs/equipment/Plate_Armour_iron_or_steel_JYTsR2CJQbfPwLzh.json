@@ -1,0 +1,25 @@
+{
+  "_id": "JYTsR2CJQbfPwLzh",
+  "name": "Plate Armour (iron or steel)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>No price in the 1975 list; metal is rare and costly on Tékumel.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 0,
+    "weight": 13000,
+    "quantity": 1,
+    "armourType": "plate",
+    "material": "steel",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 36,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!JYTsR2CJQbfPwLzh"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "Ztr9Qx2lzzbRNJ9U",
+  "name": "The Amulet Against the Iniquitous Nshé",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Read aloud in the Tsáqw tongue, makes an Nshé not in man-form retreat (70% it flows around to attack others; keep 20 ft away).</p>",
+    "source": "EPT 1975 Sec. 1400 no. 1",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Ztr9Qx2lzzbRNJ9U"
+}

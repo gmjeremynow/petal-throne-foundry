@@ -1,0 +1,27 @@
+{
+  "_id": "nOGBRksbqMap2L3X",
+  "name": "Gem",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Weighs 1 Káitar.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 0,
+    "weight": 1,
+    "quantity": 1,
+    "category": "treasure",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 75,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nOGBRksbqMap2L3X"
+}

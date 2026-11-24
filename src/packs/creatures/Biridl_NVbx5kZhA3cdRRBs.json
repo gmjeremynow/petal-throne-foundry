@@ -1,0 +1,58 @@
+{
+  "_id": "NVbx5kZhA3cdRRBs",
+  "name": "Biridlú",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "4+1",
+    "hp": {
+      "value": 15,
+      "max": 15
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "6/13",
+    "numberAppearing": "2-8",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "",
+      "lair": "Lair 20: 4-16; treasure D: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (2); stats Sec. 1222 no. 4",
+    "biography": "<p>A black, cape-like flying creature that clings to ceilings, with powerfully muscled folds.</p><p>An ancient treasure guardian. It drops on the unwary and smothers its victim, gibbering and shrieking: 1d6 the first round, 2d6 the second, 3d6 the third. The victim has 40%, then 30%, then 15% to cut free; comrades free him only by killing it. Only steel cuts it, not Chlén-hide. It fights madly until dead and must be burned or it regenerates in 3 rounds.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 4,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Biridlú",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!NVbx5kZhA3cdRRBs"
+}

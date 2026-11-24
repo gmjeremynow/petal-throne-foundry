@@ -1,0 +1,58 @@
+{
+  "_id": "kH7IjFYHeLJu9jub",
+  "name": "Hurú'u",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "2+3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 7,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "3-30",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 30: 6-60; treasure B: 90",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (7); stats Sec. 1222 no. 23",
+    "biography": "<p>Spectral undead that wander the Underworld howling.</p><p>They can be heard, and sense a party, at 200 ft. Their howling deafens everyone within 10 ft. Chlén-hide weapons do -1 damage to them. Protection from Evil/Good or fire drives them off (40% each round). A being slain by a Hurú'u loses one experience level.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 23,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hurú'u",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!kH7IjFYHeLJu9jub"
+}

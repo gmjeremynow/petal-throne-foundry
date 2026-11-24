@@ -1,0 +1,34 @@
+{
+  "_id": "FxUxtZ9k1JOWBVHQ",
+  "name": "The Eye of Illuminating Glory",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Soft light that can be capped and reopened. Does not negate surprise. Common.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 14",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "30 ft",
+    "duration": "10 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": "common"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 14,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!FxUxtZ9k1JOWBVHQ"
+}

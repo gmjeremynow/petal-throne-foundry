@@ -1,0 +1,31 @@
+{
+  "_id": "HHKU3spJZYmWppvs",
+  "name": "Guppíshsha Hrákkuq Mazhzhátl",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of the Fragrant Garden'</i>. Written in modern Salarvyáni.</p><p>Magic Users or Priests of level II+ roll d12: 1-3 slain by a hideous fungus (no save; may be revived); 4-6 gain one level; 7-9 permanent ESP, detection of secret doors and traps, and one use of growing or shrinking to any size for a turn; 10-11 permanent detect good/evil and detection of shifting walls and passages, and one use of transporting himself and 1-6 beings 30\"; 12 the power to revive good beings or (50/50) evil ones, never both, three times. Warriors take 1d6 and the book disappears.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 15",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 15000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!HHKU3spJZYmWppvs"
+}

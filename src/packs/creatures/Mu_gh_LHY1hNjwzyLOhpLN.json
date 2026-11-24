@@ -1,0 +1,58 @@
+{
+  "_id": "LHY1hNjwzyLOhpLN",
+  "name": "Mu'ágh",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "3/6/15",
+    "hp": {
+      "value": 21,
+      "max": 21
+    },
+    "ac": 8,
+    "acMagic": 0,
+    "move": "2",
+    "numberAppearing": "1-6",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "small:60:3:1|medium:30:6:1|very large:10:15:1",
+    "treasure": {
+      "carried": "nil",
+      "lair": "",
+      "special": "W/U"
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (6); stats Sec. 1222 no. 35",
+    "biography": "<p>An acid-secreting jelly from one to ten feet across that hides in dark, damp places.</p><p>Its acid damage can never be healed: determine the body part struck at random; it is permanently useless. The acid cannot penetrate Chlén-hide but eats through steel, even enchanted, in one round, so the victim has one round to tear the piece off. Cloth and leather do not stop it. Fire and intense cold kill it. 10% it has swallowed a gem. The Eye of Regeneration can restore a part lost to its acid.</p><p>Sizes: small 3 HD (60%), medium 6 HD (30%), very large 15 HD (10%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 35,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Mu'ágh",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!LHY1hNjwzyLOhpLN"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "nj2QyQUxt8LV4Sgp",
+  "name": "The Music Box of Nekkutháne",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Its melody controls the Ngóro (Sec. 1221 (14)), one turn per charge.</p><p>Charges: roll d100 when found. Rechargeable with the Thoroughly Useful Eye.</p><p>How many exist: one recorded. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 19",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nj2QyQUxt8LV4Sgp"
+}

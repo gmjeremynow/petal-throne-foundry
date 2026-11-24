@@ -1,0 +1,163 @@
+<div class="pt-sheet-inner">
+  <header class="item-header">
+    <img class="item-icon" src="{{item.img}}" alt="" data-action="editImage">
+    <div class="item-title">
+      <div class="name-row">
+        {{#if unlocked}}
+          <input class="item-name-input" name="name" type="text" value="{{item.name}}" placeholder="{{localize 'PT.Name'}}">
+        {{else}}
+          <div class="item-name-static">{{item.name}}</div>
+        {{/if}}
+        {{#if editable}}
+        <button type="button" class="small lock" data-action="toggleLock" data-tooltip="{{#if unlocked}}PT.LockItem{{else}}PT.UnlockItem{{/if}}">
+          <i class="fa-solid {{#if unlocked}}fa-lock{{else}}fa-pen{{/if}}"></i> {{#if unlocked}}{{localize "PT.LockBtn"}}{{else}}{{localize "PT.Edit"}}{{/if}}
+        </button>
+        {{/if}}
+      </div>
+      <div class="item-tags">
+        <span class="tag type">{{typeLabel}}</span>
+        {{#each tags}}<span class="tag">{{this}}</span>{{/each}}
+      </div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item {{#if (ptEq tab 'summary')}}active{{/if}}" data-tab="summary" data-group="primary">{{localize "PT.Tab.summary"}}</a>
+    <a class="item {{#if (ptEq tab 'details')}}active{{/if}}" data-tab="details" data-group="primary">{{localize "PT.Tab.details"}}</a>
+  </nav>
+
+  <section class="sheet-body">
+
+    {{!-- SUMMARY: read-only overview --}}
+    <section class="tab {{#if (ptEq tab 'summary')}}active{{/if}}" data-tab="summary" data-group="primary">
+      {{#if summary.length}}
+      <dl class="stat-block">
+        {{#each summary}}<dt class="{{cls}}">{{label}}</dt><dd class="{{cls}}">{{value}}</dd>{{/each}}
+      </dl>
+      {{/if}}
+
+      <div class="desc-head">
+        <h3>{{localize "PT.Description"}}</h3>
+        {{#if unlocked}}
+        <button type="button" class="small" data-action="toggleDescription">
+          {{#if editingDescription}}<i class="fa-solid fa-check"></i> {{localize "PT.Done"}}{{else}}<i class="fa-solid fa-pen"></i> {{localize "PT.Edit"}}{{/if}}
+        </button>
+        {{/if}}
+      </div>
+      {{#if editingDescription}}
+        <textarea name="system.description" rows="12" class="desc-edit">{{system.description}}</textarea>
+        <p class="hint">{{localize "PT.DescriptionHint"}}</p>
+      {{else}}
+        <div class="description">{{#if system.description}}{{{enrichedDescription}}}{{else}}<p class="hint">{{localize "PT.NoDescription"}}</p>{{/if}}</div>
+      {{/if}}
+    </section>
+
+    {{!-- DETAILS: editable fields --}}
+    <section class="tab {{#if (ptEq tab 'details')}}active{{/if}}" data-tab="details" data-group="primary">
+      <fieldset class="lockable" {{#unless unlocked}}disabled{{/unless}}>
+      <div class="field-grid">
+
+      {{#if isType.weapon}}
+        <label class="field"><span>{{localize "PT.WeaponCat.label"}}</span><select name="system.category">{{selectOptions weaponCatChoices selected=system.category}}</select></label>
+        <label class="field"><span>{{localize "PT.Material.label"}}</span><select name="system.material">{{selectOptions materialChoices selected=system.material}}</select></label>
+        <label class="field"><span>{{localize "PT.DamageDie"}}</span><select name="system.die">{{selectOptions dieChoices selected=system.die}}</select></label>
+        <label class="field"><span>{{localize "PT.DamagePlus"}}</span><input type="number" name="system.damagePlus" value="{{system.damagePlus}}"></label>
+        <label class="field"><span>{{localize "PT.MagicPlus"}}</span><input type="number" name="system.magic" value="{{system.magic}}"></label>
+        <label class="field"><span>{{localize "PT.MinStr"}}</span><input type="number" name="system.minStr" value="{{system.minStr}}"></label>
+        <label class="field"><span>{{localize "PT.LengthGroup"}}</span><select name="system.lengthGroup" data-dtype="Number">{{selectOptions lengthGroupChoices selected=lengthGroupSelected}}</select></label>
+        <label class="field wide"><span>{{localize "PT.FixedDamage"}}</span><input type="text" name="system.fixedDamage" value="{{system.fixedDamage}}" placeholder="{{localize 'PT.FixedDamageHint'}}"></label>
+        <div class="field wide"><span>{{localize "PT.RangeFeet"}}</span>
+          <div class="triple">
+            <input type="number" name="system.range.close" value="{{system.range.close}}" data-tooltip="PT.Range.close">
+            <input type="number" name="system.range.medium" value="{{system.range.medium}}" data-tooltip="PT.Range.medium">
+            <input type="number" name="system.range.long" value="{{system.range.long}}" data-tooltip="PT.Range.long">
+          </div></div>
+        <div class="checks wide">
+          <label><input type="checkbox" name="system.edged" {{checked system.edged}}> {{localize "PT.Edged"}}</label>
+          <label><input type="checkbox" name="system.noShield" {{checked system.noShield}}> {{localize "PT.NoShield"}}</label>
+          <label><input type="checkbox" name="system.extraBlow" {{checked system.extraBlow}}> {{localize "PT.ExtraBlow"}}</label>
+          <label><input type="checkbox" name="system.everyOtherRound" {{checked system.everyOtherRound}}> {{localize "PT.EveryOtherRound"}}</label>
+        </div>
+      {{/if}}
+
+      {{#if isType.armour}}
+        <label class="field"><span>{{localize "PT.Armour.label"}}</span><select name="system.armourType">{{selectOptions armourTypeChoices selected=system.armourType}}</select></label>
+        <label class="field"><span>{{localize "PT.Material.label"}}</span><select name="system.material">{{selectOptions materialChoices selected=system.material}}</select></label>
+        <label class="field"><span>{{localize "PT.MagicPlus"}}</span><input type="number" name="system.magic" value="{{system.magic}}"></label>
+        <div class="checks"><label><input type="checkbox" name="system.equipped" {{checked system.equipped}}> {{localize "PT.Equipped"}}</label></div>
+      {{/if}}
+
+      {{#if isType.skill}}
+        <label class="field"><span>{{localize "PT.SkillGroup.label"}}</span><select name="system.group">{{selectOptions skillGroupChoices selected=system.group}}</select></label>
+        <label class="field"><span>{{localize "PT.Rank"}}</span><input type="number" name="system.rank" value="{{system.rank}}"></label>
+        <label class="field wide"><span>{{localize "PT.Language"}}</span><input type="text" name="system.language" value="{{system.language}}"></label>
+        <div class="checks wide"><label><input type="checkbox" name="system.usesChanceTable" {{checked system.usesChanceTable}}> {{localize "PT.UsesChanceTable"}}</label></div>
+      {{/if}}
+
+      {{#if isType.spell}}
+        <label class="field"><span>{{localize "PT.SpellKind.label"}}</span><select name="system.kind">{{selectOptions spellKindChoices selected=system.kind}}</select></label>
+        <label class="field"><span>{{localize "PT.SpellGroup.label"}}</span><select name="system.group">{{selectOptions spellGroupChoices selected=system.group}}</select></label>
+        <label class="field"><span>{{localize "PT.Profession"}}</span><select name="system.profession">{{selectOptions professionChoices selected=system.profession}}</select></label>
+        <label class="field"><span>{{localize "PT.Rank"}}</span><input type="number" name="system.rank" value="{{system.rank}}"></label>
+        <div class="field wide"><span>{{localize "PT.Uses"}}</span>
+          <div class="triple">
+            <input type="number" name="system.uses.value" value="{{system.uses.value}}" data-tooltip="PT.UsesLeft">
+            <input type="number" name="system.uses.max" value="{{system.uses.max}}" data-tooltip="PT.UsesMax">
+            <select name="system.uses.period">{{selectOptions periodChoices selected=system.uses.period}}</select>
+          </div></div>
+        <label class="field"><span>{{localize "PT.Targeting.label"}}</span><select name="system.targeting">{{selectOptions targetingChoices selected=system.targeting}}</select></label>
+        <label class="field"><span>{{localize "PT.Range.label"}}</span><input type="text" name="system.range" value="{{system.range}}"></label>
+        <label class="field"><span>{{localize "PT.Duration"}}</span><input type="text" name="system.duration" value="{{system.duration}}"></label>
+        <label class="field"><span>{{localize "PT.SaveText"}}</span><input type="text" name="system.save" value="{{system.save}}"></label>
+        <label class="field"><span>{{localize "PT.Damage"}}</span><input type="text" name="system.damage" value="{{system.damage}}"></label>
+        <label class="field"><span>{{localize "PT.MinLevel"}}</span><input type="number" name="system.minLevel" value="{{system.minLevel}}"></label>
+        <label class="field wide"><span>{{localize "PT.WaitAfter"}}</span><input type="text" name="system.waitAfter" value="{{system.waitAfter}}"></label>
+        <div class="checks wide"><label><input type="checkbox" name="system.unlimited" {{checked system.unlimited}}> {{localize "PT.Unlimited"}}</label></div>
+      {{/if}}
+
+      {{#if isType.eye}}
+        <label class="field"><span>{{localize "PT.Charges"}}</span><input type="number" name="system.charges.value" value="{{system.charges.value}}"></label>
+        <label class="field"><span>{{localize "PT.Targeting.label"}}</span><select name="system.targeting">{{selectOptions targetingChoices selected=system.targeting}}</select></label>
+        <label class="field"><span>{{localize "PT.Range.label"}}</span><input type="text" name="system.range" value="{{system.range}}"></label>
+        <label class="field"><span>{{localize "PT.Duration"}}</span><input type="text" name="system.duration" value="{{system.duration}}"></label>
+        <label class="field"><span>{{localize "PT.SaveText"}}</span><input type="text" name="system.save" value="{{system.save}}"></label>
+        <label class="field"><span>{{localize "PT.DamageFormula"}}</span><input type="text" name="system.damage" value="{{system.damage}}"></label>
+        <label class="field"><span>{{localize "PT.Rarity"}}</span><input type="text" name="system.rarity" value="{{system.rarity}}"></label>
+        <label class="field"><span>{{localize "PT.Inscription"}}</span><input type="text" name="system.inscription" value="{{system.inscription}}"></label>
+        <div class="checks wide">
+          <label><input type="checkbox" name="system.dial" {{checked system.dial}}> {{localize "PT.Dial"}}</label>
+          <label><input type="checkbox" name="system.identified" {{checked system.identified}}> {{localize "PT.Identified"}}</label>
+        </div>
+      {{/if}}
+
+      {{#if isType.magicItem}}
+        <label class="field"><span>{{localize "PT.Category"}}</span><select name="system.category">{{selectOptions magicCatChoices selected=system.category}}</select></label>
+        <div class="field"><span>{{localize "PT.UsesLeftMax"}}</span>
+          <div class="triple">
+            <input type="number" name="system.uses.value" value="{{system.uses.value}}" data-tooltip="PT.UsesLeft">
+            <input type="number" name="system.uses.max" value="{{system.uses.max}}" data-tooltip="PT.UsesMax">
+          </div></div>
+        <label class="field"><span>{{localize "PT.Range.label"}}</span><input type="text" name="system.range" value="{{system.range}}"></label>
+        <label class="field"><span>{{localize "PT.Duration"}}</span><input type="text" name="system.duration" value="{{system.duration}}"></label>
+        <label class="field"><span>{{localize "PT.SaveText"}}</span><input type="text" name="system.save" value="{{system.save}}"></label>
+        <label class="field"><span>{{localize "PT.AlignmentRestriction"}}</span><input type="text" name="system.alignmentRestriction" value="{{system.alignmentRestriction}}"></label>
+      {{/if}}
+
+      {{#if isType.equipment}}
+        <label class="field"><span>{{localize "PT.Category"}}</span><select name="system.category">{{selectOptions gearCatChoices selected=system.category}}</select></label>
+      {{/if}}
+
+      {{#if hasCost}}
+        <label class="field"><span>{{localize "PT.Quantity"}}</span><input type="number" name="system.quantity" value="{{system.quantity}}"></label>
+        <label class="field"><span>{{localize "PT.CostK"}}</span><input type="number" name="system.cost" value="{{system.cost}}"></label>
+        <label class="field"><span>{{localize "PT.WeightK"}}</span><input type="number" name="system.weight" value="{{system.weight}}"></label>
+        <label class="field"><span>{{localize "PT.PriceRange"}}</span><input type="text" name="system.priceRange" value="{{system.priceRange}}"></label>
+        <label class="field"><span>{{localize "PT.SGEncumbrance"}}</span><input type="text" name="system.sgEncumbrance" value="{{system.sgEncumbrance}}"></label>
+      {{/if}}
+        <label class="field wide"><span>{{localize "PT.Source"}}</span><input type="text" name="system.source" value="{{system.source}}"></label>
+      </div>
+      </fieldset>
+      {{#if editable}}{{#unless unlocked}}<p class="hint">{{localize "PT.LockedHint"}}</p>{{/unless}}{{/if}}
+    </section>
+  </section>
+</div>

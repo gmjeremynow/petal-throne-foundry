@@ -1,0 +1,235 @@
+{
+  "id": "petal-throne",
+  "title": "Empire of the Petal Throne (Unofficial)",
+  "description": "An unofficial fan-made system for the 1975 Empire of the Petal Throne rules by M.A.R. Barker, with an optional Swords & Glory background generator. This work is a Fan Publication, an unofficial work not approved for Tékumel. Tékumel, the Empire of the Petal Throne, and all related products and materials are protected by national and international intellectual property law. For additional information, please visit www.tekumelfoundation.org",
+  "version": "0.7.7",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "GM Jeremy",
+      "url": "https://github.com/gmjeremynow"
+    }
+  ],
+  "esmodules": [
+    "module/petal-throne.mjs"
+  ],
+  "styles": [
+    "styles/petal-throne.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      },
+      "creature": {
+        "htmlFields": [
+          "biography",
+          "notes"
+        ]
+      }
+    },
+    "Item": {
+      "weapon": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "armour": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "skill": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "spell": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "eye": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "equipment": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "magicItem": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "rules",
+      "label": "Rules Reference",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "skills",
+      "label": "Skills",
+      "path": "packs/skills",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eyes",
+      "label": "Eyes",
+      "path": "packs/eyes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "amulets",
+      "label": "Amulets",
+      "path": "packs/amulets",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment",
+      "label": "Weapons, Armour and Gear",
+      "path": "packs/equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sg-gear",
+      "label": "Swords & Glory Gear",
+      "path": "packs/sg-gear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures of Tékumel",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magic-items",
+      "label": "Magic Items and Books",
+      "path": "packs/magic-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "treasure-tables",
+      "label": "Treasure Tables",
+      "path": "packs/treasure-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Empire of the Petal Throne",
+      "sorting": "m",
+      "color": "#8c2f1d",
+      "packs": [
+        "rules",
+        "skills",
+        "spells",
+        "eyes",
+        "amulets",
+        "equipment",
+        "sg-gear",
+        "creatures",
+        "magic-items",
+        "treasure-tables",
+        "macros"
+      ]
+    }
+  ],
+  "grid": {
+    "distance": 10,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "hp",
+  "initiative": "1d6",
+  "background": "systems/petal-throne/assets/background.webp",
+  "media": [
+    { "type": "setup", "url": "systems/petal-throne/assets/background.webp", "thumbnail": "systems/petal-throne/assets/thumbnail.webp" }
+  ],
+  "url": "https://github.com/gmjeremynow/petal-throne-foundry",
+  "manifest": "https://github.com/gmjeremynow/petal-throne-foundry/releases/latest/download/system.json",
+  "download": "https://github.com/gmjeremynow/petal-throne-foundry/releases/download/v0.7.7/petal-throne.zip",
+  "license": "LICENSE.md",
+  "readme": "README.md"
+}

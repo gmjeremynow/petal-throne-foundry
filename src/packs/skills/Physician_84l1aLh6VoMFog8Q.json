@@ -1,0 +1,22 @@
+{
+  "_id": "84l1aLh6VoMFog8Q",
+  "name": "Physician",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Heals 2 hit points a day. A physician-priest adds 2 to Cure Light or Cure Serious Wounds (not to Eyes).</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!84l1aLh6VoMFog8Q"
+}

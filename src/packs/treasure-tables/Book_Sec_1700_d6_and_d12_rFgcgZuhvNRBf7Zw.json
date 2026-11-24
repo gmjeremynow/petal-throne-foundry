@@ -1,0 +1,426 @@
+{
+  "_id": "rFgcgZuhvNRBf7Zw",
+  "name": "Book (Sec. 1700: d6 and d12)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d24",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "5AgcX2nF44X13n1u",
+      "type": "document",
+      "name": "Korúnkoi hiQiyór",
+      "text": "Korúnkoi hiQiyór",
+      "description": "Korúnkoi hiQiyór",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.5AgcX2nF44X13n1u",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.knuhJjFigLOaJ4ky"
+    },
+    {
+      "_id": "1WvHmYNizaIRuriR",
+      "type": "document",
+      "name": "Korúnkoi hiSsánu hiMissúma",
+      "text": "Korúnkoi hiSsánu hiMissúma",
+      "description": "Korúnkoi hiSsánu hiMissúma",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.1WvHmYNizaIRuriR",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.idHEvZQpdBHWQYok"
+    },
+    {
+      "_id": "IhBzHc8GjoulpcoV",
+      "type": "document",
+      "name": "Korúnkoi hiKhéshdu hiMrúrgayal",
+      "text": "Korúnkoi hiKhéshdu hiMrúrgayal",
+      "description": "Korúnkoi hiKhéshdu hiMrúrgayal",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.IhBzHc8GjoulpcoV",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.Q18MpudteTELxUSt"
+    },
+    {
+      "_id": "Szu72wiY2C6WuyBz",
+      "type": "document",
+      "name": "Korúnkoi hiSsyúsayal",
+      "text": "Korúnkoi hiSsyúsayal",
+      "description": "Korúnkoi hiSsyúsayal",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.Szu72wiY2C6WuyBz",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.M8iik4IYTSQ8eL7m"
+    },
+    {
+      "_id": "zx6wCPQ0UYyS0iRc",
+      "type": "document",
+      "name": "Timándálikh hitúplanMitlándálisayal",
+      "text": "Timándálikh hitúplanMitlándálisayal",
+      "description": "Timándálikh hitúplanMitlándálisayal",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.zx6wCPQ0UYyS0iRc",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.V9YV83yavN3BN6TZ"
+    },
+    {
+      "_id": "IR5GC5WGMg4cyKmc",
+      "type": "document",
+      "name": "Chégudálikh hiQón",
+      "text": "Chégudálikh hiQón",
+      "description": "Chégudálikh hiQón",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.IR5GC5WGMg4cyKmc",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.q5geDBYrK8QNEa3B"
+    },
+    {
+      "_id": "j8gZQnFNfnlEkDfB",
+      "type": "document",
+      "name": "Chánisayal hiHayá",
+      "text": "Chánisayal hiHayá",
+      "description": "Chánisayal hiHayá",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.j8gZQnFNfnlEkDfB",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.SP5Gxv8DEyEiEk0H"
+    },
+    {
+      "_id": "f86EH60smtt4dsQA",
+      "type": "document",
+      "name": "Korúnkoi hiKérdusayal",
+      "text": "Korúnkoi hiKérdusayal",
+      "description": "Korúnkoi hiKérdusayal",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.f86EH60smtt4dsQA",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.XdWmQ05vWrBo2lo5"
+    },
+    {
+      "_id": "JXJerQfUQf02SqxC",
+      "type": "document",
+      "name": "Dímlalikh tlaSsúgayal",
+      "text": "Dímlalikh tlaSsúgayal",
+      "description": "Dímlalikh tlaSsúgayal",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.JXJerQfUQf02SqxC",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.7zpYlJkAKacUKjWZ"
+    },
+    {
+      "_id": "QqhRqZXEjChmIpAb",
+      "type": "document",
+      "name": "Hénganikh hiZhálmigan",
+      "text": "Hénganikh hiZhálmigan",
+      "description": "Hénganikh hiZhálmigan",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.QqhRqZXEjChmIpAb",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.wHxOTYOjDmv1eWd6"
+    },
+    {
+      "_id": "EiXyGJaVMWwvKxaN",
+      "type": "document",
+      "name": "Li'ób Miffánsa Missrábchi'i MikKsárulkchi",
+      "text": "Li'ób Miffánsa Missrábchi'i MikKsárulkchi",
+      "description": "Li'ób Miffánsa Missrábchi'i MikKsárulkchi",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.EiXyGJaVMWwvKxaN",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.y61T5uJvvdUNdrsU"
+    },
+    {
+      "_id": "FApKqVrUzf9Ol5IY",
+      "type": "document",
+      "name": "Chnéshaq KhyChnéshayalu",
+      "text": "Chnéshaq KhyChnéshayalu",
+      "description": "Chnéshaq KhyChnéshayalu",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.FApKqVrUzf9Ol5IY",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.NNvbjlcOimPCFP72"
+    },
+    {
+      "_id": "ek19l4eiQ6l2imug",
+      "type": "document",
+      "name": "Kízhaga Dlittlúmri",
+      "text": "Kízhaga Dlittlúmri",
+      "description": "Kízhaga Dlittlúmri",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.ek19l4eiQ6l2imug",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.VOl4tdHkTmHVFOaO"
+    },
+    {
+      "_id": "oDOxkcLr5MowyRcS",
+      "type": "document",
+      "name": "Jnéshtlaq Kéq Yóssu",
+      "text": "Jnéshtlaq Kéq Yóssu",
+      "description": "Jnéshtlaq Kéq Yóssu",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.oDOxkcLr5MowyRcS",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.mlMiLvmZdgVGqgvp"
+    },
+    {
+      "_id": "wA9MQHj6wjADAbwd",
+      "type": "document",
+      "name": "Guppíshsha Hrákkuq Mazhzhátl",
+      "text": "Guppíshsha Hrákkuq Mazhzhátl",
+      "description": "Guppíshsha Hrákkuq Mazhzhátl",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.wA9MQHj6wjADAbwd",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.HHKU3spJZYmWppvs"
+    },
+    {
+      "_id": "qKKJmmcAaThhVDuP",
+      "type": "document",
+      "name": "Zrú Hsún Tí Ch'à",
+      "text": "Zrú Hsún Tí Ch'à",
+      "description": "Zrú Hsún Tí Ch'à",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.qKKJmmcAaThhVDuP",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.E8s1UvjbPY6zxOcr"
+    },
+    {
+      "_id": "R1qHrqoRDIiqWl7z",
+      "type": "document",
+      "name": "Jurrúmra Miye'éklun Tlakotáni",
+      "text": "Jurrúmra Miye'éklun Tlakotáni",
+      "description": "Jurrúmra Miye'éklun Tlakotáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.R1qHrqoRDIiqWl7z",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.7AaABYjZ6gJD4d9p"
+    },
+    {
+      "_id": "JvfrvrrOsTq25O4o",
+      "type": "document",
+      "name": "Duré'ep Tkásh Sneqsíva",
+      "text": "Duré'ep Tkásh Sneqsíva",
+      "description": "Duré'ep Tkásh Sneqsíva",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.JvfrvrrOsTq25O4o",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.Yx2ijc1HwI0LOCdj"
+    },
+    {
+      "_id": "ffb0OiZMkpYVSG6N",
+      "type": "document",
+      "name": "Hlórush Zhdanáwi Migún",
+      "text": "Hlórush Zhdanáwi Migún",
+      "description": "Hlórush Zhdanáwi Migún",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.ffb0OiZMkpYVSG6N",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.dxCOYIRIl6bBkk9w"
+    },
+    {
+      "_id": "oCWClViogiTG69Kd",
+      "type": "document",
+      "name": "Mó'om Té'ep Srásy",
+      "text": "Mó'om Té'ep Srásy",
+      "description": "Mó'om Té'ep Srásy",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.oCWClViogiTG69Kd",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.UkAJoGOw7opAabED"
+    },
+    {
+      "_id": "cG4kWmhEaUAIwEPs",
+      "type": "document",
+      "name": "Barukán Lli Fèshdrubál-Chrén",
+      "text": "Barukán Lli Fèshdrubál-Chrén",
+      "description": "Barukán Lli Fèshdrubál-Chrén",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.cG4kWmhEaUAIwEPs",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.4EIRdNYLz3GFgOcL"
+    },
+    {
+      "_id": "a2zJSCkUERU8pCT4",
+      "type": "document",
+      "name": "Du'on Duqala Toruuna",
+      "text": "Du'on Duqala Toruuna",
+      "description": "Du'on Duqala Toruuna",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.a2zJSCkUERU8pCT4",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.s28FutOXRP8CTrUD"
+    },
+    {
+      "_id": "qqsYpxcTC8pWlttZ",
+      "type": "document",
+      "name": "Mi'ithurish Hrshenga Mmeghusane",
+      "text": "Mi'ithurish Hrshenga Mmeghusane",
+      "description": "Mi'ithurish Hrshenga Mmeghusane",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.qqsYpxcTC8pWlttZ",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.dsPxxOYQpbgaxJNm"
+    },
+    {
+      "_id": "rSO3nkIZBC8wgeqF",
+      "type": "document",
+      "name": "Púrohlan Znamríshsha Kagékte",
+      "text": "Púrohlan Znamríshsha Kagékte",
+      "description": "Púrohlan Znamríshsha Kagékte",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!rFgcgZuhvNRBf7Zw.rSO3nkIZBC8wgeqF",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.8T7rg68nX1xFCY8k"
+    }
+  ],
+  "folder": "b0c2cRbpuZuv6NHJ",
+  "sort": 19000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!rFgcgZuhvNRBf7Zw"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "QjNeSM0wWSbGQ1qJ",
+  "name": "Shield of Defense",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>User and 1-6 companions are protected from missiles, the Energy Bolt, the Hands of Krá and Telekinesis, and from creatures and soldiers of levels I-III.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 18,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "20 ft",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 18,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!QjNeSM0wWSbGQ1qJ"
+}

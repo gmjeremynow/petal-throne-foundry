@@ -1,0 +1,35 @@
+{
+  "_id": "cMKYvXgQ7iZD4gCB",
+  "name": "The Infernal Barrier",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>A glittering wall before the user: enemies pass only on 18+ on d20; +2 to the score needed to hit the user; 75% to stop Cold or the Eye of Frigid Breath; stops walls of water and ice.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 10,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "3 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 10,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!cMKYvXgQ7iZD4gCB"
+}

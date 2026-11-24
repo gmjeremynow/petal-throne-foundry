@@ -1,0 +1,27 @@
+{
+  "_id": "wu2kAyM69Tkc7sbb",
+  "name": "Item of Jewellery",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 0,
+    "weight": 350,
+    "quantity": 1,
+    "category": "treasure",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 76,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wu2kAyM69Tkc7sbb"
+}

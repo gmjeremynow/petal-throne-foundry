@@ -1,0 +1,25 @@
+{
+  "_id": "8mbNc44HSbT30kQz",
+  "name": "Helmet (Chlén-hide)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 13,
+    "weight": 600,
+    "quantity": 1,
+    "armourType": "helmet",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 33,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8mbNc44HSbT30kQz"
+}

@@ -1,0 +1,324 @@
+<div class="pt-sheet-inner">
+  <header class="sheet-header">
+    <img class="profile" src="{{actor.img}}" alt="{{actor.name}}" data-action="editImage" data-tooltip="{{actor.name}}">
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'PT.Name'}}"></h1>
+      <div class="header-grid">
+        <label>{{localize "PT.Profession"}}
+          <select name="system.profession">{{selectOptions professionChoices selected=system.profession}}</select></label>
+        <label>{{localize "PT.Species"}}
+          <select name="system.species">{{selectOptions speciesChoices selected=system.species}}</select></label>
+        <label>{{localize "PT.Alignment"}}
+          <select name="system.alignment">{{selectOptions alignmentChoices selected=system.alignment}}</select></label>
+        <label>{{localize "PT.Deity"}}
+          <select name="system.deity">{{selectOptions deityChoices selected=system.deity}}</select></label>
+      </div>
+      <div class="header-stats">
+        <div class="stat"><span class="stat-label">{{localize "PT.Level"}}</span>
+          <span class="stat-value">{{system.level}}</span>
+          <span class="stat-sub">{{system.levelTitle}}</span></div>
+        <div class="stat"><span class="stat-label">{{localize "PT.XP"}}</span>
+          <input class="stat-input" type="number" name="system.xp" value="{{system.xp}}">
+          <span class="stat-sub">{{localize "PT.Next"}}: {{system.nextLevelXP}}</span></div>
+        <div class="stat"><span class="stat-label">{{localize "PT.HitPoints"}}</span>
+          <span class="hp"><input type="number" name="system.hp.value" value="{{system.hp.value}}"> / <input type="number" name="system.hp.max" value="{{system.hp.max}}"></span>
+          <span class="stat-sub">{{localize "PT.HitDice"}} {{system.hitDiceLabel}}</span></div>
+        <div class="stat"><span class="stat-label">{{localize "PT.ArmourClass"}}</span>
+          <span class="stat-value">{{system.ac}}</span>
+          <span class="stat-sub">{{#if system.acMagic}}{{localize "PT.MagicArmour"}} {{ptSigned system.acMagic}}{{else}}&nbsp;{{/if}}</span></div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sheet-tabs tabs" data-group="primary">
+    {{#each tabs}}<a class="item {{#if (ptEq ../tab id)}}active{{/if}}" data-tab="{{id}}" data-group="primary">{{label}}</a>{{/each}}
+  </nav>
+
+  <section class="sheet-body">
+
+    {{!-- MAIN --}}
+    <section class="tab {{#if (ptEq tab 'main')}}active{{/if}}" data-tab="main" data-group="primary">
+      <div class="two-col">
+        <div>
+          <h3>{{localize "PT.BasicTalents"}}</h3>
+          <table class="pt-attrs">
+            <thead><tr><th></th><th>{{localize "PT.Score"}}</th><th>{{localize "PT.Rating"}}</th><th>{{localize "PT.Hit"}}</th><th>{{localize "PT.Dmg"}}</th></tr></thead>
+            <tbody>
+            {{#each attributeRows}}
+              <tr data-tooltip="{{notes}}">
+                <th><a class="pt-talent-check" data-action="talentCheck" data-talent="{{key}}" data-tooltip="PT.TalentCheckHint"><i class="fa-solid fa-dice-d20"></i> {{label}}</a></th>
+                <td><input type="number" name="system.attributes.{{key}}.value" value="{{value}}" min="0" max="100">{{#if fixed}}<span class="pt-talent-mod" data-tooltip="{{modTip}}">&rarr; {{total}}</span>{{else}}{{#if mod}}<span class="pt-talent-mod" data-tooltip="{{modTip}}">{{ptSigned mod}} = {{total}}</span>{{/if}}{{/if}}</td>
+                <td class="band">{{band}}</td>
+                <td>{{#if hit}}{{ptSigned hit}}{{/if}}</td>
+                <td>{{#if dmg}}{{ptSigned dmg}}{{/if}}</td>
+              </tr>
+              {{#if notes}}<tr class="note-row"><td></td><td colspan="4">{{notes}}</td></tr>{{/if}}
+            {{/each}}
+            </tbody>
+          </table>
+          {{#if speciesNote}}<p class="hint pt-nation"><b>{{speciesNote.label}}:</b> {{speciesNote.note}}</p>{{/if}}
+          {{#if nation}}<p class="hint pt-nation"><b>{{nation.label}}:</b> {{nation.note}}</p>{{/if}}
+          <div class="button-row">
+            {{#if system.finished}}
+              {{#if isGM}}<button type="button" data-action="reopenCharacter" data-tooltip="PT.Finish.ReopenHint"><i class="fa-solid fa-lock-open"></i> {{localize "PT.Finish.Reopen"}}</button>{{/if}}
+            {{else}}
+              <button type="button" data-action="rollCharacter"><i class="fa-solid fa-dice"></i> {{localize "PT.RollCharacter"}}</button>
+              <button type="button" data-action="finishCharacter" data-tooltip="PT.Finish.Hint"><i class="fa-solid fa-lock"></i> {{localize "PT.Finish.Label"}}</button>
+            {{/if}}
+            <button type="button" data-action="actionCheck"><i class="fa-solid fa-hand-fist"></i> {{localize "PT.ActionCheck"}} ({{system.actionChance}}%)</button>
+          </div>
+        </div>
+
+        <div>
+          <h3>{{localize "PT.Combat"}}</h3>
+          <div class="kv-grid">
+            <span>{{localize "PT.HitBonus"}}</span><b>{{ptSigned system.hitBonus}}</b>
+            <span>{{localize "PT.DmgBonus"}}</span><b>{{ptSigned system.dmgBonus}}</b>
+            <span>{{localize "PT.DamageRow"}}</span><b>{{system.damageLevel}}</b>
+            {{#if isCaster}}<span>{{localize "PT.SpellChance"}}</span><b>{{system.spellChance}}%</b>{{/if}}
+            <span>{{localize "PT.ReviveChance"}}</span><b>{{system.reviveChance}}%</b>
+            <span>{{localize "PT.Load.Move"}}</span><b class="pt-load-{{system.load.band}}" data-tooltip="{{system.load.total}} {{localize 'PT.KaitarWeight'}}">{{#if system.load.move}}{{system.load.move}}" ({{localize (concat "PT.Load.Band." system.load.band)}}){{else}}{{localize "PT.Load.OverShort"}}{{/if}}</b>
+          </div>
+          <details class="adjust">
+            <summary>{{localize "PT.Adjustments"}}</summary>
+            <div class="kv-grid">
+              <span>{{localize "PT.AutoAC"}}</span><input type="checkbox" name="system.armour.auto" {{checked system.armour.auto}}>
+              <span>{{localize "PT.ManualAC"}}</span><input type="number" name="system.armour.ac" value="{{system.armour.ac}}" min="1" max="9" {{disabled system.armour.auto}}>
+              <span>{{localize "PT.ExtraMagicArmour"}}</span><input type="number" name="system.armour.magic" value="{{system.armour.magic}}">
+              <span>{{localize "PT.ExtraHit"}}</span><input type="number" name="system.bonuses.hit" value="{{system.bonuses.hit}}">
+              <span>{{localize "PT.ExtraDmg"}}</span><input type="number" name="system.bonuses.dmg" value="{{system.bonuses.dmg}}">
+              <span>{{localize "PT.ExtraSpell"}}</span><input type="number" name="system.bonuses.spell" value="{{system.bonuses.spell}}">
+              <span>{{localize "PT.ExtraSave"}}</span><input type="number" name="system.bonuses.save" value="{{system.bonuses.save}}">
+              <span>{{localize "PT.LevelOverride"}}</span><input type="number" name="system.levelOverride" value="{{system.levelOverride}}" min="0">
+            </div>
+          </details>
+
+          <h3>{{localize "PT.SavingThrows"}}</h3>
+          <div class="saves">
+            {{#each saves}}
+              <button type="button" data-action="save" data-save="{{key}}">{{label}} <b>{{target}}</b></button>
+            {{/each}}
+          </div>
+
+          <h3>{{localize "PT.Advancement"}}</h3>
+          <div class="button-row">
+            <button type="button" data-action="awardXP"><i class="fa-solid fa-coins"></i> {{localize "PT.AwardXP"}}</button>
+            <button type="button" data-action="levelUp" class="{{#if levelUpReady}}glow{{/if}}"><i class="fa-solid fa-arrow-up"></i> {{localize "PT.LevelUp"}}</button>
+          </div>
+          <p class="hint">{{localize "PT.XPShare"}}: {{system.xpBonus}}% {{localize "PT.Bonus"}}</p>
+          <div class="button-row">
+            <button type="button" data-action="divine"><i class="fa-solid fa-sun"></i> {{localize "PT.DivineIntervention"}}</button>
+            <button type="button" data-action="revive"><i class="fa-solid fa-heart-pulse"></i> {{localize "PT.Revive"}}</button>
+            <button type="button" data-action="rest"><i class="fa-solid fa-bed"></i> {{localize "PT.RestDay"}}</button>
+          </div>
+          {{#if system.divine.lastUsed}}<p class="hint">{{localize "PT.DivineLast"}}: {{system.divine.lastUsed}}</p>{{/if}}
+        </div>
+      </div>
+
+      <h3>{{localize "PT.Weapons"}} {{#if editable}}<a class="add" data-action="itemCreate" data-type="weapon"><i class="fa-solid fa-plus"></i></a>{{/if}}</h3>
+      <ol class="item-list">
+        {{#each weapons as |item|}}
+        <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+          <img class="item-img" src="{{item.img}}" alt="" data-action="itemUse" data-tooltip="PT.Attack">
+          <a class="item-name" data-action="itemUse">{{item.name}}{{#with (lookup @root.restrict item.id)}} <i class="fa-solid fa-triangle-exclamation pt-restrict" data-tooltip="{{this}}"></i>{{/with}}</a>
+          <span class="item-meta">{{#if item.system.fixedDamage}}{{item.system.fixedDamage}}{{else}}{{item.system.die}}{{#if item.system.damagePlus}}{{ptSigned item.system.damagePlus}}{{/if}}{{/if}}{{#if item.system.magic}} &middot; {{ptSigned item.system.magic}}{{/if}}{{#if item.system.minStr}} &middot; STR {{item.system.minStr}}+{{/if}}</span>
+          <span class="item-controls">
+            <a data-action="itemToggle" class="{{#if item.system.equipped}}on{{/if}}" data-tooltip="PT.Equipped"><i class="fa-solid fa-hand"></i></a>
+            {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+          </span>
+        </li>
+        {{/each}}
+      </ol>
+    </section>
+
+    {{!-- SKILLS --}}
+    <section class="tab {{#if (ptEq tab 'skills')}}active{{/if}}" data-tab="skills" data-group="primary">
+      <p class="hint">{{localize "PT.SkillsHint"}}</p>
+      {{> "systems/petal-throne/templates/actor/slot-bar.hbs" slots=slots which="skills" editable=editable}}
+      {{#if editable}}
+      <div class="button-row">
+        <button type="button" data-action="itemCreate" data-type="skill" data-group="plebeian"><i class="fa-solid fa-plus"></i> {{localize "PT.SkillGroup.plebeian"}}</button>
+        <button type="button" data-action="itemCreate" data-type="skill" data-group="skilled"><i class="fa-solid fa-plus"></i> {{localize "PT.SkillGroup.skilled"}}</button>
+        <button type="button" data-action="itemCreate" data-type="skill" data-group="noble"><i class="fa-solid fa-plus"></i> {{localize "PT.SkillGroup.noble"}}</button>
+        <button type="button" data-action="itemCreate" data-type="skill" data-group="{{system.profession}}"><i class="fa-solid fa-plus"></i> {{localize "PT.ProfessionalSkill"}}</button>
+        <button type="button" data-action="itemCreate" data-type="skill" data-group="language"><i class="fa-solid fa-plus"></i> {{localize "PT.SkillGroup.language"}}</button>
+      </div>
+      {{/if}}
+      {{#each skillGroups}}
+        <h3>{{label}}</h3>
+        <ol class="item-list">
+          {{#each items as |item|}}
+          <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+            <img class="item-img" src="{{item.img}}" alt="" data-action="itemUse">
+            <a class="item-name" data-action="itemUse">{{#if item.system.rank}}{{item.system.rank}}. {{/if}}{{item.name}}</a>
+            <span class="item-meta">{{#if item.system.usesChanceTable}}<i class="fa-solid fa-dice-d20" data-tooltip="PT.UsesChanceTable"></i>{{/if}}</span>
+            <span class="item-controls">
+              <a data-action="itemChat"><i class="fa-solid fa-comment"></i></a>
+              {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+            </span>
+          </li>
+          {{/each}}
+        </ol>
+      {{/each}}
+    </section>
+
+    {{!-- SPELLS --}}
+    <section class="tab {{#if (ptEq tab 'spells')}}active{{/if}}" data-tab="spells" data-group="primary">
+      <div class="kv-grid inline">
+        <span>{{localize "PT.SpellChance"}}</span><b>{{system.spellChance}}%</b>
+        <span>{{localize "PT.MaxSpellGroup"}}</span><b>{{system.maxSpellGroup}}</b>
+      </div>
+      {{> "systems/petal-throne/templates/actor/slot-bar.hbs" slots=slots which="spells" editable=editable}}
+      <div class="button-row">
+        <button type="button" data-action="regainSpells"><i class="fa-solid fa-sun"></i> {{localize "PT.RegainSpells"}}</button>
+        {{#if editable}}
+        <button type="button" data-action="itemCreate" data-type="spell" data-kind="professional"><i class="fa-solid fa-plus"></i> {{localize "PT.SpellKind.professional"}}</button>
+        <button type="button" data-action="itemCreate" data-type="spell" data-kind="bonus"><i class="fa-solid fa-plus"></i> {{localize "PT.SpellKind.bonus"}}</button>
+        {{/if}}
+      </div>
+      {{#each spellGroups}}
+        <h3>{{label}}</h3>
+        <ol class="item-list">
+          {{#each items as |item|}}
+          <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+            <img class="item-img" src="{{item.img}}" alt="" data-action="itemUse" data-tooltip="PT.Cast">
+            <a class="item-name" data-action="itemUse">{{item.name}}</a>
+            <span class="item-meta">{{item.system.range}}{{#if item.system.duration}} &middot; {{item.system.duration}}{{/if}}</span>
+            <span class="uses">{{#if item.system.unlimited}}&infin;{{else}}{{item.system.uses.value}}/{{item.system.uses.max}}{{/if}}</span>
+            <span class="item-controls">
+              <a data-action="usesReset" data-tooltip="PT.ResetUses"><i class="fa-solid fa-rotate"></i></a>
+              <a data-action="itemChat"><i class="fa-solid fa-comment"></i></a>
+              {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+            </span>
+          </li>
+          {{/each}}
+        </ol>
+      {{/each}}
+    </section>
+
+    {{!-- DEVICES --}}
+    <section class="tab {{#if (ptEq tab 'devices')}}active{{/if}}" data-tab="devices" data-group="primary">
+      {{#unless system.canUseEyes}}<p class="pt-warn">{{localize "PT.Note.noEyes"}}</p>{{/unless}}
+      <h3>{{localize "PT.Eyes"}} {{#if editable}}<a class="add" data-action="itemCreate" data-type="eye"><i class="fa-solid fa-plus"></i></a>{{/if}}</h3>
+      <ol class="item-list">
+        {{#each eyes as |item|}}
+        <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+          <img class="item-img" src="{{item.img}}" alt="" data-action="itemUse" data-tooltip="PT.Use">
+          <a class="item-name" data-action="itemUse">{{item.name}}</a>
+          <span class="item-meta">{{item.system.range}}</span>
+          <span class="uses" data-tooltip="PT.Charges">{{item.system.charges.value}}</span>
+          <span class="item-controls">
+            <a data-action="itemChat"><i class="fa-solid fa-comment"></i></a>
+            {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+          </span>
+        </li>
+        {{/each}}
+      </ol>
+      <h3>{{localize "PT.MagicItems"}} {{#if editable}}<a class="add" data-action="itemCreate" data-type="magicItem"><i class="fa-solid fa-plus"></i></a>{{/if}}</h3>
+      <ol class="item-list">
+        {{#each magicItems as |item|}}
+        <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+          <img class="item-img" src="{{item.img}}" alt="" data-action="itemUse">
+          <a class="item-name" data-action="itemUse">{{item.name}}</a>
+          <span class="item-meta">{{item.system.category}}</span>
+          <span class="uses">{{#if item.system.uses.max}}{{item.system.uses.value}}/{{item.system.uses.max}}{{/if}}</span>
+          <span class="item-controls">
+            <a data-action="itemChat"><i class="fa-solid fa-comment"></i></a>
+            {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+          </span>
+        </li>
+        {{/each}}
+      </ol>
+    </section>
+
+    {{!-- GEAR --}}
+    <section class="tab {{#if (ptEq tab 'gear')}}active{{/if}}" data-tab="gear" data-group="primary">
+      <h3>{{localize "PT.Wealth"}}</h3>
+      <div class="kv-grid inline">
+        <span>{{localize "PT.Kaitars"}}</span><input type="number" name="system.wealth.kaitars" value="{{system.wealth.kaitars}}">
+        <span>{{localize "PT.Hlash"}}</span><input type="number" name="system.wealth.hlash" value="{{system.wealth.hlash}}">
+        <span>{{localize "PT.Qirgal"}}</span><input type="number" name="system.wealth.qirgal" value="{{system.wealth.qirgal}}">
+      </div>
+      <label class="pt-coins-carried"><input type="checkbox" name="system.wealth.carried" {{checked system.wealth.carried}}> {{localize "PT.Load.CoinsCarried"}}</label>
+      <div class="pt-load pt-load-{{system.load.band}}">
+        <span><b>{{localize "PT.Load.Label"}}:</b> {{system.load.total}} {{localize "PT.KaitarWeight"}}</span>
+        <span class="hint">({{localize "PT.Load.Gear"}} {{system.load.gear}} + {{localize "PT.Load.Coins"}} {{system.load.coins}})</span>
+        <span><b>{{localize "PT.Load.Move"}}:</b> {{#if system.load.move}}{{system.load.move}}" &middot; {{localize (concat "PT.Load.Band." system.load.band)}}{{else}}{{localize "PT.Load.Over"}}{{/if}}</span>
+        {{#if system.load.move}}<span class="hint">{{localize "PT.Load.NextAt"}} {{system.load.next}}</span>{{/if}}
+      </div>
+      <p class="hint">{{localize "PT.Load.Hint"}}{{#if (ptGt system.load.scale 1)}} {{localize "PT.Load.Scaled"}} &times;{{system.load.scale}}.{{/if}}</p>
+
+      <h3>{{localize "PT.ArmourHeading"}} {{#if editable}}<a class="add" data-action="itemCreate" data-type="armour"><i class="fa-solid fa-plus"></i></a>{{/if}}</h3>
+      <ol class="item-list">
+        {{#each armour as |item|}}
+        <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+          <img class="item-img" src="{{item.img}}" alt="" data-action="itemChat">
+          <a class="item-name" data-action="itemEdit">{{item.name}}{{#with (lookup @root.restrict item.id)}} <i class="fa-solid fa-triangle-exclamation pt-restrict" data-tooltip="{{this}}"></i>{{/with}}</a>
+          <span class="item-meta">{{ptLabel @root.config.armourTypes item.system.armourType}}{{#if item.system.magic}} {{ptSigned item.system.magic}}{{/if}}</span>
+          <span class="item-controls">
+            <a data-action="itemToggle" class="{{#if item.system.equipped}}on{{/if}}" data-tooltip="PT.Equipped"><i class="fa-solid fa-shield-halved"></i></a>
+            {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+          </span>
+        </li>
+        {{/each}}
+      </ol>
+      <h3>{{localize "PT.Equipment"}} {{#if editable}}<a class="add" data-action="itemCreate" data-type="equipment"><i class="fa-solid fa-plus"></i></a>{{/if}}</h3>
+      <ol class="item-list">
+        {{#each equipment as |item|}}
+        <li class="item-row" data-item-id="{{item.id}}" draggable="true">
+          <img class="item-img" src="{{item.img}}" alt="" data-action="itemChat">
+          <a class="item-name" data-action="itemEdit">{{item.name}}</a>
+          <span class="item-meta">&times;{{item.system.quantity}}{{#if item.system.weight}} &middot; {{item.system.weight}}{{/if}}</span>
+          <span class="item-controls">
+            <a data-action="itemChat"><i class="fa-solid fa-comment"></i></a>
+            {{#if @root.editable}}<a data-action="itemEdit"><i class="fa-solid fa-pen"></i></a><a data-action="itemDelete"><i class="fa-solid fa-trash"></i></a>{{/if}}
+          </span>
+        </li>
+        {{/each}}
+      </ol>
+    </section>
+
+    {{!-- BACKGROUND --}}
+    <section class="tab {{#if (ptEq tab 'background')}}active{{/if}}" data-tab="background" data-group="primary">
+      {{#if system.finished}}
+      <p class="hint"><i class="fa-solid fa-lock"></i> {{localize "PT.Finish.Locked"}}</p>
+      {{else if system.background.locked}}
+      <p class="hint"><i class="fa-solid fa-lock"></i> {{localize "PT.SG.Locked"}}</p>
+      {{#if isGM}}
+      <div class="button-row">
+        <button type="button" disabled><i class="fa-solid fa-scroll"></i> {{localize "PT.SG.Background"}}</button>
+        <button type="button" data-action="toggleBackgroundLock"><i class="fa-solid fa-lock-open"></i> {{localize "PT.SG.Unlock"}}</button>
+      </div>
+      {{/if}}
+      {{else}}
+      <div class="button-row">
+        <button type="button" data-action="sgBackground"><i class="fa-solid fa-scroll"></i> {{localize "PT.SG.Background"}}</button>
+        {{#if isGM}}<button type="button" data-action="toggleBackgroundLock"><i class="fa-solid fa-lock"></i> {{localize "PT.SG.Lock"}}</button>{{/if}}
+      </div>
+      <p class="hint">{{localize "PT.SG.TabHint"}}</p>
+      {{/if}}
+      <div class="kv-grid wide">
+        <span>{{localize "PT.SexLabel"}}</span><select name="system.sex" {{#if bgLocked}}disabled{{/if}}>{{selectOptions sexChoices selected=system.sex}}</select>
+        <span>{{localize "PT.Aridani"}}</span><input type="checkbox" name="system.aridani" {{checked system.aridani}} {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.homeland"}}</span><input type="text" name="system.background.homeland" value="{{system.background.homeland}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.clan"}}</span><input type="text" name="system.background.clan" value="{{system.background.clan}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.lineage"}}</span><input type="text" name="system.background.lineage" value="{{system.background.lineage}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.socialStatus"}}</span><input type="text" name="system.background.socialStatus" value="{{system.background.socialStatus}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.familyWealth"}}</span><input type="text" name="system.background.familyWealth" value="{{system.background.familyWealth}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.languages"}}</span><input type="text" name="system.background.languages" value="{{system.background.languages}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.education"}}</span><input type="text" name="system.background.education" value="{{system.background.education}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.age"}}</span><input type="text" name="system.background.age" value="{{system.background.age}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.height"}}</span><input type="text" name="system.background.height" value="{{system.background.height}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.BG.build"}}</span><input type="text" name="system.background.build" value="{{system.background.build}}" {{#if bgLocked}}disabled{{/if}}>
+        <span>{{localize "PT.Revivals"}}</span><input type="number" name="system.revivals" value="{{system.revivals}}" min="0">
+        <span>{{localize "PT.DivineBarred"}}</span><input type="checkbox" name="system.divine.barred" {{checked system.divine.barred}}>
+      </div>
+    </section>
+
+    {{!-- NOTES --}}
+    <section class="tab {{#if (ptEq tab 'notes')}}active{{/if}}" data-tab="notes" data-group="primary">
+      {{> "systems/petal-throne/templates/actor/rich-text.hbs" field="biography" label="PT.Biography" enriched=enrichedBio raw=system.biography editingText=editingText.biography canEditText=editable}}
+      {{> "systems/petal-throne/templates/actor/rich-text.hbs" field="notes" label="PT.Notes" enriched=enrichedNotes raw=system.notes editingText=editingText.notes canEditText=editable}}
+    </section>
+  </section>
+</div>

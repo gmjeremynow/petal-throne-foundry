@@ -1,0 +1,58 @@
+{
+  "_id": "0xn9zLnELhk6it5f",
+  "name": "Dnélu",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "4+1",
+    "hp": {
+      "value": 15,
+      "max": 15
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1-2",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 2-7; treasure B: 10",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (3); stats Sec. 1222 no. 11",
+    "biography": "<p>Hairy, six-legged ambushers with slender rod-like antennae and a barbed, prehensile tongue.</p><p>They dig dens hidden under a thin layer of grass or sod and leap out at travellers, trying to drag a victim down to eat at leisure. Only 15% chance they attack a party of more than 6. They hoard bright, glittering things and never check morale.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 11,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dnélu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!0xn9zLnELhk6it5f"
+}

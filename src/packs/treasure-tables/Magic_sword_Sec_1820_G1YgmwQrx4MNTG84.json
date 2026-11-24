@@ -1,0 +1,162 @@
+{
+  "_id": "G1YgmwQrx4MNTG84",
+  "name": "Magic sword (Sec. 1820)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "MZb60u2lncnMUGiy",
+      "type": "text",
+      "name": "+1 on hitting chances",
+      "text": "+1 on hitting chances",
+      "description": "+1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 50,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.MZb60u2lncnMUGiy"
+    },
+    {
+      "_id": "xJlyTO3c7cNcgZ5j",
+      "type": "text",
+      "name": "+2 on hitting chances",
+      "text": "+2 on hitting chances",
+      "description": "+2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 30,
+      "range": [
+        51,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.xJlyTO3c7cNcgZ5j"
+    },
+    {
+      "_id": "nfb7v6XKqBFev5Fl",
+      "type": "text",
+      "name": "+3 on hitting chances",
+      "text": "+3 on hitting chances",
+      "description": "+3 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.nfb7v6XKqBFev5Fl"
+    },
+    {
+      "_id": "yFGdZWH2M0enqjLH",
+      "type": "text",
+      "name": "+1 on hitting chances; +1 on damage",
+      "text": "+1 on hitting chances; +1 on damage",
+      "description": "+1 on hitting chances; +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.yFGdZWH2M0enqjLH"
+    },
+    {
+      "_id": "NyRJrZsXtMNSCK56",
+      "type": "text",
+      "name": "+2 on hitting chances; +1 on damage",
+      "text": "+2 on hitting chances; +1 on damage",
+      "description": "+2 on hitting chances; +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.NyRJrZsXtMNSCK56"
+    },
+    {
+      "_id": "dRrJfngm7Hmt5ozS",
+      "type": "text",
+      "name": "+2 on hitting chances; +2 on damage",
+      "text": "+2 on hitting chances; +2 on damage",
+      "description": "+2 on hitting chances; +2 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.dRrJfngm7Hmt5ozS"
+    },
+    {
+      "_id": "NyjsoYiVq93MaqRy",
+      "type": "text",
+      "name": "+3 on hitting chances; +2 on damage",
+      "text": "+3 on hitting chances; +2 on damage",
+      "description": "+3 on hitting chances; +2 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.NyjsoYiVq93MaqRy"
+    },
+    {
+      "_id": "o9zbsk11b4s2ep1K",
+      "type": "text",
+      "name": "+3 on hitting chances; +3 on damage",
+      "text": "+3 on hitting chances; +3 on damage",
+      "description": "+3 on hitting chances; +3 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        99,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.o9zbsk11b4s2ep1K"
+    },
+    {
+      "_id": "KJhFKO2InQqNd1j8",
+      "type": "text",
+      "name": "+4 on hitting chances; +3 on damage",
+      "text": "+4 on hitting chances; +3 on damage",
+      "description": "+4 on hitting chances; +3 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!G1YgmwQrx4MNTG84.KJhFKO2InQqNd1j8"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!G1YgmwQrx4MNTG84"
+}

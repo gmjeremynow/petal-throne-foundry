@@ -1,0 +1,58 @@
+{
+  "_id": "x1GfocxeJHKLsuhz",
+  "name": "Chashkéri",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ac": 7,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "",
+      "lair": "Lair 15: 2-24; treasure C: 20",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (2); stats Sec. 1222 no. 5",
+    "biography": "<p>Looks, at first glance, like a lovely dark-haired maiden.</p><p>A master of hypnosis: it can hold 1-12 persons each round, each saving only on 61-100 on d100 at any level (Ahoggyá, Shén and Tinalíya are hardly affected). It drags a hypnotised victim under water to its lair; unless his comrades kill it at the start of the next round, he drowns within a round (20% the body floats up and can be revived). A rescued victim is dazed for two days. Easily slain, but it can escape by swimming to its lair.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 5,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Chashkéri",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!x1GfocxeJHKLsuhz"
+}

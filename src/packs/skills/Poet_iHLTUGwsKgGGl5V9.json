@@ -1,0 +1,22 @@
+{
+  "_id": "iHLTUGwsKgGGl5V9",
+  "name": "Poet",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>+5% to befriend, sway or convince hearers in courtly settings.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!iHLTUGwsKgGGl5V9"
+}

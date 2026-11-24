@@ -1,0 +1,25 @@
+{
+  "_id": "VR4hsdV0zhCqDD3M",
+  "name": "Leather Armour (Vringálu-hide)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 30,
+    "weight": 4324,
+    "quantity": 1,
+    "armourType": "leather",
+    "material": "other",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 30,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VR4hsdV0zhCqDD3M"
+}

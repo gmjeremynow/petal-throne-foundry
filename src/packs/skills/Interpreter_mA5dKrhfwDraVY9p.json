@@ -1,0 +1,22 @@
+{
+  "_id": "mA5dKrhfwDraVY9p",
+  "name": "Interpreter",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Fluent in one modern or ancient human language besides Tsolyáni. Nonhuman tongues cannot be learned.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mA5dKrhfwDraVY9p"
+}

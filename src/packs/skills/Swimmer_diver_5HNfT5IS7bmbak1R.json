@@ -1,0 +1,22 @@
+{
+  "_id": "5HNfT5IS7bmbak1R",
+  "name": "Swimmer-diver",
+  "type": "skill",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 420",
+    "group": "skilled",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "TET5rHgjO21nQLcq",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!5HNfT5IS7bmbak1R"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "MI9nBreE8gzkR3o3",
+  "name": "The Vapour of Death",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Visible poison cloud 50 x 50 ft, moving 10 ft a turn with the wind. Failed save: dead unless Neutralise Poison is cast at once. Made save: 1d6.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 16,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "100 ft",
+    "duration": "",
+    "targeting": "area",
+    "save": "vs. Poison",
+    "damage": "1d6",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 16,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!MI9nBreE8gzkR3o3"
+}

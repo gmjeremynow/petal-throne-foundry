@@ -1,0 +1,58 @@
+{
+  "_id": "FkQwtbdWj0bhGAbD",
+  "name": "Páchi Léi",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-100",
+    "attitude": "Neutral",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 30",
+      "lair": "Lair 30: 60-360; treasure H: 30",
+      "special": ""
+    },
+    "special": "Per ship: 12-72; treasure aboard ship: B: 30.",
+    "source": "EPT 1975 Sec. 1127 (5); stats Sec. 1222 no. 41",
+    "biography": "<p>Doughy-looking forest beings with eight jointed limbs: the front four for eating and fighting, the other four for moving and balancing in the trees. Huge platter-shaped eyes give them night vision.</p><p>They live along the forested coasts of western Tsolyánu and eastern Mu'ugalavyá and use all weapons and magical devices easily. Usually indifferent to humans but sometimes friendly (+10 toward friendly reactions). They notice secret doors and passages as they pass on 1-4 on 1d6. Many have become citizens of human nations, and history records Páchi Léi generals of human troops. Hyahyú'u flee from them.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 41,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Páchi Léi",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!FkQwtbdWj0bhGAbD"
+}

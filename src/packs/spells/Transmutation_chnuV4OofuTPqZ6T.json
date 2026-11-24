@@ -1,0 +1,35 @@
+{
+  "_id": "chnuV4OofuTPqZ6T",
+  "name": "Transmutation",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Changes a 20 x 20 ft open, flat area of earth, stone, water or mud into another form of the same substance; mud costs 90% of movement.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 15,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "120 ft",
+    "duration": "12 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 15,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!chnuV4OofuTPqZ6T"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "SKUNfSRMxRJ2YY27",
+  "name": "Medium Helmet (S&G)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 6.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "6-14 Káitars",
+    "sgEncumbrance": "1/4",
+    "armourType": "helmet",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 25,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SKUNfSRMxRJ2YY27"
+}

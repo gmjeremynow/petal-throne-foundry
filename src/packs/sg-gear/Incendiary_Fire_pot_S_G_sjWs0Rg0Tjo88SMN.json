@@ -1,0 +1,29 @@
+{
+  "_id": "sjWs0Rg0Tjo88SMN",
+  "name": "Incendiary Fire-pot (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Fragile clay pot of naphtha and powdered limestone, about 2 kg, lit by a wick and thrown by hand or staff-sling. No damage is given in either rule set; the referee rules.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 15.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "15-24 Káitars",
+    "sgEncumbrance": "2/5",
+    "category": "other",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 45,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!sjWs0Rg0Tjo88SMN"
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "sGPVxwHQPeAqe7Dw",
+  "name": "Sleeveless Cloth Vest (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Lower or middle class.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.340",
+    "cost": 0.35,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "7-11 Hlásh",
+    "sgEncumbrance": "0/.1",
+    "category": "clothing",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 96,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!sGPVxwHQPeAqe7Dw"
+}

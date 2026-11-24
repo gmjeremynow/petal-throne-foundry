@@ -1,0 +1,40 @@
+{
+  "_id": "noC2ugIQJf35WVKL",
+  "name": "Bolas",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Thrown up to about 120 ft to wrap and bring down a foe. Damage is not given separately; adjust to taste. Range bands set in proportion to the bow bands, as Sec. 722 directs.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 2,
+    "weight": 0,
+    "quantity": 1,
+    "category": "thrown",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": false,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 20,
+      "medium": 90,
+      "long": 120
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 19,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!noC2ugIQJf35WVKL"
+}

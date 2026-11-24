@@ -1,0 +1,35 @@
+{
+  "_id": "04bBYmBRI7xyz2g5",
+  "name": "ESP",
+  "type": "spell",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Detects the thoughts of living beings (not undead or automatons) in adjoining rooms. Nonhuman thought comes through only as garble.</p>",
+    "source": "EPT 1975 Sec. 432",
+    "kind": "professional",
+    "profession": "priest",
+    "group": 0,
+    "rank": 6,
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "20 ft",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "0cjba5Sr9ifPDCeD",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!04bBYmBRI7xyz2g5"
+}

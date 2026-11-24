@@ -1,0 +1,31 @@
+{
+  "_id": "idHEvZQpdBHWQYok",
+  "name": "Korúnkoi hiSsánu hiMissúma",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of the Dance of Death'</i>. Written in modern Tsolyáni.</p><p>Dedicated to Hrü'ü. An evil Magic User gains one level; a good one LOSES one. An evil Priest gains 1d6 hit points permanently; a good Priest loses 1d6 permanently. A fighting man takes 1d12 just opening it. Harmless to nonhumans.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 2",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!idHEvZQpdBHWQYok"
+}

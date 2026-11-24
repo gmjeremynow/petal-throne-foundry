@@ -1,0 +1,27 @@
+{
+  "_id": "McJtO1ENeByNGiQ2",
+  "name": "Small Onager",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Not usable at short range; fires every other turn; 20-ft circle: within 10 ft of centre slain, others save 16+ or take 1d6.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 1000,
+    "weight": 0,
+    "quantity": 1,
+    "category": "other",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 72,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!McJtO1ENeByNGiQ2"
+}

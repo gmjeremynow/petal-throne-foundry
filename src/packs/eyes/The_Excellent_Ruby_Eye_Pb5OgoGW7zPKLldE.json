@@ -1,0 +1,34 @@
+{
+  "_id": "Pb5OgoGW7zPKLldE",
+  "name": "The Excellent Ruby Eye",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Freezes 1-6 beings in time. Another charge releases a victim. Fairly common.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 2",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "50 ft",
+    "duration": "until released",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": "common"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Pb5OgoGW7zPKLldE"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "eQgldRnxLoYTFram",
+  "name": "Hli'ír",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "8",
+    "hp": {
+      "value": 28,
+      "max": 28
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-4",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "B: 30",
+      "lair": "Lair 30: 2-8; treasure E: 70",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (5); stats Sec. 1222 no. 19",
+    "biography": "<p>A mad creature so hideous that merely looking at it can drive a person insane.</p><p>If it surprises the party, each of the nearest 12 has 70% to see it and must roll 15+ on d20 or go mad; without surprise, each has 60% to see it and needs 12+. A maddened character attacks his party 80% of the time. 30% it rushes past without stopping. Only steel or better harms it; a mace blow of more than 6 points stuns it for a round (80%).</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 19,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hli'ír",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!eQgldRnxLoYTFram"
+}

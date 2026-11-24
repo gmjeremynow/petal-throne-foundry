@@ -1,0 +1,22 @@
+{
+  "_id": "WJRKpqbwd4ONW6fs",
+  "name": "Astronomer-navigator",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Needed on any ship out of sight of land; operates the Tsolyáni compass.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!WJRKpqbwd4ONW6fs"
+}

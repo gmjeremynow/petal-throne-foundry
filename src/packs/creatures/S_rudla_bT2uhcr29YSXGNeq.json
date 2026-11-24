@@ -1,0 +1,58 @@
+{
+  "_id": "bT2uhcr29YSXGNeq",
+  "name": "Sérudla",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "5/8/12",
+    "hp": {
+      "value": 28,
+      "max": 28
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1-4",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "ordinary:33:5:2|large:33:8:3|very large:34:12:4",
+    "treasure": {
+      "carried": "G: 50",
+      "lair": "Lair 20: 2-12; treasure H: 50",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (10); stats Sec. 1222 no. 50",
+    "biography": "<p>Huge creatures like armoured dragons covered in shimmering scales, with six limbs plus a pair of small arms just below a long neck and massive, bony head. Ordinary ones are about 15 ft long, large ones 25 ft and very large ones about 35 ft.</p><p>Semi-intelligent; they fight with ordinary weapons and may also spit acid in the same round (3 times a day, 40% each round), reaching 120 ft and hitting everything in a 10-ft area. Save against poison: success takes 1d6; failure takes 1d12 six-sided dice. Not always hostile: roll reactions.</p><p>Sizes: ordinary 5 HD (33%), large 8 HD (33%), very large 12 HD (34%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 50,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sérudla",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 3,
+    "height": 3
+  },
+  "_key": "!actors!bT2uhcr29YSXGNeq"
+}

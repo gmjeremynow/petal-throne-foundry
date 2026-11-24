@@ -1,0 +1,29 @@
+{
+  "_id": "Haotf8RIfTzdEa3r",
+  "name": "Pen-box (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Up to 5 reed pens and a cake of ink.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.330",
+    "cost": 1.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "1-5 Káitars",
+    "sgEncumbrance": ".5/1",
+    "category": "gear",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 70,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Haotf8RIfTzdEa3r"
+}

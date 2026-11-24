@@ -1,0 +1,35 @@
+{
+  "_id": "wg26WJCLWVsvQsYe",
+  "name": "The Energy Bolt",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Lightning hits 1d12 beings. Even a successful save takes 1d6. The 1975 text does not state the effect of a failed save: referee's ruling.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 8,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "120 ft",
+    "duration": "",
+    "targeting": "area",
+    "save": "vs. Spells",
+    "damage": "1d6",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 8,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wg26WJCLWVsvQsYe"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "QUOf3TFxa4Omr3Y8",
+  "name": "Chlén",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "6",
+    "numberAppearing": "1-20",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 30: 3-60",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (1); stats Sec. 1222 no. 6",
+    "biography": "<p>Huge, slow, six-legged beasts with flattish horned heads and a splayed beak, covered in a thick horny hide.</p><p>It fights only if attacked. Brought to exactly 1 or 0 hit points, it is subdued and an animal trainer can domesticate it. Its hide, cut from the living animal and regrown in two weeks, is processed into Chlén-hide, the near-iron material of most arms and armour on Tékumel. Tamed Chlén pull carts slowly.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 6,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Chlén",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!QUOf3TFxa4Omr3Y8"
+}

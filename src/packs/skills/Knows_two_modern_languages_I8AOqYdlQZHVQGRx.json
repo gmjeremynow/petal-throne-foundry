@@ -1,0 +1,22 @@
+{
+  "_id": "I8AOqYdlQZHVQGRx",
+  "name": "Knows two modern languages",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Two modern human languages (Tsolyáni is assumed for a Tsolyáni).</p>",
+    "source": "EPT 1975 Sec. 432",
+    "group": "priest",
+    "rank": 1,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "SeqVJVxSsjtLXGUN",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!I8AOqYdlQZHVQGRx"
+}

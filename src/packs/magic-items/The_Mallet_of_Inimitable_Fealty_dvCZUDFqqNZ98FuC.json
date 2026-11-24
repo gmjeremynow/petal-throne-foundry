@@ -1,0 +1,31 @@
+{
+  "_id": "dvCZUDFqqNZ98FuC",
+  "name": "The Mallet of Inimitable Fealty",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Engsvanyáli; touched to bare skin, it lays a Mind-Bar: loyalty, forgetting, a quest, etc. Affects all levels; save only on 17+ on d20. Each charge lasts one month of game time and cannot be ended early. Indicator in Engsvanyáli.</p><p>Charges: roll d100 when found. Rechargeable with the Thoroughly Useful Eye.</p><p>How many exist: about fifteen (one with the priests of Vimúhla, one with a senior Royalist noble). Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 17",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dvCZUDFqqNZ98FuC"
+}

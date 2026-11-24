@@ -1,0 +1,31 @@
+{
+  "_id": "s28FutOXRP8CTrUD",
+  "name": "Du'on Duqala Toruuna",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Scroll of Bringing Forth the Unnamed'</i>. Written in the tongue of the Priests of Ksárul (blue flame on brass pages).</p><p>Slays good Priests or Magic Users (no save; revival possible); Warriors cannot open it. Priests of Ksárul gain two levels; Priests of other evil gods or cohorts gain one, and evil Priests may create 1-6 Mrúr. Evil Magic Users gain no level but may create 1-6 Yéleth. Each creation needs the sacrifice of a human to Ksárul; the creatures serve loyally and for good. Usable once; then Ksárul's Black Angel takes it back.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 22",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 22000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!s28FutOXRP8CTrUD"
+}

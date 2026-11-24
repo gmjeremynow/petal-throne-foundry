@@ -1,0 +1,58 @@
+{
+  "_id": "jP5IxyML8pLeZGBM",
+  "name": "Dlaqó",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "3/6/9",
+    "hp": {
+      "value": 21,
+      "max": 21
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "6",
+    "numberAppearing": "2-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "small:20:3:1|medium:40:6:2|large:40:9:3",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 4-24",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (4); stats Sec. 1222 no. 10",
+    "biography": "<p>Great armoured carrion beetles with an iridescent green carapace, six legs and powerful scissor-like mandibles.</p><p>They attack only if they surprise a party or the party is small (1-12); otherwise they scuttle away. In a room with a recently slain being, roll 1d6: on 1-2 Dlaqó are there feeding.</p><p>Sizes: small 3 HD (20%), medium 6 HD (40%), large 9 HD (40%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 10,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dlaqó",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!jP5IxyML8pLeZGBM"
+}

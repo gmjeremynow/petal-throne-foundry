@@ -1,0 +1,34 @@
+{
+  "_id": "7BbvAKSoivcD5oFL",
+  "name": "The Eye of Advancing Through Portals",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Opens any door, blasts 10 ft of rock, or bores a 10-ft tunnel. A person struck dies unless he saves.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 3",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "10 ft",
+    "duration": "",
+    "targeting": "aimed",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7BbvAKSoivcD5oFL"
+}

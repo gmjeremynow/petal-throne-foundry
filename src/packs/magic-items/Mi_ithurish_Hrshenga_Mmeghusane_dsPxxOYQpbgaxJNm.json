@@ -1,0 +1,31 @@
+{
+  "_id": "dsPxxOYQpbgaxJNm",
+  "name": "Mi'ithurish Hrshenga Mmeghusane",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Treatise of Hrsh, the Highest Lord'</i>. Written in modern Mu'ugalavyáni.</p><p>Anyone can read it; only Priests and Magic Users of level V+ can use it. Roll d12: 1-2 slain (no save); 3-4 sent on a quest for the lost idol of Hrsh in the jungles southwest of Mu'ugalavyá; 5-6 receives the Glorious Cloak of Many Eyes; 7-8 permanent +1 on saves vs. spells; 9-12 permanent +2 on damage dice against animals and nonhumans (not humans or Underworld creatures); 11 transported to the lowest level of an Underworld of the referee's choice; 12 six extra hit points permanently (Sec. 710). The book prints 9-12, 11 and 12 as shown; the overlap is in the original. Usable once.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 23",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 23000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!dsPxxOYQpbgaxJNm"
+}

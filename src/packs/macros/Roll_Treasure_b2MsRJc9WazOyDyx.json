@@ -1,0 +1,15 @@
+{
+  "_id": "b2MsRJc9WazOyDyx",
+  "name": "Roll Treasure",
+  "type": "script",
+  "img": "icons/svg/chest.svg",
+  "scope": "global",
+  "command": "game.petalThrone.treasureDialog();",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!macros!b2MsRJc9WazOyDyx"
+}

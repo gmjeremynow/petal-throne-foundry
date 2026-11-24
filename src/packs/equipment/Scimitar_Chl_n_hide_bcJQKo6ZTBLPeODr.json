@@ -1,0 +1,40 @@
+{
+  "_id": "bcJQKo6ZTBLPeODr",
+  "name": "Scimitar (Chlén-hide)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Weight not listed in the 1975 encumbrance table.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 9,
+    "weight": 0,
+    "quantity": 1,
+    "category": "melee",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 0,
+      "medium": 0,
+      "long": 0
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 7
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!bcJQKo6ZTBLPeODr"
+}

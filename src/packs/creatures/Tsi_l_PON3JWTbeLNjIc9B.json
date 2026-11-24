@@ -1,0 +1,58 @@
+{
+  "_id": "PON3JWTbeLNjIc9B",
+  "name": "Tsi'íl",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "6",
+    "hp": {
+      "value": 21,
+      "max": 21
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "1-4",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 2,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 30: 4-8",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (11); stats Sec. 1222 no. 62",
+    "biography": "<p>Huge, gentle plant-eaters with a horny carapace, a spiked crest, and rows of jagged spikes along the back. The tail ends in a spiked, mace-like ball.</p><p>Passive; it lumbers away unless attacked, then fights with its tail at +2 damage. It is hunted for a gland that repels the Haqél, Tletlákha and some other sea creatures (80%, lasting 3 turns), sold for 200-4,000 Káitars.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 62,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Tsi'íl",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!PON3JWTbeLNjIc9B"
+}

@@ -1,0 +1,146 @@
+{
+  "_id": "dCt8CEAPuwZNEEnM",
+  "name": "Scroll language: ancient (Sec. 1610)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "D3gnjKoHQC6RZNTX",
+      "type": "text",
+      "name": "Ancient Tsolyáni",
+      "text": "Ancient Tsolyáni",
+      "description": "Ancient Tsolyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.D3gnjKoHQC6RZNTX"
+    },
+    {
+      "_id": "RspdsNWfp4xxrFlO",
+      "type": "text",
+      "name": "Engsvanyáli",
+      "text": "Engsvanyáli",
+      "description": "Engsvanyáli",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        5,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.RspdsNWfp4xxrFlO"
+    },
+    {
+      "_id": "BMuKie7x8vdMdFUo",
+      "type": "text",
+      "name": "Ancient Salarvyáni",
+      "text": "Ancient Salarvyáni",
+      "description": "Ancient Salarvyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        8,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.BMuKie7x8vdMdFUo"
+    },
+    {
+      "_id": "TKDJOd4A3FgNGVCX",
+      "type": "text",
+      "name": "The Tongue of the Priests of Ksárul",
+      "text": "The Tongue of the Priests of Ksárul",
+      "description": "The Tongue of the Priests of Ksárul",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        11,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.TKDJOd4A3FgNGVCX"
+    },
+    {
+      "_id": "yegPz7wUDHAT15de",
+      "type": "text",
+      "name": "Llyáni",
+      "text": "Llyáni",
+      "description": "Llyáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        14,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.yegPz7wUDHAT15de"
+    },
+    {
+      "_id": "XE5b2iIspRR16Ipu",
+      "type": "text",
+      "name": "Mihálli",
+      "text": "Mihálli",
+      "description": "Mihálli",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        16,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.XE5b2iIspRR16Ipu"
+    },
+    {
+      "_id": "F91YQpBIv5MOqc9u",
+      "type": "text",
+      "name": "N'lýssa, the Tongue of the Dragon Lords",
+      "text": "N'lýssa, the Tongue of the Dragon Lords",
+      "description": "N'lýssa, the Tongue of the Dragon Lords",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        18,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.F91YQpBIv5MOqc9u"
+    },
+    {
+      "_id": "CxWHLyYVIUmFsnkh",
+      "type": "text",
+      "name": "Tsáqw, Ancient Yán Koryáni",
+      "text": "Tsáqw, Ancient Yán Koryáni",
+      "description": "Tsáqw, Ancient Yán Koryáni",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!dCt8CEAPuwZNEEnM.CxWHLyYVIUmFsnkh"
+    }
+  ],
+  "folder": "8NYsZ6x2pVHejYUr",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!dCt8CEAPuwZNEEnM"
+}

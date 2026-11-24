@@ -1,0 +1,31 @@
+{
+  "_id": "VOl4tdHkTmHVFOaO",
+  "name": "Kízhaga Dlittlúmri",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of Five Fingers'</i>. Written in Pecháni.</p><p>Any Priest or Magic User (no effect on Warriors). Five powers: (a) fly 30\" per turn for two turns; (b) paralyse 1-6 hostile beings (they may save); (c) regenerate one limb or organ destroyed by Mu'ágh acid; (d) three fireballs (range 24\", 1\" diameter, 4d6 each); (e) one extra Bonus Spell from Group II or III, permanently. All but (e) work once; then the pages go blank.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 13",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 13000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VOl4tdHkTmHVFOaO"
+}

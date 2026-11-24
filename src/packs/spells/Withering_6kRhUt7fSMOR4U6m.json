@@ -1,0 +1,35 @@
+{
+  "_id": "6kRhUt7fSMOR4U6m",
+  "name": "Withering",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Withers limbs (d6: 1 left arm, 2 right arm, 3 left leg, 4 right leg, 5 both arms or legs, 6 one arm and one leg). Only the Eye of Regeneration restores. Even on a save, Cure Disease, Neutralise Poison or Remove Curse is needed at once or 2d6 damage.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 17,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "60 ft",
+    "duration": "permanent",
+    "targeting": "aimed",
+    "save": "vs. Spells",
+    "damage": "2d6",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 17,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!6kRhUt7fSMOR4U6m"
+}

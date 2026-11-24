@@ -1,0 +1,31 @@
+{
+  "_id": "wHxOTYOjDmv1eWd6",
+  "name": "Hénganikh hiZhálmigan",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Splendour of Decay'</i>. Written in modern Tsolyáni.</p><p>Dedicated to Sárku: evil Priests or Magic Users of level V+ gain +1 to hit and +2 on damage permanently. Good Priests and Magic Users must roll 12+ on d20 or die (no effect if they save); any Warrior who glances inside dies. Nonhumans cannot read it and are unaffected.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 10",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wHxOTYOjDmv1eWd6"
+}

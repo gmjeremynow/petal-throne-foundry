@@ -1,0 +1,31 @@
+{
+  "_id": "mnFNhRGBwimJnFlk",
+  "name": "The Glorious Cloak of Many Eyes",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>The wearer projects his invisible self up to 30\" away to see and hear what happens there, without taking part.</p><p>Charges: roll d100 when found. Rechargeable with the Thoroughly Useful Eye.</p><p>How many exist: said to be three. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 8",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mnFNhRGBwimJnFlk"
+}

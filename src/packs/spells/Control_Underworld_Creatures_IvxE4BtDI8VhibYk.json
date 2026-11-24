@@ -1,0 +1,35 @@
+{
+  "_id": "IvxE4BtDI8VhibYk",
+  "name": "Control Underworld Creatures",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": "<p>Controls 1-6 Underworld creatures; not humans, intelligent nonhumans or undead.</p>",
+    "source": "EPT 1975 Sec. 433",
+    "kind": "professional",
+    "profession": "magicUser",
+    "group": 0,
+    "rank": 11,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "6 turns",
+    "targeting": "none",
+    "save": "creatures over 3 HD",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "Nt1jpEWAedKdOvHt",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!IvxE4BtDI8VhibYk"
+}

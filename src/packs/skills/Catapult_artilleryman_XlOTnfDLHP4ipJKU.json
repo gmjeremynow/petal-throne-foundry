@@ -1,0 +1,22 @@
+{
+  "_id": "XlOTnfDLHP4ipJKU",
+  "name": "Catapult-artilleryman",
+  "type": "skill",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Builds and uses onagers, ballistae, mangonels and trebuchets.</p><p>Warrior skills are gained in this order (Sec. 430).</p>",
+    "source": "EPT 1975 Sec. 430-431",
+    "group": "warrior",
+    "rank": 11,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "ZtkLoQnKKklPA2TP",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XlOTnfDLHP4ipJKU"
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "d4vk7AJ5wGxvnBk2",
+  "name": "Magic edged weapon: specific enemies, intelligence 81+ only (Sec. 1810)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "AUa2aDlodb1lq3qp",
+      "type": "text",
+      "name": "No specific enemies",
+      "text": "No specific enemies",
+      "description": "No specific enemies",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 60,
+      "range": [
+        1,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.AUa2aDlodb1lq3qp"
+    },
+    {
+      "_id": "42S6tlVXm2uEMvbp",
+      "type": "text",
+      "name": "Hates undead: +1 damage against them",
+      "text": "Hates undead: +1 damage against them",
+      "description": "Hates undead: +1 damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        61,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.42S6tlVXm2uEMvbp"
+    },
+    {
+      "_id": "ncrVEE1kX6A7oxn8",
+      "type": "text",
+      "name": "Hates Priests of the opposite alignment: +1 damage against them",
+      "text": "Hates Priests of the opposite alignment: +1 damage against them",
+      "description": "Hates Priests of the opposite alignment: +1 damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        65,
+        68
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.ncrVEE1kX6A7oxn8"
+    },
+    {
+      "_id": "0MYJIvEahkzx9Ya1",
+      "type": "text",
+      "name": "Hates nonhumans of the opposite alignment (not the neutral races): +1 on hitting, +2 on damage against them",
+      "text": "Hates nonhumans of the opposite alignment (not the neutral races): +1 on hitting, +2 on damage against them",
+      "description": "Hates nonhumans of the opposite alignment (not the neutral races): +1 on hitting, +2 on damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        69,
+        72
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.0MYJIvEahkzx9Ya1"
+    },
+    {
+      "_id": "AMueIu1vkOJY9ogZ",
+      "type": "text",
+      "name": "Hates Magic Users of the opposite alignment: +1 on hitting, +2 on damage against them",
+      "text": "Hates Magic Users of the opposite alignment: +1 on hitting, +2 on damage against them",
+      "description": "Hates Magic Users of the opposite alignment: +1 on hitting, +2 on damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        73,
+        76
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.AMueIu1vkOJY9ogZ"
+    },
+    {
+      "_id": "wcFCe5EXFFmNwF2p",
+      "type": "text",
+      "name": "Hates flying creatures: +2 damage against them",
+      "text": "Hates flying creatures: +2 damage against them",
+      "description": "Hates flying creatures: +2 damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        77,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.wcFCe5EXFFmNwF2p"
+    },
+    {
+      "_id": "rY8pSLdHByfxfyai",
+      "type": "text",
+      "name": "Hates all Underworld creatures: +1 against them",
+      "text": "Hates all Underworld creatures: +1 against them",
+      "description": "Hates all Underworld creatures: +1 against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        81,
+        84
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.rY8pSLdHByfxfyai"
+    },
+    {
+      "_id": "IVatGuyM7v0TpVgS",
+      "type": "text",
+      "name": "Hates all Warriors: +1 on hitting, +2 on damage against them",
+      "text": "Hates all Warriors: +1 on hitting, +2 on damage against them",
+      "description": "Hates all Warriors: +1 on hitting, +2 on damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        85,
+        88
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.IVatGuyM7v0TpVgS"
+    },
+    {
+      "_id": "nza6CEXNyTxmU3d3",
+      "type": "text",
+      "name": "Hates all forest animals: +1 damage against them",
+      "text": "Hates all forest animals: +1 damage against them",
+      "description": "Hates all forest animals: +1 damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        89,
+        92
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.nza6CEXNyTxmU3d3"
+    },
+    {
+      "_id": "C9w2E382eJrvgSqN",
+      "type": "text",
+      "name": "Hates all water animals: +1 damage against them",
+      "text": "Hates all water animals: +1 damage against them",
+      "description": "Hates all water animals: +1 damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        93,
+        96
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.C9w2E382eJrvgSqN"
+    },
+    {
+      "_id": "8AvHQI2ZJRM3fWio",
+      "type": "text",
+      "name": "Hates Sérudla: +1 on hitting, +3 on damage against them",
+      "text": "Hates Sérudla: +1 on hitting, +3 on damage against them",
+      "description": "Hates Sérudla: +1 on hitting, +3 on damage against them",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        97,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!d4vk7AJ5wGxvnBk2.8AvHQI2ZJRM3fWio"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 10000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!d4vk7AJ5wGxvnBk2"
+}

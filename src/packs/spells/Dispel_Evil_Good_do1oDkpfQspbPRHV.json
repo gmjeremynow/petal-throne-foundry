@@ -1,0 +1,35 @@
+{
+  "_id": "do1oDkpfQspbPRHV",
+  "name": "Dispel Evil/Good",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Dispels an opposing good or evil spell operating within range.</p>",
+    "source": "EPT 1975 Sec. 510, Group I",
+    "kind": "bonus",
+    "profession": "",
+    "group": 1,
+    "rank": 6,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "20 ft",
+    "duration": "3 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "lvpv87RRmwIgyKsC",
+  "sort": 6,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!do1oDkpfQspbPRHV"
+}

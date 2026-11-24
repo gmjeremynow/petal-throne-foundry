@@ -1,0 +1,40 @@
+{
+  "_id": "oCRnAvwFYREPl75a",
+  "name": "Dagger (Chlén-hide)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Can be thrown about 100 ft; a thrown dagger gets no damage bonuses (Sec. 730). Magic Users may use only daggers.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 5,
+    "weight": 225,
+    "quantity": 1,
+    "category": "melee",
+    "material": "chlen",
+    "die": "d4",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 17,
+      "medium": 75,
+      "long": 100
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 9
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!oCRnAvwFYREPl75a"
+}

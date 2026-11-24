@@ -1,0 +1,34 @@
+{
+  "_id": "DsWdXKsg8nu3CAPz",
+  "name": "The Ineluctable Eye of Healing",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Cures disease and heals 2d6 per charge, one being per charge. Used first, it replaces a save against disease or poison.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 33",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "10 ft",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "2d6",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 33,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!DsWdXKsg8nu3CAPz"
+}

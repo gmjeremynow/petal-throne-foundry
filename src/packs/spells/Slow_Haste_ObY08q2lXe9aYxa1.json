@@ -1,0 +1,35 @@
+{
+  "_id": "ObY08q2lXe9aYxa1",
+  "name": "Slow/Haste",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>1d12 beings move at half or double speed (two blows a round, or one every other round). Only once on the same beings.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 14,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "3 turns",
+    "targeting": "area",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 14,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ObY08q2lXe9aYxa1"
+}

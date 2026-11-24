@@ -1,0 +1,40 @@
+{
+  "_id": "Vbp6gyw0DhGHV3kj",
+  "name": "Longbow (Séresh-wood)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 30,
+    "weight": 0,
+    "quantity": 1,
+    "category": "missile",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 100,
+      "medium": 450,
+      "long": 600
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 13,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Vbp6gyw0DhGHV3kj"
+}

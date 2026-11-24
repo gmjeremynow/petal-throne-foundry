@@ -1,0 +1,40 @@
+{
+  "_id": "s5jyTLFTKUE76ZXZ",
+  "name": "Mace (Chlén-hide)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Needs Strength over 80 (Sec. 721). Weight not listed in the 1975 encumbrance table.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 7,
+    "weight": 0,
+    "quantity": 1,
+    "category": "melee",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 1,
+    "magic": 0,
+    "minStr": 81,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": false,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 0,
+      "medium": 0,
+      "long": 0
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 7
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!s5jyTLFTKUE76ZXZ"
+}

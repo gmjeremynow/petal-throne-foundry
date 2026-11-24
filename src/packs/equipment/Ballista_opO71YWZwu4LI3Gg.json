@@ -1,0 +1,40 @@
+{
+  "_id": "opO71YWZwu4LI3Gg",
+  "name": "Ballista",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>5d6 on a hit; 1d6 men in a column may be spitted. Only +3 magical armour stops it (still 1d6). No hit bonuses with siege engines.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 400,
+    "weight": 0,
+    "quantity": 1,
+    "category": "siege",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": true,
+    "range": {
+      "close": 400,
+      "medium": 850,
+      "long": 1200
+    },
+    "fixedDamage": "5d6",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 20,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!opO71YWZwu4LI3Gg"
+}

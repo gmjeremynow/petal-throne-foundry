@@ -1,0 +1,29 @@
+{
+  "_id": "78YrHwJUiRxbH6eK",
+  "name": "Larger Litter (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>1-2 passengers, 4 porters (not included).</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.370",
+    "cost": 101.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "101-200 Káitars",
+    "sgEncumbrance": "",
+    "category": "transport",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 126,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!78YrHwJUiRxbH6eK"
+}

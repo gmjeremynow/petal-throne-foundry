@@ -1,0 +1,58 @@
+{
+  "_id": "JgYNZcHVhGlndNrw",
+  "name": "Khéshchal",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "1-1",
+    "hp": {
+      "value": 2,
+      "max": 2
+    },
+    "ac": 8,
+    "acMagic": 0,
+    "move": "6/30",
+    "numberAppearing": "1-20",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 10",
+      "lair": "Lair 10: 2-40; treasure B: 20",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (6); stats Sec. 1222 no. 26",
+    "biography": "<p>Semi-intelligent birds covered in brilliant plumage, prized for feather capes and helmet crests.</p><p>They usually flee (70%). A cornered Khéshchal can be subdued instead of killed by bringing its hit points to exactly 1 or 0; more damage kills it. Its feathers are worth 1d20 x 100 Káitars; a live, subdued bird is worth 1d20 x 200.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 26,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Khéshchal",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!JgYNZcHVhGlndNrw"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "IgX6it1Bz2yl29dn",
+  "name": "Charm Creature",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Charms an animal, nonhuman or Underworld creature (not automatons). Equal or more HD than caster: normal save. 1-2 HD fewer: save only on a prior 60+ on d100; 3-4 fewer: 75+; 5-6 fewer: 85+; 7+ fewer: no save.</p>",
+    "source": "EPT 1975 Sec. 510, Group II",
+    "kind": "bonus",
+    "profession": "",
+    "group": 2,
+    "rank": 1,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "120 ft",
+    "duration": "3 turns",
+    "targeting": "aimed",
+    "save": "see text",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "kQfe9HGnBfXWQ9OK",
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!IgX6it1Bz2yl29dn"
+}

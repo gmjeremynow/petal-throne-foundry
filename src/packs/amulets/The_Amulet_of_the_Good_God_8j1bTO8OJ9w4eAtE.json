@@ -1,0 +1,31 @@
+{
+  "_id": "8j1bTO8OJ9w4eAtE",
+  "name": "The Amulet of the Good God",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Hrá retreat 90% unless meleed; other undead flee 50%. Lasts four turns. Good characters only; an evil one touching it takes 1d6 d6.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 3",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "30 ft",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "good",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8j1bTO8OJ9w4eAtE"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "LxMZTtCa4JF6jyMG",
+  "name": "The Helmet of the Three-Pointed Star",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Restores life to any being slain within the past 24 hours; the revived being may act at once and loses no Constitution (Sec. 413). NOT rechargeable.</p><p>Charges: roll d100 when found.</p><p>How many exist: said to be ten. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 11",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 11000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!LxMZTtCa4JF6jyMG"
+}

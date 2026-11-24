@@ -1,0 +1,35 @@
+{
+  "_id": "61npiuj1RCIeLo7t",
+  "name": "Plague",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Victim dies at the start of the next round or turn unless Cure Disease is cast. Revival costs 5 extra Constitution.</p>",
+    "source": "EPT 1975 Sec. 510, Group I",
+    "kind": "bonus",
+    "profession": "",
+    "group": 1,
+    "rank": 15,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "",
+    "targeting": "aimed",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "lvpv87RRmwIgyKsC",
+  "sort": 15,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!61npiuj1RCIeLo7t"
+}

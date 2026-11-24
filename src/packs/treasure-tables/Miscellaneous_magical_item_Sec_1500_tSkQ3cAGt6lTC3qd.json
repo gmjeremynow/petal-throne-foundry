@@ -1,0 +1,426 @@
+{
+  "_id": "tSkQ3cAGt6lTC3qd",
+  "name": "Miscellaneous magical item (Sec. 1500)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d24",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "VBrN1b5mbwBKpxyH",
+      "type": "document",
+      "name": "The Alluring Maiden of Ngá",
+      "text": "The Alluring Maiden of Ngá",
+      "description": "The Alluring Maiden of Ngá",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.VBrN1b5mbwBKpxyH",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.Bv1IEvHzsEiS2atV"
+    },
+    {
+      "_id": "LDbc72Cn2Ckng8iJ",
+      "type": "document",
+      "name": "The Boots of Changéla",
+      "text": "The Boots of Changéla",
+      "description": "The Boots of Changéla",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.LDbc72Cn2Ckng8iJ",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.OvFDuMwlzB18Y7qm"
+    },
+    {
+      "_id": "mdhSvml9vY8fZjdB",
+      "type": "document",
+      "name": "The Chariot of the Gods",
+      "text": "The Chariot of the Gods",
+      "description": "The Chariot of the Gods",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.mdhSvml9vY8fZjdB",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.3OaIl0OueIKnLdcU"
+    },
+    {
+      "_id": "MMQUqrJ13Vf5wOZB",
+      "type": "document",
+      "name": "The Clockwork Automaton of Qiyór",
+      "text": "The Clockwork Automaton of Qiyór",
+      "description": "The Clockwork Automaton of Qiyór",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.MMQUqrJ13Vf5wOZB",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.O3M9npHeSvAMFveg"
+    },
+    {
+      "_id": "XHMOulsYiqd60Q46",
+      "type": "document",
+      "name": "The Crystal Claw of Kúrutesh",
+      "text": "The Crystal Claw of Kúrutesh",
+      "description": "The Crystal Claw of Kúrutesh",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.XHMOulsYiqd60Q46",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.cFJgQEthAwxUXfxw"
+    },
+    {
+      "_id": "HhjoJmLKBVyOzE6k",
+      "type": "document",
+      "name": "The Cup of Súbadim the Sorcerer",
+      "text": "The Cup of Súbadim the Sorcerer",
+      "description": "The Cup of Súbadim the Sorcerer",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.HhjoJmLKBVyOzE6k",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.x13VsGBCefGWPHC7"
+    },
+    {
+      "_id": "n7KfjyBjA1I8kmI5",
+      "type": "document",
+      "name": "The Emerald of Hagárr of Paránta",
+      "text": "The Emerald of Hagárr of Paránta",
+      "description": "The Emerald of Hagárr of Paránta",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.n7KfjyBjA1I8kmI5",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.Fr7p2HljpHc1vk0c"
+    },
+    {
+      "_id": "ptp3PAEFlSAhbnP3",
+      "type": "document",
+      "name": "The Glorious Cloak of Many Eyes",
+      "text": "The Glorious Cloak of Many Eyes",
+      "description": "The Glorious Cloak of Many Eyes",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.ptp3PAEFlSAhbnP3",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.mnFNhRGBwimJnFlk"
+    },
+    {
+      "_id": "7PG59PryS1jyrF15",
+      "type": "document",
+      "name": "The Gloves of Chirené",
+      "text": "The Gloves of Chirené",
+      "description": "The Gloves of Chirené",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.7PG59PryS1jyrF15",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.jCxJiUwfUGt08I2d"
+    },
+    {
+      "_id": "PiOJIPdBWnVVCKBJ",
+      "type": "document",
+      "name": "The Hammer of Pendárte of Khéiris",
+      "text": "The Hammer of Pendárte of Khéiris",
+      "description": "The Hammer of Pendárte of Khéiris",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.PiOJIPdBWnVVCKBJ",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.9txmJ2M0s6sm6EEF"
+    },
+    {
+      "_id": "U5wjvestGzJUE6ty",
+      "type": "document",
+      "name": "The Helmet of the Three-Pointed Star",
+      "text": "The Helmet of the Three-Pointed Star",
+      "description": "The Helmet of the Three-Pointed Star",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.U5wjvestGzJUE6ty",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.LxMZTtCa4JF6jyMG"
+    },
+    {
+      "_id": "N1sHwROzrxfHrcx0",
+      "type": "document",
+      "name": "The Jade Bowl of the God-King of Purdánim",
+      "text": "The Jade Bowl of the God-King of Purdánim",
+      "description": "The Jade Bowl of the God-King of Purdánim",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.N1sHwROzrxfHrcx0",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.CP8m20pEOs5RE1hm"
+    },
+    {
+      "_id": "X8mvnq2UAb624o5k",
+      "type": "document",
+      "name": "The Ladder of Mríddu the Magician",
+      "text": "The Ladder of Mríddu the Magician",
+      "description": "The Ladder of Mríddu the Magician",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.X8mvnq2UAb624o5k",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.VRsMdbYHXr7dx6ZT"
+    },
+    {
+      "_id": "FX3FZK7IAL6nPd8C",
+      "type": "document",
+      "name": "The Lightning Bringer",
+      "text": "The Lightning Bringer",
+      "description": "The Lightning Bringer",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.FX3FZK7IAL6nPd8C",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.FaaJSJWk9AAHepUb"
+    },
+    {
+      "_id": "3PmG5zjCpzKT7xRJ",
+      "type": "document",
+      "name": "The Little House of Tranquil Dwelling",
+      "text": "The Little House of Tranquil Dwelling",
+      "description": "The Little House of Tranquil Dwelling",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.3PmG5zjCpzKT7xRJ",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.bvnv30HHq0GM7pvF"
+    },
+    {
+      "_id": "dwwP6xIjs29ToyLy",
+      "type": "document",
+      "name": "The Magical Chest of the Topaz God",
+      "text": "The Magical Chest of the Topaz God",
+      "description": "The Magical Chest of the Topaz God",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.dwwP6xIjs29ToyLy",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.7GRKFCbYBchxfeLp"
+    },
+    {
+      "_id": "I2z7lFZkkFw7QOHC",
+      "type": "document",
+      "name": "The Mallet of Inimitable Fealty",
+      "text": "The Mallet of Inimitable Fealty",
+      "description": "The Mallet of Inimitable Fealty",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.I2z7lFZkkFw7QOHC",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.dvCZUDFqqNZ98FuC"
+    },
+    {
+      "_id": "n9hpDs5cbQ0LtESC",
+      "type": "document",
+      "name": "The Mighty Wall of Thúmis",
+      "text": "The Mighty Wall of Thúmis",
+      "description": "The Mighty Wall of Thúmis",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.n9hpDs5cbQ0LtESC",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.amoFNwqm8jxOSRPL"
+    },
+    {
+      "_id": "ZLVRuEoJ6A9pevPu",
+      "type": "document",
+      "name": "The Music Box of Nekkutháne",
+      "text": "The Music Box of Nekkutháne",
+      "description": "The Music Box of Nekkutháne",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.ZLVRuEoJ6A9pevPu",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.nj2QyQUxt8LV4Sgp"
+    },
+    {
+      "_id": "zfqffTzYUprNSGlD",
+      "type": "document",
+      "name": "The Silver Serpent of Nayári of the Silken Thighs",
+      "text": "The Silver Serpent of Nayári of the Silken Thighs",
+      "description": "The Silver Serpent of Nayári of the Silken Thighs",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.zfqffTzYUprNSGlD",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.qto5DtP85FyiQ42H"
+    },
+    {
+      "_id": "lYKzknCDxhvYlLbq",
+      "type": "document",
+      "name": "The Skullcap of Girigámish",
+      "text": "The Skullcap of Girigámish",
+      "description": "The Skullcap of Girigámish",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.lYKzknCDxhvYlLbq",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.0OCACDXsGLNUXNXR"
+    },
+    {
+      "_id": "eYVvcI1h8JjNAFpf",
+      "type": "document",
+      "name": "The Speaker to Heaven",
+      "text": "The Speaker to Heaven",
+      "description": "The Speaker to Heaven",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.eYVvcI1h8JjNAFpf",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.gzZWZuRsmnrya5jt"
+    },
+    {
+      "_id": "hMw8TjpiRUqhbCCw",
+      "type": "document",
+      "name": "The Trumpet of Metállja",
+      "text": "The Trumpet of Metállja",
+      "description": "The Trumpet of Metállja",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.hMw8TjpiRUqhbCCw",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.wQnJm9f33SewL8Y0"
+    },
+    {
+      "_id": "g9d0KTX2x1gTOPYS",
+      "type": "document",
+      "name": "The Wondrous Enhancer of Jewels",
+      "text": "The Wondrous Enhancer of Jewels",
+      "description": "The Wondrous Enhancer of Jewels",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tSkQ3cAGt6lTC3qd.g9d0KTX2x1gTOPYS",
+      "documentUuid": "Compendium.petal-throne.magic-items.Item.biGlC5o2SHvlS8hF"
+    }
+  ],
+  "folder": "b0c2cRbpuZuv6NHJ",
+  "sort": 18000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!tSkQ3cAGt6lTC3qd"
+}

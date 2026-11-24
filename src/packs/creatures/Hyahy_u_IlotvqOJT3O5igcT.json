@@ -1,0 +1,58 @@
+{
+  "_id": "IlotvqOJT3O5igcT",
+  "name": "Hyahyú'u",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "3+3",
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "6-24",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 12-48",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (6); stats Sec. 1222 no. 24",
+    "biography": "<p>Six-limbed pack animals covered in ragged black fur, with three eyes beneath a crest of sticky, spiny growths on top of a long, lozenge-shaped skull. Named for their eerie \"hyaa-hyuu\" cry.</p><p>They fight humans only when they outnumber the party by 6 or more; otherwise they flee. They always run from a party that includes a Páchi Léi.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 24,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hyahyú'u",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!IlotvqOJT3O5igcT"
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "Q18MpudteTELxUSt",
+  "name": "Korúnkoi hiKhéshdu hiMrúrgayal",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of Sending Forth the Hated Dead'</i>. Written in modern Tsolyáni.</p><p>Dedicated to Ksárul; for evil Priests of level V+: +1d6 damage on every successful hit (Eyes and spells included) for four turns, and control of any undead for five turns. Reusable once a week. Magic Users, good Priests and evil Priests below V take 2d6; fighters below level V die at a glance, higher fighters take 1d12.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 3",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Q18MpudteTELxUSt"
+}

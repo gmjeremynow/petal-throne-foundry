@@ -1,0 +1,40 @@
+{
+  "_id": "0wt0sUwjOreL8Az5",
+  "name": "Javelin (Chlén-hide)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Thrown about 100 ft. Range bands set in proportion to the bow bands, as Sec. 722 directs.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 4,
+    "weight": 0,
+    "quantity": 1,
+    "category": "thrown",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 17,
+      "medium": 75,
+      "long": 100
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!0wt0sUwjOreL8Az5"
+}

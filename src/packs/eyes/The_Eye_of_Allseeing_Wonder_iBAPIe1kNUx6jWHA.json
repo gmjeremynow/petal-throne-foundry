@@ -1,0 +1,34 @@
+{
+  "_id": "iBAPIe1kNUx6jWHA",
+  "name": "The Eye of Allseeing Wonder",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>A one-foot beam reveals invisible objects, beings and dimensional doors; also gives light.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 5",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "120 ft",
+    "duration": "1 turn per charge",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!iBAPIe1kNUx6jWHA"
+}

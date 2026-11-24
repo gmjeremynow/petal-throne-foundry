@@ -1,0 +1,22 @@
+{
+  "_id": "mPxlzplMZIrnhYxu",
+  "name": "Wheelwright (cart maker)",
+  "type": "skill",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Only artisan who builds Chlén carts and slave-drawn carts.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "skilled",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "TET5rHgjO21nQLcq",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mPxlzplMZIrnhYxu"
+}

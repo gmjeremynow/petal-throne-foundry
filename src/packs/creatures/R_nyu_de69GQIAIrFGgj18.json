@@ -1,0 +1,58 @@
+{
+  "_id": "de69GQIAIrFGgj18",
+  "name": "Rényu",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-6",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "1-6 K",
+      "lair": "Lair 20: 6-36; treasure C: 20",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (9); stats Sec. 1222 no. 47",
+    "biography": "<p>Man-like humanoids with long pointed snouts, sharp upturned ears, and blackish or brownish fur.</p><p>Found mostly in forests and mountains. They speak simply and use ordinary weapons but no spells or devices. Subdued at 1 or 0 hit points, one can be trained in 3 months by an animal trainer to serve and fight loyally. They see in the dark and notice secret doors and traps on 1-4 on 1d6. Each may carry 1-6 Káitars.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 47,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Rényu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!de69GQIAIrFGgj18"
+}

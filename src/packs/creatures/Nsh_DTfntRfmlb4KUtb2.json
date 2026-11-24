@@ -1,0 +1,58 @@
+{
+  "_id": "DTfntRfmlb4KUtb2",
+  "name": "Nshé",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "10",
+    "hp": {
+      "value": 35,
+      "max": 35
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (15); stats Sec. 1222 no. 40",
+    "biography": "<p>A creature of ancient sorcery made entirely of thick, watery liquid. It flows under doors and through cracks and can rise up in a rough human, serpent or other shape.</p><p>In a shape (50%), it can be destroyed for a time by weapons as usual. As a liquid it flows around a victim's feet (save 13+ on d20 to leap clear), crushing for 2 hit dice a round and drawing him in; held more than a round, both legs are crushed and need an Eye of Regeneration. In liquid form it can only be driven off: fire 10% a round, Calm 30%, the Amulet Against the Iniquitous Nshé automatically.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 40,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Nshé",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!DTfntRfmlb4KUtb2"
+}

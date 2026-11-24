@@ -1,0 +1,35 @@
+{
+  "_id": "ro3kcmabSkFPFx26",
+  "name": "Clairaudience",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": "<p>Hear what happens in an adjoining room.</p>",
+    "source": "EPT 1975 Sec. 433",
+    "kind": "professional",
+    "profession": "magicUser",
+    "group": 0,
+    "rank": 3,
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "20 ft",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "Nt1jpEWAedKdOvHt",
+  "sort": 3000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!ro3kcmabSkFPFx26"
+}

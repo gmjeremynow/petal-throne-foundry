@@ -1,0 +1,31 @@
+{
+  "_id": "vaTYpyMFAAJ0d4uu",
+  "name": "The Amulet of Protection Against the Grey Hand",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Wearer is immune to the Grey Hand. Loses its power if sold or traded while its wearer lives.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 9",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!vaTYpyMFAAJ0d4uu"
+}

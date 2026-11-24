@@ -1,0 +1,35 @@
+{
+  "_id": "d0Z68N2GTWEKNYzv",
+  "name": "Heal Minor Wounds",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Heals 1d6 lost hit points, never above the original total.</p>",
+    "source": "EPT 1975 Sec. 510, Group I",
+    "kind": "bonus",
+    "profession": "",
+    "group": 1,
+    "rank": 9,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "lvpv87RRmwIgyKsC",
+  "sort": 9,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!d0Z68N2GTWEKNYzv"
+}

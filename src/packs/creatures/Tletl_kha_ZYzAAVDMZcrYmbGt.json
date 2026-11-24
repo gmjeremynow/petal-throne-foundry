@@ -1,0 +1,58 @@
+{
+  "_id": "ZYzAAVDMZcrYmbGt",
+  "name": "Tletlákha",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "3+3",
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "ac": 5,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "2-24",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 10-120",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (11); stats Sec. 1222 no. 61",
+    "biography": "<p>Little more than a fanged mouth ringed by six eyes, with a stretchable stomach sac and a tiny tail. The ridge over its eyes bristles with barbed spines.</p><p>It latches onto a random victim (60%); a comrade has 40% to pull it off, and removing the spines does 2d6. While attached it hits automatically every round; ordinary Chlén-hide or steel armour does not help, though enchanted armour gives 40% to avoid the fangs. Repelled by the gland of the Tsi'íl.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 61,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Tletlákha",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!ZYzAAVDMZcrYmbGt"
+}

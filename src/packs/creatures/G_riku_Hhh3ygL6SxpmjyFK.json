@@ -1,0 +1,58 @@
+{
+  "_id": "Hhh3ygL6SxpmjyFK",
+  "name": "Gíriku",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "6/24",
+    "numberAppearing": "2-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 4-24",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (4); stats Sec. 1222 no. 16",
+    "biography": "<p>Bluish-green nocturnal flying reptiles with long beaks lined with three rows of needle-pointed teeth and six eyes. They carry a musty odour that men find repellent.</p><p>They see in the dark and get +2 to hit at night.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 16,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Gíriku",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!Hhh3ygL6SxpmjyFK"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "8n416sSJMPCqSHba",
+  "name": "Light Helmet (S&G)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 2.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "2-11 Káitars",
+    "sgEncumbrance": ".5/3",
+    "armourType": "helmet",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 24,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!8n416sSJMPCqSHba"
+}

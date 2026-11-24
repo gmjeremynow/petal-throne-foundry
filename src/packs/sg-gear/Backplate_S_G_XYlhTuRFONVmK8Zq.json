@@ -1,0 +1,27 @@
+{
+  "_id": "XYlhTuRFONVmK8Zq",
+  "name": "Backplate (S&G)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Swords & Glory armour is bought piece by piece. The 1975 armour classes count only leather, chainmail, plate and shields, so this piece does not change armour class on its own; agree the suit's armour class with the referee.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 13.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "13-22 Káitars",
+    "sgEncumbrance": "2/7",
+    "armourType": "piece",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 29,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XYlhTuRFONVmK8Zq"
+}

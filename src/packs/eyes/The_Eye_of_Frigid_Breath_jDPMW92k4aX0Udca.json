@@ -1,0 +1,34 @@
+{
+  "_id": "jDPMW92k4aX0Udca",
+  "name": "The Eye of Frigid Breath",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Cone of cold: at 30 ft one being, 60 ft 1-6, 100 ft 1d12. A failed save is death. Passes through intervening beings.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 12",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "120 ft",
+    "duration": "",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": "common"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 12,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!jDPMW92k4aX0Udca"
+}

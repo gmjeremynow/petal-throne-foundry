@@ -1,0 +1,35 @@
+{
+  "_id": "nz80sTOJqjiyS0lD",
+  "name": "Seeing Other Planes",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>See other planes, invisible things and dimensional doors. Cast within 10 ft the user may cast again next round; 11-20 ft, not.</p>",
+    "source": "EPT 1975 Sec. 510, Group I",
+    "kind": "bonus",
+    "profession": "",
+    "group": 1,
+    "rank": 18,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "20 ft",
+    "duration": "2 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "lvpv87RRmwIgyKsC",
+  "sort": 18,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nz80sTOJqjiyS0lD"
+}

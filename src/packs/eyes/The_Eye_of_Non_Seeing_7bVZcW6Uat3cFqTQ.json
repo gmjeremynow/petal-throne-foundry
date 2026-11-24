@@ -1,0 +1,34 @@
+{
+  "_id": "7bVZcW6Uat3cFqTQ",
+  "name": "The Eye of Non-Seeing",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>1-6 beings turn invisible and may fight: +3 to saves against aimed devices, +2 to the score needed to hit them.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 20",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "10-ft radius",
+    "duration": "3 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 20,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7bVZcW6Uat3cFqTQ"
+}

@@ -1,0 +1,58 @@
+{
+  "_id": "W138Soh2sDtWISAw",
+  "name": "Mnór",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "A",
+    "hitDice": "3+1",
+    "hp": {
+      "value": 12,
+      "max": 12
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "1-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 2-24; treasure C: 15",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1128 (8); stats Sec. 1222 no. 33",
+    "biography": "<p>Hairy, twenty-legged insect creatures with huge faceted eyes.</p><p>They usually try to flee (60%), but once fighting they fight to the death, swinging heavy clubs. A blow of more than 4 points has a 20% chance to shatter an eye, and the Mnór then turns and flees. They gather glittering objects in their lairs. The full entry gives 4-12 appearing; the summary table gives 1-12.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 33,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Mnór",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!W138Soh2sDtWISAw"
+}

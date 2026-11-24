@@ -1,0 +1,31 @@
+{
+  "_id": "biGlC5o2SHvlS8hF",
+  "name": "The Wondrous Enhancer of Jewels",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>An automatic gem cutter and polisher: a gem put through it is worth ten times its assessed value. Indicator in Ancient Tsolyáni.</p><p>Charges: roll d100 when found. Rechargeable with the Thoroughly Useful Eye.</p><p>How many exist: at least ten. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 24",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 24000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!biGlC5o2SHvlS8hF"
+}

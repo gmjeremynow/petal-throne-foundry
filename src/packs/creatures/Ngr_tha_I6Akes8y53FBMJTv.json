@@ -1,0 +1,58 @@
+{
+  "_id": "I6Akes8y53FBMJTv",
+  "name": "Ngrútha",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "6",
+    "numberAppearing": "1-20",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 2-40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (8); stats Sec. 1222 no. 39",
+    "biography": "<p>Shelled, crab-like creatures with eight sucker-tipped legs, needle-tipped claws and a thin proboscis.</p><p>It seizes a victim (60%) and drives its proboscis through any gap in his armour, sucking him dry in 3 combat rounds and leaving an empty husk; his comrades can only save him by killing it in time. It fights off others with its claws meanwhile. It surprises prey on 1-4 on 1d6 and is never surprised.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 39,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ngrútha",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!I6Akes8y53FBMJTv"
+}

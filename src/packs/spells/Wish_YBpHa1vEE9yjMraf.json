@@ -1,0 +1,35 @@
+{
+  "_id": "YBpHa1vEE9yjMraf",
+  "name": "Wish",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>A limited wish granted within the referee's bounds. Once per week.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 23,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "week"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 23,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!YBpHa1vEE9yjMraf"
+}

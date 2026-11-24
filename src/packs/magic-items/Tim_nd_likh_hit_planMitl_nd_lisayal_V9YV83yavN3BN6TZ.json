@@ -1,0 +1,31 @@
+{
+  "_id": "V9YV83yavN3BN6TZ",
+  "name": "Timándálikh hitúplanMitlándálisayal",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Great Understanding of the Beloved, Great, and Powerful Gods'</i>. Written in modern Tsolyáni.</p><p>Dedicated to Thúmis: a good Priest of level IV+ gains one level. An evil Priest of any level takes 2d6; others are unaffected.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 5",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 5000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!V9YV83yavN3BN6TZ"
+}

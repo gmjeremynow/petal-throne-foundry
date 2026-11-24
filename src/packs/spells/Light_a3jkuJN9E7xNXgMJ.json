@@ -1,0 +1,35 @@
+{
+  "_id": "a3jkuJN9E7xNXgMJ",
+  "name": "Light",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Daylight. Negates the chance of surprise.</p>",
+    "source": "EPT 1975 Sec. 510, Group I",
+    "kind": "bonus",
+    "profession": "",
+    "group": 1,
+    "rank": 11,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30-ft area",
+    "duration": "5 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "lvpv87RRmwIgyKsC",
+  "sort": 11,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!a3jkuJN9E7xNXgMJ"
+}

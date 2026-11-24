@@ -1,0 +1,22 @@
+{
+  "_id": "mtUF3CeqY1BFp7B9",
+  "name": "Dyer",
+  "type": "skill",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 420",
+    "group": "plebeian",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "NbyUtozBckKOfCuS",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!mtUF3CeqY1BFp7B9"
+}

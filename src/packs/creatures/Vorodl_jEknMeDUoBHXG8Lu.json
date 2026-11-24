@@ -1,0 +1,58 @@
+{
+  "_id": "jEknMeDUoBHXG8Lu",
+  "name": "Vorodlá",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "4",
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "ac": 5,
+    "acMagic": 0,
+    "move": "6/24",
+    "numberAppearing": "1-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 20",
+      "lair": "Lair 25: 2-24; treasure C: 30",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (11); stats Sec. 1222 no. 65",
+    "biography": "<p>Dingy, blackish undead with huge leathery wings: the reanimated and reshaped bodies of ancient warriors set to defend the citadels of Ksárul. They haunt old tombs and ruins and nest in caves.</p><p>They fight like zombies until cut apart and never check morale. +2 to hit at night. Each hit has a 20% chance to drain one experience level. The body must be burned or it regenerates within 2 turns.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 65,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Vorodlá",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!jEknMeDUoBHXG8Lu"
+}

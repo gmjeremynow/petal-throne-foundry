@@ -1,0 +1,98 @@
+{
+  "_id": "FY16ePIgQRBkkrqD",
+  "name": "Arms or armour: which item (Sec. 2230)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "jGC3kKVfHQ97Kmxs",
+      "type": "text",
+      "name": "Shield",
+      "text": "Shield",
+      "description": "Shield",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!FY16ePIgQRBkkrqD.jGC3kKVfHQ97Kmxs"
+    },
+    {
+      "_id": "TV4BKGB99foKfvdK",
+      "type": "text",
+      "name": "Helmet",
+      "text": "Helmet",
+      "description": "Helmet",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!FY16ePIgQRBkkrqD.TV4BKGB99foKfvdK"
+    },
+    {
+      "_id": "Yc1v9fuqVo8K8Bcp",
+      "type": "text",
+      "name": "Armour",
+      "text": "Armour",
+      "description": "Armour",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 4,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!FY16ePIgQRBkkrqD.Yc1v9fuqVo8K8Bcp"
+    },
+    {
+      "_id": "9ifuWjVpGhZZ415b",
+      "type": "text",
+      "name": "Sword",
+      "text": "Sword",
+      "description": "Sword",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        13,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!FY16ePIgQRBkkrqD.9ifuWjVpGhZZ415b"
+    },
+    {
+      "_id": "0lW7k3TfcNgVEiSi",
+      "type": "text",
+      "name": "Miscellaneous weapon",
+      "text": "Miscellaneous weapon",
+      "description": "Miscellaneous weapon",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        18,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!FY16ePIgQRBkkrqD.0lW7k3TfcNgVEiSi"
+    }
+  ],
+  "folder": "hwf7YrQCP4mxv9Oi",
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!FY16ePIgQRBkkrqD"
+}

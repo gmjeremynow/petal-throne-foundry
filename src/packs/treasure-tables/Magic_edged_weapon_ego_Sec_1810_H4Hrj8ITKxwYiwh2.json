@@ -1,0 +1,114 @@
+{
+  "_id": "H4Hrj8ITKxwYiwh2",
+  "name": "Magic edged weapon: ego (Sec. 1810)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "sTmj1J3mFsZalE8P",
+      "type": "text",
+      "name": "No perceptible ego",
+      "text": "No perceptible ego",
+      "description": "No perceptible ego",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 50,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!H4Hrj8ITKxwYiwh2.sTmj1J3mFsZalE8P"
+    },
+    {
+      "_id": "h76sdICRZMoLTfhH",
+      "type": "text",
+      "name": "Weak: can control a level I owner",
+      "text": "Weak: can control a level I owner",
+      "description": "Weak: can control a level I owner",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!H4Hrj8ITKxwYiwh2.h76sdICRZMoLTfhH"
+    },
+    {
+      "_id": "IheyNeLr0CZK9vvW",
+      "type": "text",
+      "name": "Average: can control an owner up to level III",
+      "text": "Average: can control an owner up to level III",
+      "description": "Average: can control an owner up to level III",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!H4Hrj8ITKxwYiwh2.IheyNeLr0CZK9vvW"
+    },
+    {
+      "_id": "U3vj0Oh7lXsOgvWc",
+      "type": "text",
+      "name": "Strong: can control an owner up to level V",
+      "text": "Strong: can control an owner up to level V",
+      "description": "Strong: can control an owner up to level V",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!H4Hrj8ITKxwYiwh2.U3vj0Oh7lXsOgvWc"
+    },
+    {
+      "_id": "FA3a0gfPK46ExYZc",
+      "type": "text",
+      "name": "Very strong: can control an owner up to level VII",
+      "text": "Very strong: can control an owner up to level VII",
+      "description": "Very strong: can control an owner up to level VII",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!H4Hrj8ITKxwYiwh2.FA3a0gfPK46ExYZc"
+    },
+    {
+      "_id": "acE8p75sKMHQx4Aw",
+      "type": "text",
+      "name": "Extreme: can control an owner up to level VIII, and force 1-3 persons of levels I-IV within 2\" to obey it for two turns",
+      "text": "Extreme: can control an owner up to level VIII, and force 1-3 persons of levels I-IV within 2\" to obey it for two turns",
+      "description": "Extreme: can control an owner up to level VIII, and force 1-3 persons of levels I-IV within 2\" to obey it for two turns",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 10,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!H4Hrj8ITKxwYiwh2.acE8p75sKMHQx4Aw"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!H4Hrj8ITKxwYiwh2"
+}

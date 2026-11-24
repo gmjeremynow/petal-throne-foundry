@@ -1,0 +1,34 @@
+{
+  "_id": "S3wJxGz8eRblK30k",
+  "name": "The Terrible Eye of Raging Power",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Lightning in a 10-ft circle hits 1-10 beings in the first three ranks for 4d6. Needs 100 ft or rebounds on the user.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 35",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "100 ft",
+    "duration": "",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "4d6",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 35,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!S3wJxGz8eRblK30k"
+}

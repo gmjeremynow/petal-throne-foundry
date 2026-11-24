@@ -1,0 +1,35 @@
+{
+  "_id": "VTiWwgquShNYeLoO",
+  "name": "Walls",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Send one wall a day: Fire, Ice, Stone, Swords, Tanglevines, Water or Wind. Each has its own speed, range, and interactions (Sec. 510 no. 21). Walls have 2d6 hit points and fight other walls on 15+.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 21,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "vs. Spells",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 21,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VTiWwgquShNYeLoO"
+}

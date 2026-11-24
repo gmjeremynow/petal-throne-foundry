@@ -1,0 +1,35 @@
+{
+  "_id": "QYZX1IfnR2HD6Qjh",
+  "name": "Quest",
+  "type": "spell",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Sends 1d12 beings on a quest; released by Dispel Magic or Remove Curse.</p>",
+    "source": "EPT 1975 Sec. 510, Group III",
+    "kind": "bonus",
+    "profession": "",
+    "group": 3,
+    "rank": 13,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "30 ft",
+    "duration": "until done",
+    "targeting": "area",
+    "save": "vs. Spells",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "LpFacDWjeZVcJTLL",
+  "sort": 13,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!QYZX1IfnR2HD6Qjh"
+}

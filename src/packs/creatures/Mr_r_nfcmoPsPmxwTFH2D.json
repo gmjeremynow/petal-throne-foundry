@@ -1,0 +1,58 @@
+{
+  "_id": "nfcmoPsPmxwTFH2D",
+  "name": "Mrúr",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "1+3",
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "6",
+    "numberAppearing": "3-36",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 10-100; treasure B: 30",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (11); stats Sec. 1222 no. 34",
+    "biography": "<p>The reanimated corpses of ancient warriors who died in the catacombs, raised by the Priests of Sárku or Ksárul.</p><p>They always attack and never check morale. A slain Mrúr regenerates within two turns unless burned.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 34,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Mrúr",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!nfcmoPsPmxwTFH2D"
+}

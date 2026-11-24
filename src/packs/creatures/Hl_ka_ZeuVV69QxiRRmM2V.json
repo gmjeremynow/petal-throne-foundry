@@ -1,0 +1,58 @@
+{
+  "_id": "ZeuVV69QxiRRmM2V",
+  "name": "Hláka",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 5,
+    "acMagic": 0,
+    "move": "15/30",
+    "numberAppearing": "10-60",
+    "attitude": "Neutral",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 2,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "B: 40",
+      "lair": "Lair 30: 50-100",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1127 (2); stats Sec. 1222 no. 18",
+    "biography": "<p>Intelligent flyers with leathery wings and greyish fur, flattish heads, and three eyes with nictitating membranes set in a bony crest. A furred ruff hides their ears. They have two arms, two legs and a tail ending in a poisoned, rapier-like blade.</p><p>Mountain dwellers east of Tsolyánu, of an ancient interstellar race. Each round they strike twice: weapons (sword, light javelin or crossbow) and tail (save against poison when stung). They are skittish: at the start of each round they must roll 1-60 to stay (1-75 if a party member died last round, 1-85 if a Hláka died); failures fly off, rolling 1-60 each turn to return. Neutral to men; a friendly reaction must be confirmed with 1-60. They make good scouts, aerial archers and rock-droppers (up to 10 lb), but dread ships and may die of fright aboard. Parties outside their land have 1-3 Priests or Magic Users per 10.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 18,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hláka",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!ZeuVV69QxiRRmM2V"
+}

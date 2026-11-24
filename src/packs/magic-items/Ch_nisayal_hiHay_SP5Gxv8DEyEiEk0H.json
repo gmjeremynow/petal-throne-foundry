@@ -1,0 +1,31 @@
+{
+  "_id": "SP5Gxv8DEyEiEk0H",
+  "name": "Chánisayal hiHayá",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'Powerful Maps of Glory'</i>. Written in modern Tsolyáni.</p><p>1d6 treasure maps, usable by anyone of level III+. The referee places the treasures (e.g. among the ancient cities of Sec. 1200), above or below ground.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 7",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!SP5Gxv8DEyEiEk0H"
+}

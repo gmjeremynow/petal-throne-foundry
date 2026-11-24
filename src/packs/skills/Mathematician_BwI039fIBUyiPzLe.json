@@ -1,0 +1,22 @@
+{
+  "_id": "BwI039fIBUyiPzLe",
+  "name": "Mathematician",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!BwI039fIBUyiPzLe"
+}

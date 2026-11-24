@@ -1,0 +1,22 @@
+{
+  "_id": "IOKrtLCkoT1kutOt",
+  "name": "Engineer-architect",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Needed to build fortifications, palaces, roads and similar works.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!IOKrtLCkoT1kutOt"
+}

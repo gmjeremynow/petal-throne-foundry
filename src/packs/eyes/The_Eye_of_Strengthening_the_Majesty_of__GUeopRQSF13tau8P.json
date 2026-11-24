@@ -1,0 +1,34 @@
+{
+  "_id": "GUeopRQSF13tau8P",
+  "name": "The Eye of Strengthening the Majesty of Weapons",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Each charge adds +1 to an edged steel weapon (max +3) or to blunt weapons, armour or shields (max +2).</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 29",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "",
+    "duration": "permanent",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 29,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!GUeopRQSF13tau8P"
+}

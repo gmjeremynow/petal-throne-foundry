@@ -1,0 +1,58 @@
+{
+  "_id": "udYFNLR4KafIBo5V",
+  "name": "Marashyálu",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "4",
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-3",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 40: 2-6; treasure C: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (10); stats Sec. 1222 no. 32",
+    "biography": "<p>A supernatural treasure guardian of the ancients that wears illusions, appearing as a weeping child, a woman or a wounded friend begging for help. Its true body has a long proboscis.</p><p>Each round it can captivate the nearest 1-6 beings (save against hypnosis); a captive can be made to fight his own party. If it carries a victim off, it sucks out his soft organs with its proboscis. Protection from Evil/Good drives it off.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 32,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Marashyálu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!udYFNLR4KafIBo5V"
+}

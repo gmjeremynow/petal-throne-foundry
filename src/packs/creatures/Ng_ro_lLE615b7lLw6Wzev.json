@@ -1,0 +1,58 @@
+{
+  "_id": "lLE615b7lLw6Wzev",
+  "name": "Ngóro",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "16",
+    "hp": {
+      "value": 56,
+      "max": 56
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "6",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "D: 20",
+      "lair": "Lair 50: 1-3; treasure E: 80",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (14); stats Sec. 1222 no. 38",
+    "biography": "<p>A huge creature about 30 ft long lying flat on a chamber floor, looking like rough Underworld paving that feels slightly springy underfoot. Millions of tiny cilia beneath it hold miniature weapons, including Eyes.</p><p>Intelligent. Each round, 50% it uses its weapons and 50% it closes its folds on a party, crushing up to 20 at once for 2d6 a round; a character needs 14+ on d20 to jump clear, and trapped victims are freed only by killing it. Subdued at exactly 1 or 0 hit points, it offers one of its magical weapons for its life.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 38,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ngóro",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 3,
+    "height": 3
+  },
+  "_key": "!actors!lLE615b7lLw6Wzev"
+}

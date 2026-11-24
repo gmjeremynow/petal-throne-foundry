@@ -1,0 +1,22 @@
+{
+  "_id": "e0jEXtzs7rK2NCNx",
+  "name": "Alchemist",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Recognises chemical compounds such as poisons and elixirs; may make them if the referee allows. Success uses the chance table by level.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": true,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!e0jEXtzs7rK2NCNx"
+}

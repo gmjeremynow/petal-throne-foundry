@@ -1,0 +1,58 @@
+{
+  "_id": "qpeF1BtbjIbite2u",
+  "name": "Teqéqmu",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "6/8/10",
+    "hp": {
+      "value": 28,
+      "max": 28
+    },
+    "ac": 4,
+    "acMagic": 0,
+    "move": "6/18",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "small:40:6:1|medium:40:8:2|large:20:10:2",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 10: 1-12",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (10); stats Sec. 1222 no. 58",
+    "biography": "<p>A spongy, khaki-coloured, shapeless bag of noxious gas that drifts on the wind over mountains, forests and swamps, with a whip-like central tentacle.</p><p>It drops onto its prey. Each round, 70% it releases poison gas over 1-6 beings (save against poison), 30% it lashes with its tentacle. A downed Teqéqmu regenerates within 3 turns unless it is thoroughly burned.</p><p>Sizes: small 6 HD (40%), medium 8 HD (40%), large 10 HD (20%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 58,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Teqéqmu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!qpeF1BtbjIbite2u"
+}

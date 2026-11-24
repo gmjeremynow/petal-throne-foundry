@@ -1,0 +1,58 @@
+{
+  "_id": "JBAOfVXQno8SmgKr",
+  "name": "Shédra",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "2",
+    "hp": {
+      "value": 7,
+      "max": 7
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "2-24",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "B: 40",
+      "lair": "Lair 20: 4-48; treasure C: 70",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (20); stats Sec. 1222 no. 52",
+    "biography": "<p>Grey, shrivelled, flesh-eating undead, wasted almost beyond human form.</p><p>They wander the Underworld hunting food and fight with steel swords. Anyone they kill becomes a Shédra unless Remove Curse is cast within two rounds; after that only a Wish or divine intervention can restore him.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 52,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Shédra",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!JBAOfVXQno8SmgKr"
+}

@@ -1,0 +1,34 @@
+{
+  "_id": "Ho3bkAQvvi66BILP",
+  "name": "The Eye of Departing in Safety",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Carries the user and 1d12 beings to a preset place. Used without a destination, it carries them into darkness forever.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 10",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "300 ft",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Ho3bkAQvvi66BILP"
+}

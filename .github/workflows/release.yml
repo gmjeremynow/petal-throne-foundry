@@ -1,0 +1,43 @@
+name: Release
+
+# Builds compendium packs and attaches system.json and petal-throne.zip to a GitHub release.
+# Publish a release with a tag like v0.1.0 that matches "version" in system.json.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install build tools
+        run: npm install
+
+      - name: Compile compendium packs
+        run: npm run pack
+
+      - name: Set download URL for this release
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/petal-throne.zip"
+          MANIFEST="https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/system.json"
+          jq --arg url "$URL" --arg man "$MANIFEST" --arg v "${TAG#v}" '.download=$url | .manifest=$man | .version=$v' system.json > system.tmp && mv system.tmp system.json
+
+      - name: Zip system
+        run: zip -r petal-throne.zip system.json module templates styles lang packs data README.md LICENSE.md CHANGELOG.md
+
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            system.json
+            petal-throne.zip

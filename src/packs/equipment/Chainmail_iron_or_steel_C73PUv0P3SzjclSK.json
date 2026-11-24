@@ -1,0 +1,25 @@
+{
+  "_id": "C73PUv0P3SzjclSK",
+  "name": "Chainmail (iron or steel)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>No price in the 1975 list; metal is rare and costly on Tékumel.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 0,
+    "weight": 8650,
+    "quantity": 1,
+    "armourType": "chain",
+    "material": "steel",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 35,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!C73PUv0P3SzjclSK"
+}

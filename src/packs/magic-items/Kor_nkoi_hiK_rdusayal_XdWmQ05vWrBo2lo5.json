@@ -1,0 +1,31 @@
+{
+  "_id": "XdWmQ05vWrBo2lo5",
+  "name": "Korúnkoi hiKérdusayal",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Book of Powerful Generals'</i>. Written in modern Tsolyáni.</p><p>Fighters of level III+ only (nonhumans too): one level, plus any two Warrior skills from Sec. 430. No effect on Priests or Magic Users.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 8",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 8000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!XdWmQ05vWrBo2lo5"
+}

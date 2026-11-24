@@ -1,0 +1,58 @@
+{
+  "_id": "W2tXmr7tTgrJW3Pz",
+  "name": "Vringálu",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "4+1",
+    "hp": {
+      "value": 15,
+      "max": 15
+    },
+    "ac": 5,
+    "acMagic": 0,
+    "move": "6/24",
+    "numberAppearing": "1-12",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 10: 4-48",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (12); stats Sec. 1222 no. 66",
+    "biography": "<p>Ropy, blue-black, feathered flying snakes with leathery wings.</p><p>They attack viciously and never check morale. A bite causes a rotting gangrene that kills unless Tsúral buds or Cure Disease are applied within three turns. The poison is dangerous even to touch. Tanners pay 100 Káitars per wing for its fine leather.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 66,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Vringálu",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!W2tXmr7tTgrJW3Pz"
+}

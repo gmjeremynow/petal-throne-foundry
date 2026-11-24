@@ -1,0 +1,31 @@
+{
+  "_id": "7zpYlJkAKacUKjWZ",
+  "name": "Dímlalikh tlaSsúgayal",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Striking of the Hated Ssú'</i>. Written in modern Tsolyáni.</p><p>Dedicated to Karakán; for Warriors and Priests: +5 damage permanently on every successful blow against a Ssú (no effect against others).</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 9",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 9000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7zpYlJkAKacUKjWZ"
+}

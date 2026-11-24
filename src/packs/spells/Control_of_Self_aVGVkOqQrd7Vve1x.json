@@ -1,0 +1,35 @@
+{
+  "_id": "aVGVkOqQrd7Vve1x",
+  "name": "Control of Self",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": "<p>Total control of one's own body: hold breath, stop heartbeat, iron grip, trance, perfect recall. Broken only by very powerful magic or a being of 9+ hit dice.</p>",
+    "source": "EPT 1975 Sec. 433",
+    "kind": "professional",
+    "profession": "magicUser",
+    "group": 0,
+    "rank": 1,
+    "uses": {
+      "value": 2,
+      "max": 2,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "Nt1jpEWAedKdOvHt",
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!aVGVkOqQrd7Vve1x"
+}

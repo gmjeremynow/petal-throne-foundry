@@ -1,0 +1,58 @@
+{
+  "_id": "tMxPQRea2iXrip1p",
+  "name": "Káyi",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "4",
+    "hp": {
+      "value": 14,
+      "max": 14
+    },
+    "ac": 7,
+    "acMagic": 0,
+    "move": "15",
+    "numberAppearing": "1-6",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 40",
+      "lair": "Lair 20: 6-36; treasure G: 50",
+      "special": "F/U"
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (5); stats Sec. 1222 no. 25",
+    "biography": "<p>A large floating gas bag carrying a single huge, bulging eye. Thin, fibrous tentacle nets hang beneath it.</p><p>Káyi hang high in dark corners and drop their nets on those below: 75% to trap a victim, who then loses one experience level each round. A companion who cuts the victim loose in the first round (40% chance) spares the level drain, but the victim takes 2d6. Flaming arrows bring them down; swords seldom reach them, but a spear, pike or halberd can.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 25,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Káyi",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!tMxPQRea2iXrip1p"
+}

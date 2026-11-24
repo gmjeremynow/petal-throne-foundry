@@ -1,0 +1,31 @@
+{
+  "_id": "FaaJSJWk9AAHepUb",
+  "name": "The Lightning Bringer",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>Self-propelled ancient artillery on wheels (moves 6\" per turn, no charge used). Range 24\": each charge smashes through a six-foot wall (2\" diameter area), or does 10d6 to a being.</p><p>Charges: roll d100 when found. Rechargeable with the Thoroughly Useful Eye.</p><p>How many exist: at least fifteen (three in the Imperial arsenal at Avanthár). Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 14",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 100
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 14000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!FaaJSJWk9AAHepUb"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "PJEBQLWKc77UsrRo",
+  "name": "Orator",
+  "type": "skill",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Sways a crowd. Success uses the chance table by level; failure may mean stoning for 3d6 damage.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "noble",
+    "rank": 0,
+    "usesChanceTable": true,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "Y60EMIdUvb9i9heY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!PJEBQLWKc77UsrRo"
+}

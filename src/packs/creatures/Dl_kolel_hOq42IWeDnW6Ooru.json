@@ -1,0 +1,58 @@
+{
+  "_id": "hOq42IWeDnW6Ooru",
+  "name": "Dlákolel",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "F",
+    "hitDice": "6",
+    "hp": {
+      "value": 21,
+      "max": 21
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "6/12",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": true,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 2,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 20: 1-6; treasure A: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1126 (2); stats Sec. 1222 no. 9",
+    "biography": "<p>A huge armoured flying beetle, 10-15 ft long, with six legs, heavy shiny wings, gleaming black chitin and gleaming black mandibles. Its armour has earned it the name \"Steed of Sárku.\"</p><p>Somewhat intelligent; it may be friendly or neutral (roll reactions). Once it attacks or is attacked, it fights to the death. Its mandibles add +2 to the damage of every hit.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 9,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dlákolel",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 2,
+    "height": 2
+  },
+  "_key": "!actors!hOq42IWeDnW6Ooru"
+}

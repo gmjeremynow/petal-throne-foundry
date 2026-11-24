@@ -1,0 +1,35 @@
+{
+  "_id": "Ibcphqjw3B3dTxNf",
+  "name": "The Grey Hand",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": "<p>Instant death, no saving throw, on a hit by touch (risking a dying blow). Revival possible at -10% Constitution chance; no strenuous action for a week.</p>",
+    "source": "EPT 1975 Sec. 433",
+    "kind": "professional",
+    "profession": "magicUser",
+    "group": 0,
+    "rank": 12,
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "touch",
+    "duration": "",
+    "targeting": "aimed",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "Nt1jpEWAedKdOvHt",
+  "sort": 12000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!Ibcphqjw3B3dTxNf"
+}

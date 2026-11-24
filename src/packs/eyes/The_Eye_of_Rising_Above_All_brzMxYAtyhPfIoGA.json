@@ -1,0 +1,34 @@
+{
+  "_id": "brzMxYAtyhPfIoGA",
+  "name": "The Eye of Rising Above All",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Rise 240 ft straight up, or lift up to 1,000 lb and tow it.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 27",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "20 ft",
+    "duration": "5 turns",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 27,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!brzMxYAtyhPfIoGA"
+}

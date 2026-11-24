@@ -1,0 +1,594 @@
+{
+  "_id": "1AMYqWzZzUNd95MN",
+  "name": "Miscellaneous magic weapon (Sec. 1820)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "4VuDAKBTWPQnzfLX",
+      "type": "text",
+      "name": "Warhammer, +1 on hitting chances",
+      "text": "Warhammer, +1 on hitting chances",
+      "description": "Warhammer, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.4VuDAKBTWPQnzfLX"
+    },
+    {
+      "_id": "5aqgFVq1jMelIMfh",
+      "type": "text",
+      "name": "Warhammer, +2 on hitting chances",
+      "text": "Warhammer, +2 on hitting chances",
+      "description": "Warhammer, +2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        6,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.5aqgFVq1jMelIMfh"
+    },
+    {
+      "_id": "jADevDDau0YHXfcr",
+      "type": "text",
+      "name": "Warhammer, +2 on hitting chances and +1 on damage",
+      "text": "Warhammer, +2 on hitting chances and +1 on damage",
+      "description": "Warhammer, +2 on hitting chances and +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        11,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.jADevDDau0YHXfcr"
+    },
+    {
+      "_id": "3sDQmp2lONmD3Ag2",
+      "type": "text",
+      "name": "Bow, +1 on hitting chances",
+      "text": "Bow, +1 on hitting chances",
+      "description": "Bow, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        16,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.3sDQmp2lONmD3Ag2"
+    },
+    {
+      "_id": "42h84W0VxIqbCXan",
+      "type": "text",
+      "name": "10 arrows, +1 on damage",
+      "text": "10 arrows, +1 on damage",
+      "description": "10 arrows, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        21,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.42h84W0VxIqbCXan"
+    },
+    {
+      "_id": "DqLRWO2TWeyybrDu",
+      "type": "text",
+      "name": "10 arrows, +2 on damage",
+      "text": "10 arrows, +2 on damage",
+      "description": "10 arrows, +2 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.DqLRWO2TWeyybrDu"
+    },
+    {
+      "_id": "To3xJvMTZv0OeIkq",
+      "type": "text",
+      "name": "Sling, +1 on hitting chances",
+      "text": "Sling, +1 on hitting chances",
+      "description": "Sling, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        31,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.To3xJvMTZv0OeIkq"
+    },
+    {
+      "_id": "3FlordhYT5GCVHlo",
+      "type": "text",
+      "name": "Sling, +2 on hitting chances",
+      "text": "Sling, +2 on hitting chances",
+      "description": "Sling, +2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        36,
+        40
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.3FlordhYT5GCVHlo"
+    },
+    {
+      "_id": "8tLJuBEJMgTGUsU1",
+      "type": "text",
+      "name": "Bola, +1 on hitting chances",
+      "text": "Bola, +1 on hitting chances",
+      "description": "Bola, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        41,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.8tLJuBEJMgTGUsU1"
+    },
+    {
+      "_id": "lrf28uNeWjP6n5Fi",
+      "type": "text",
+      "name": "Bola, +2 on hitting chances, +1 on damage",
+      "text": "Bola, +2 on hitting chances, +1 on damage",
+      "description": "Bola, +2 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        46,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.lrf28uNeWjP6n5Fi"
+    },
+    {
+      "_id": "gLmfocV2KPE0u8Nr",
+      "type": "text",
+      "name": "Spear, +1 on hitting chances",
+      "text": "Spear, +1 on hitting chances",
+      "description": "Spear, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        51,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.gLmfocV2KPE0u8Nr"
+    },
+    {
+      "_id": "KKxF27B5ZVRuEGwA",
+      "type": "text",
+      "name": "Spear, +2 on hitting chances",
+      "text": "Spear, +2 on hitting chances",
+      "description": "Spear, +2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        56,
+        60
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.KKxF27B5ZVRuEGwA"
+    },
+    {
+      "_id": "vFTfweh8Y1uLNTit",
+      "type": "text",
+      "name": "Spear, +2 on hitting chances, +1 on damage",
+      "text": "Spear, +2 on hitting chances, +1 on damage",
+      "description": "Spear, +2 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        61,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.vFTfweh8Y1uLNTit"
+    },
+    {
+      "_id": "83kWHg7fwI9dTCT9",
+      "type": "text",
+      "name": "Dagger, +1 on hitting chances",
+      "text": "Dagger, +1 on hitting chances",
+      "description": "Dagger, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        66,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.83kWHg7fwI9dTCT9"
+    },
+    {
+      "_id": "kVZBwDWO01ybcqFL",
+      "type": "text",
+      "name": "Dagger, +2 on hitting chances",
+      "text": "Dagger, +2 on hitting chances",
+      "description": "Dagger, +2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        71,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.kVZBwDWO01ybcqFL"
+    },
+    {
+      "_id": "BiM9ZqbVYWoBEJh7",
+      "type": "text",
+      "name": "Dagger, +3 on hitting chances, +1 on damage",
+      "text": "Dagger, +3 on hitting chances, +1 on damage",
+      "description": "Dagger, +3 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 5,
+      "range": [
+        76,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.BiM9ZqbVYWoBEJh7"
+    },
+    {
+      "_id": "7yOAyBd3KHRMb42R",
+      "type": "text",
+      "name": "Scimitar, +1 on hitting chances",
+      "text": "Scimitar, +1 on hitting chances",
+      "description": "Scimitar, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.7yOAyBd3KHRMb42R"
+    },
+    {
+      "_id": "eL7k35EWrrHxy0Yf",
+      "type": "text",
+      "name": "Scimitar, +2 on hitting chances",
+      "text": "Scimitar, +2 on hitting chances",
+      "description": "Scimitar, +2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        82,
+        82
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.eL7k35EWrrHxy0Yf"
+    },
+    {
+      "_id": "P3t211ArOoTBZT0g",
+      "type": "text",
+      "name": "Scimitar, +3 on hitting chances",
+      "text": "Scimitar, +3 on hitting chances",
+      "description": "Scimitar, +3 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        83,
+        83
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.P3t211ArOoTBZT0g"
+    },
+    {
+      "_id": "CM0CVyM5JmWhi99o",
+      "type": "text",
+      "name": "Scimitar, +1 on hitting chances, +1 on damage",
+      "text": "Scimitar, +1 on hitting chances, +1 on damage",
+      "description": "Scimitar, +1 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        84,
+        84
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.CM0CVyM5JmWhi99o"
+    },
+    {
+      "_id": "ludZj3i0mCge7kDo",
+      "type": "text",
+      "name": "Scimitar, +2 on hitting chances, +1 on damage",
+      "text": "Scimitar, +2 on hitting chances, +1 on damage",
+      "description": "Scimitar, +2 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        85,
+        85
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.ludZj3i0mCge7kDo"
+    },
+    {
+      "_id": "9o1SwMveFUqmfCfy",
+      "type": "text",
+      "name": "Scimitar, +3 on hitting chances, +2 on damage",
+      "text": "Scimitar, +3 on hitting chances, +2 on damage",
+      "description": "Scimitar, +3 on hitting chances, +2 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        86,
+        86
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.9o1SwMveFUqmfCfy"
+    },
+    {
+      "_id": "za50qwP4v8lF4gE5",
+      "type": "text",
+      "name": "Scimitar, +3 on hitting chances, +3 on damage",
+      "text": "Scimitar, +3 on hitting chances, +3 on damage",
+      "description": "Scimitar, +3 on hitting chances, +3 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        87,
+        87
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.za50qwP4v8lF4gE5"
+    },
+    {
+      "_id": "7uWScI9VXGo6n8kg",
+      "type": "text",
+      "name": "Scimitar, +4 on hitting chances, +3 on damage",
+      "text": "Scimitar, +4 on hitting chances, +3 on damage",
+      "description": "Scimitar, +4 on hitting chances, +3 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        88,
+        88
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.7uWScI9VXGo6n8kg"
+    },
+    {
+      "_id": "mYJy0QChNWGFiudx",
+      "type": "text",
+      "name": "Scimitar, +3 on hitting chances, each hit drains one experience level from the victim",
+      "text": "Scimitar, +3 on hitting chances, each hit drains one experience level from the victim",
+      "description": "Scimitar, +3 on hitting chances, each hit drains one experience level from the victim",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        89,
+        89
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.mYJy0QChNWGFiudx"
+    },
+    {
+      "_id": "2jeFbtnIXcXW7A1o",
+      "type": "text",
+      "name": "Scimitar, +4 on hitting chances, each hit drains one experience level from the victim",
+      "text": "Scimitar, +4 on hitting chances, each hit drains one experience level from the victim",
+      "description": "Scimitar, +4 on hitting chances, each hit drains one experience level from the victim",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        90,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.2jeFbtnIXcXW7A1o"
+    },
+    {
+      "_id": "4pZBqW80qHB6LNpa",
+      "type": "text",
+      "name": "Battle-axe, +1 on hitting chances",
+      "text": "Battle-axe, +1 on hitting chances",
+      "description": "Battle-axe, +1 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        91,
+        91
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.4pZBqW80qHB6LNpa"
+    },
+    {
+      "_id": "K2h6RNaYVMtJDNzI",
+      "type": "text",
+      "name": "Battle-axe, +2 on hitting chances",
+      "text": "Battle-axe, +2 on hitting chances",
+      "description": "Battle-axe, +2 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        92,
+        92
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.K2h6RNaYVMtJDNzI"
+    },
+    {
+      "_id": "aJFGfZQtUYSkwJfi",
+      "type": "text",
+      "name": "Battle-axe, +3 on hitting chances",
+      "text": "Battle-axe, +3 on hitting chances",
+      "description": "Battle-axe, +3 on hitting chances",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        93,
+        93
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.aJFGfZQtUYSkwJfi"
+    },
+    {
+      "_id": "v504ItPmIgfdkpmq",
+      "type": "text",
+      "name": "Battle-axe, +1 on hitting chances, +1 on damage",
+      "text": "Battle-axe, +1 on hitting chances, +1 on damage",
+      "description": "Battle-axe, +1 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        94,
+        94
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.v504ItPmIgfdkpmq"
+    },
+    {
+      "_id": "Tj044u0GAtWt6dPZ",
+      "type": "text",
+      "name": "Battle-axe, +2 on hitting chances, +1 on damage",
+      "text": "Battle-axe, +2 on hitting chances, +1 on damage",
+      "description": "Battle-axe, +2 on hitting chances, +1 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        95,
+        95
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.Tj044u0GAtWt6dPZ"
+    },
+    {
+      "_id": "NVOHm4OU1LUatSKE",
+      "type": "text",
+      "name": "Battle-axe, +3 on hitting chances, +2 on damage",
+      "text": "Battle-axe, +3 on hitting chances, +2 on damage",
+      "description": "Battle-axe, +3 on hitting chances, +2 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        96,
+        96
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.NVOHm4OU1LUatSKE"
+    },
+    {
+      "_id": "DYRQyX4pUWifJ92A",
+      "type": "text",
+      "name": "Battle-axe, +3 on hitting chances, +3 on damage",
+      "text": "Battle-axe, +3 on hitting chances, +3 on damage",
+      "description": "Battle-axe, +3 on hitting chances, +3 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        97,
+        97
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.DYRQyX4pUWifJ92A"
+    },
+    {
+      "_id": "F5HDQZhoJgs1mceZ",
+      "type": "text",
+      "name": "Battle-axe, +4 on hitting chances, +3 on damage",
+      "text": "Battle-axe, +4 on hitting chances, +3 on damage",
+      "description": "Battle-axe, +4 on hitting chances, +3 on damage",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        98,
+        98
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.F5HDQZhoJgs1mceZ"
+    },
+    {
+      "_id": "g5e0clTLkiKzUblH",
+      "type": "text",
+      "name": "Battle-axe, +3 on hitting chances, each hit drains one experience level from the victim",
+      "text": "Battle-axe, +3 on hitting chances, each hit drains one experience level from the victim",
+      "description": "Battle-axe, +3 on hitting chances, each hit drains one experience level from the victim",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        99,
+        99
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.g5e0clTLkiKzUblH"
+    },
+    {
+      "_id": "yZ1vkfirWYdFbOVW",
+      "type": "text",
+      "name": "Battle-axe, +4 on hitting chances, each hit drains one experience level from the victim",
+      "text": "Battle-axe, +4 on hitting chances, each hit drains one experience level from the victim",
+      "description": "Battle-axe, +4 on hitting chances, each hit drains one experience level from the victim",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!1AMYqWzZzUNd95MN.yZ1vkfirWYdFbOVW"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!1AMYqWzZzUNd95MN"
+}

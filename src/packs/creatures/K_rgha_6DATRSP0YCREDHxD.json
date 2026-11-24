@@ -1,0 +1,58 @@
+{
+  "_id": "6DATRSP0YCREDHxD",
+  "name": "Kúrgha",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "1",
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "6-120",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 10: 12-240",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (9); stats Sec. 1222 no. 28",
+    "biography": "<p>Scuttling, six-limbed, furry carrion eaters up to four feet long and three feet tall, with sharp horny beaks and three eyes.</p><p>They attack only when they outnumber a party. In a room with dead bodies, roll 1d6: on 1-2 Kúrgha are there eating. Their stench gives them away at 50 ft, even through doors.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 28,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Kúrgha",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!6DATRSP0YCREDHxD"
+}

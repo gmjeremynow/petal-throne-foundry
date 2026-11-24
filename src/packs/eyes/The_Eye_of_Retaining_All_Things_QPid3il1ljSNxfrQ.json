@@ -1,0 +1,34 @@
+{
+  "_id": "QPid3il1ljSNxfrQ",
+  "name": "The Eye of Retaining All Things",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Stores up to 100,000 Káitars of weight in an airless void; no living beings. Another charge brings things back.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 24",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 24,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!QPid3il1ljSNxfrQ"
+}

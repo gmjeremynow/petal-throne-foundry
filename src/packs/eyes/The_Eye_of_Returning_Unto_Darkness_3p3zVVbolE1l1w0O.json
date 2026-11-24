@@ -1,0 +1,34 @@
+{
+  "_id": "3p3zVVbolE1l1w0O",
+  "name": "The Eye of Returning Unto Darkness",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Total darkness on the user and 1-6 others (+3 to hit them, they cannot fight), or on an enemy group as a weapon.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 26",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "20 ft",
+    "duration": "2 turns",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 26,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!3p3zVVbolE1l1w0O"
+}

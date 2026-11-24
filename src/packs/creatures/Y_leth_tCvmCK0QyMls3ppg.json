@@ -1,0 +1,58 @@
+{
+  "_id": "tCvmCK0QyMls3ppg",
+  "name": "Yéleth",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "3",
+    "hp": {
+      "value": 10,
+      "max": 10
+    },
+    "ac": 6,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "1-4",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "B: 30",
+      "lair": "Lair 30: 2-12; treasure C: 40",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (24); stats Sec. 1222 no. 67",
+    "biography": "<p>Androids made to look like beautiful maidens or handsome youths, with paper-white skin and hair like polished ebony.</p><p>Each round it can hypnotise 1-6 beings (save against hypnosis). A victim can be ordered to fight his own party, or simply paralysed forever; only an Eye of Healing or Remove Curse ends the paralysis.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 67,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Yéleth",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!tCvmCK0QyMls3ppg"
+}

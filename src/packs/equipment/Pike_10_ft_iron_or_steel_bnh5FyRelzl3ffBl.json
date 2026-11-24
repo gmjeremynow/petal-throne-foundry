@@ -1,0 +1,40 @@
+{
+  "_id": "bnh5FyRelzl3ffBl",
+  "name": "Pike, 10 ft (iron or steel)",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>Needs Strength over 80 (Sec. 721). The 1975 encumbrance table gives this steel weight but the price list has no price: metal arms are rare and sold only now and then at armourers in the foreigners' quarter (Sec. 910). Set the price with the referee.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 0,
+    "weight": 2600,
+    "quantity": 1,
+    "category": "melee",
+    "material": "steel",
+    "die": "d6",
+    "damagePlus": 1,
+    "magic": 0,
+    "minStr": 81,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": true,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 0,
+      "medium": 0,
+      "long": 0
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 26,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!bnh5FyRelzl3ffBl"
+}

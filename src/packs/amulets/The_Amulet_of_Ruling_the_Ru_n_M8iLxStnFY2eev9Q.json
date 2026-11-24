@@ -1,0 +1,31 @@
+{
+  "_id": "M8iLxStnFY2eev9Q",
+  "name": "The Amulet of Ruling the Ru'ún",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Controls 1-4 Ru'ún for two turns (save 13+ on d20). Only usable by one who knows Llyáni.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 10",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "20 ft",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 10,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!M8iLxStnFY2eev9Q"
+}

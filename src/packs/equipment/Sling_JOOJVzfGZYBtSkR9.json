@@ -1,0 +1,40 @@
+{
+  "_id": "JOOJVzfGZYBtSkR9",
+  "name": "Sling",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p>The rules give no separate sling damage; 1d6 follows the general rule that most weapons do one six-sided die. Set 1d4 if your table counts sling stones as light missiles. Range bands set in proportion to the bow bands, as Sec. 722 directs.</p>",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 3,
+    "weight": 0,
+    "quantity": 1,
+    "category": "missile",
+    "material": "chlen",
+    "die": "d6",
+    "damagePlus": 0,
+    "magic": 0,
+    "minStr": 0,
+    "twoHanded": false,
+    "noShield": false,
+    "edged": false,
+    "extraBlow": false,
+    "everyOtherRound": false,
+    "range": {
+      "close": 50,
+      "medium": 225,
+      "long": 300
+    },
+    "fixedDamage": "",
+    "equipped": false,
+    "lengthGroup": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 17,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!JOOJVzfGZYBtSkR9"
+}

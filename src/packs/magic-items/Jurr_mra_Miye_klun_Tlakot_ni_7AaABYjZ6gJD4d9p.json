@@ -1,0 +1,31 @@
+{
+  "_id": "7AaABYjZ6gJD4d9p",
+  "name": "Jurrúmra Miye'éklun Tlakotáni",
+  "type": "magicItem",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p><i>'The Scroll of the Scarlet Brotherhood'</i>. Written in Engsvanyáli.</p><p>Secretly reverses the reader's alignment (any profession or level). Level VI+ may save on 16+ on d20: then no change, and the reader can enchant weapons up to +3 and armour up to +2, once a week, a full day's ritual each. A nonhuman reader gains nothing, does not change, and takes 2d6.</p><p>A reader who does not know the language usually escapes its effects and cannot even identify it. Never for sale or loan.</p>",
+    "source": "EPT 1975 Sec. 1700 no. 17",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "book",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "QkDGAFnSccIV0CMP",
+  "sort": 17000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7AaABYjZ6gJD4d9p"
+}

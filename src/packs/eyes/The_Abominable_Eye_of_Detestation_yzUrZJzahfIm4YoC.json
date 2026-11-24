@@ -1,0 +1,34 @@
+{
+  "_id": "yzUrZJzahfIm4YoC",
+  "name": "The Abominable Eye of Detestation",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>1d12 beings flee in horror; good against undead. Cornered victims fight at +2 needed to hit and -2 damage.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 1",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "40 ft",
+    "duration": "1 turn",
+    "targeting": "area",
+    "save": "vs. Eyes",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!yzUrZJzahfIm4YoC"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "hNUQaTgmZR3hQJNK",
+  "name": "Ship-captain",
+  "type": "skill",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Sailing, cargoes, manifests and simple accounts.</p>",
+    "source": "EPT 1975 Sec. 420",
+    "group": "skilled",
+    "rank": 0,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "TET5rHgjO21nQLcq",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!hNUQaTgmZR3hQJNK"
+}

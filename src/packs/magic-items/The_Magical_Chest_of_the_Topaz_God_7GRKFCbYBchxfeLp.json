@@ -1,0 +1,31 @@
+{
+  "_id": "7GRKFCbYBchxfeLp",
+  "name": "The Magical Chest of the Topaz God",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>A small, plain bronze chest that holds any amount of treasure, weapons, etc. (not living beings), as long as one edge, corner or protuberance fits its 6-inch square mouth. No charges.</p><p>How many exist: five or six, by legend. Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 16",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!7GRKFCbYBchxfeLp"
+}

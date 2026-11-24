@@ -1,0 +1,29 @@
+{
+  "_id": "6bYsj6WylInYQ3yb",
+  "name": "Large Passenger Craft or Small River Barge (S&G)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>15-18 m; 50-70 persons or 4-6 tonnes of cargo.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.370",
+    "cost": 1000.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "1,000-5,000 Káitars",
+    "sgEncumbrance": "",
+    "category": "transport",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 131,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!6bYsj6WylInYQ3yb"
+}

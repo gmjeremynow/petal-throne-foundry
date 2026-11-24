@@ -1,0 +1,27 @@
+{
+  "_id": "nfkqOM0cUJm1kh2j",
+  "name": "Tsúral Buds (bunch)",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "source": "EPT 1975 Sec. 910-920",
+    "cost": 2,
+    "weight": 0,
+    "quantity": 1,
+    "category": "provisions",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 54,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!nfkqOM0cUJm1kh2j"
+}

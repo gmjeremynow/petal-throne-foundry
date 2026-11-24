@@ -1,0 +1,27 @@
+{
+  "_id": "uWcbgakexIKZ3nK3",
+  "name": "Shirt or Tunic of Chainmail, Scale Mail or Cuir Bouilli (S&G)",
+  "type": "armour",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": "<p>Set as chainmail for the 1975 armour class; hardened leather (cuir bouilli) may be ruled leather instead.</p><p>Swords & Glory price range in Káitars; the referee rolls (usually 1d10) for quality and the real price. The encumbrance cost uses the S&G scale (in hand or worn / hung or packed), not 1975 Káitar weights.</p>",
+    "source": "S&G Vol. 2 Sec. 2.320",
+    "cost": 20.0,
+    "weight": 0,
+    "quantity": 1,
+    "priceRange": "20-65 Káitars",
+    "sgEncumbrance": "3/9",
+    "armourType": "chain",
+    "material": "chlen",
+    "magic": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 36,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!uWcbgakexIKZ3nK3"
+}

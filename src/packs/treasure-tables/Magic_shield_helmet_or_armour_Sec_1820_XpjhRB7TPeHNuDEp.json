@@ -1,0 +1,66 @@
+{
+  "_id": "XpjhRB7TPeHNuDEp",
+  "name": "Magic shield, helmet or armour (Sec. 1820)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "5iaxNAF4tJB0cOlV",
+      "type": "text",
+      "name": "+1",
+      "text": "+1",
+      "description": "+1",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 50,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XpjhRB7TPeHNuDEp.5iaxNAF4tJB0cOlV"
+    },
+    {
+      "_id": "RiLPdQK62i4PO1pp",
+      "type": "text",
+      "name": "+2",
+      "text": "+2",
+      "description": "+2",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 35,
+      "range": [
+        51,
+        85
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XpjhRB7TPeHNuDEp.RiLPdQK62i4PO1pp"
+    },
+    {
+      "_id": "aLdOSDEaG7E4Otum",
+      "type": "text",
+      "name": "+3",
+      "text": "+3",
+      "description": "+3",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 15,
+      "range": [
+        86,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XpjhRB7TPeHNuDEp.aLdOSDEaG7E4Otum"
+    }
+  ],
+  "folder": "1xalJORPh7stM3OD",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!XpjhRB7TPeHNuDEp"
+}

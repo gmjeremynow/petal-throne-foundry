@@ -1,0 +1,35 @@
+{
+  "_id": "cXT0mZeKaGp2ZR64",
+  "name": "Medium",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": "<p>Speak with the dead, spirits, and distant living beings (over five miles away).</p>",
+    "source": "EPT 1975 Sec. 433",
+    "kind": "professional",
+    "profession": "magicUser",
+    "group": 0,
+    "rank": 7,
+    "uses": {
+      "value": 3,
+      "max": 3,
+      "period": "day"
+    },
+    "unlimited": false,
+    "range": "",
+    "duration": "",
+    "targeting": "none",
+    "save": "",
+    "damage": "",
+    "minLevel": 0,
+    "waitAfter": ""
+  },
+  "effects": [],
+  "folder": "Nt1jpEWAedKdOvHt",
+  "sort": 7000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!cXT0mZeKaGp2ZR64"
+}

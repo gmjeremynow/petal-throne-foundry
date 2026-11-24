@@ -1,0 +1,34 @@
+{
+  "_id": "VbpAioayaRuV4evu",
+  "name": "The Eye of Aerial Excellence",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>User and 1d12 companions fly up to 300 ft a turn.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 4",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "5-ft radius",
+    "duration": "4 turns per charge",
+    "targeting": "none",
+    "save": "unwilling: vs. Eyes",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!VbpAioayaRuV4evu"
+}

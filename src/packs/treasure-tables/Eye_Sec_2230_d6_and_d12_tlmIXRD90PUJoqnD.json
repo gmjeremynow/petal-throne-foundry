@@ -1,0 +1,630 @@
+{
+  "_id": "tlmIXRD90PUJoqnD",
+  "name": "Eye (Sec. 2230: d6 and d12)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "EPT 1975.",
+  "formula": "1d36",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "dbwaQDjARZ5e4cYs",
+      "type": "document",
+      "name": "The Abominable Eye of Detestation",
+      "text": "The Abominable Eye of Detestation",
+      "description": "The Abominable Eye of Detestation",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.dbwaQDjARZ5e4cYs",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.yzUrZJzahfIm4YoC"
+    },
+    {
+      "_id": "F77dXSZoa4op4eb0",
+      "type": "document",
+      "name": "The Excellent Ruby Eye",
+      "text": "The Excellent Ruby Eye",
+      "description": "The Excellent Ruby Eye",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.F77dXSZoa4op4eb0",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.Pb5OgoGW7zPKLldE"
+    },
+    {
+      "_id": "ojDaWC3cYOgAHNJs",
+      "type": "document",
+      "name": "The Eye of Advancing Through Portals",
+      "text": "The Eye of Advancing Through Portals",
+      "description": "The Eye of Advancing Through Portals",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.ojDaWC3cYOgAHNJs",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.7BbvAKSoivcD5oFL"
+    },
+    {
+      "_id": "fyU6q74OuWzKZgVe",
+      "type": "document",
+      "name": "The Eye of Aerial Excellence",
+      "text": "The Eye of Aerial Excellence",
+      "description": "The Eye of Aerial Excellence",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.fyU6q74OuWzKZgVe",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.VbpAioayaRuV4evu"
+    },
+    {
+      "_id": "lx8xB6PCTqSnwHrZ",
+      "type": "document",
+      "name": "The Eye of Allseeing Wonder",
+      "text": "The Eye of Allseeing Wonder",
+      "description": "The Eye of Allseeing Wonder",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.lx8xB6PCTqSnwHrZ",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.iBAPIe1kNUx6jWHA"
+    },
+    {
+      "_id": "s0qu5Ahj2DhwomHo",
+      "type": "document",
+      "name": "The Eye of Being an Unimpeachable Shield Against Foes",
+      "text": "The Eye of Being an Unimpeachable Shield Against Foes",
+      "description": "The Eye of Being an Unimpeachable Shield Against Foes",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.s0qu5Ahj2DhwomHo",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.YK9tSQCL2kBCnYdB"
+    },
+    {
+      "_id": "qwX9SuabqfOMKQPm",
+      "type": "document",
+      "name": "The Eye of Bestowing Life",
+      "text": "The Eye of Bestowing Life",
+      "description": "The Eye of Bestowing Life",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.qwX9SuabqfOMKQPm",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.ORZoYfmgIOCeMsVh"
+    },
+    {
+      "_id": "lXMl0qlJhsAyldUo",
+      "type": "document",
+      "name": "The Eye of Calling Forth an Unconquerable Army",
+      "text": "The Eye of Calling Forth an Unconquerable Army",
+      "description": "The Eye of Calling Forth an Unconquerable Army",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.lXMl0qlJhsAyldUo",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.V9KbFtiwjjKI7sXl"
+    },
+    {
+      "_id": "RyXn05uansXbFrI9",
+      "type": "document",
+      "name": "The Eye of the Creeping Fog of Doom",
+      "text": "The Eye of the Creeping Fog of Doom",
+      "description": "The Eye of the Creeping Fog of Doom",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.RyXn05uansXbFrI9",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.HlVxkZuglbj5UKDr"
+    },
+    {
+      "_id": "Lf53f1p23784degs",
+      "type": "document",
+      "name": "The Eye of Departing in Safety",
+      "text": "The Eye of Departing in Safety",
+      "description": "The Eye of Departing in Safety",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.Lf53f1p23784degs",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.Ho3bkAQvvi66BILP"
+    },
+    {
+      "_id": "strXq6UhMHzFdBoL",
+      "type": "document",
+      "name": "The Eye of Exquisite Power Over Maidens",
+      "text": "The Eye of Exquisite Power Over Maidens",
+      "description": "The Eye of Exquisite Power Over Maidens",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.strXq6UhMHzFdBoL",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.B9ERTk2yCf3wifJF"
+    },
+    {
+      "_id": "wzgkO1AURdeCm6Oi",
+      "type": "document",
+      "name": "The Eye of Frigid Breath",
+      "text": "The Eye of Frigid Breath",
+      "description": "The Eye of Frigid Breath",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.wzgkO1AURdeCm6Oi",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.jDPMW92k4aX0Udca"
+    },
+    {
+      "_id": "tDzZjTa9DtNmfpb4",
+      "type": "document",
+      "name": "The Eye of Hastening Destiny",
+      "text": "The Eye of Hastening Destiny",
+      "description": "The Eye of Hastening Destiny",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.tDzZjTa9DtNmfpb4",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.aNswBTkxukqoHVQ2"
+    },
+    {
+      "_id": "ZYReCRYqNu1whx9n",
+      "type": "document",
+      "name": "The Eye of Illuminating Glory",
+      "text": "The Eye of Illuminating Glory",
+      "description": "The Eye of Illuminating Glory",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.ZYReCRYqNu1whx9n",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.FxUxtZ9k1JOWBVHQ"
+    },
+    {
+      "_id": "TYsmJdDdCz10jizb",
+      "type": "document",
+      "name": "The Eye of Incomparable Understanding",
+      "text": "The Eye of Incomparable Understanding",
+      "description": "The Eye of Incomparable Understanding",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.TYsmJdDdCz10jizb",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.iqQt0tcx54DUJQJJ"
+    },
+    {
+      "_id": "TP6NlzM6W6wmaCmz",
+      "type": "document",
+      "name": "The Eye of Indefinable Apprehension",
+      "text": "The Eye of Indefinable Apprehension",
+      "description": "The Eye of Indefinable Apprehension",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.TP6NlzM6W6wmaCmz",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.L5aeuSYzWDUFzzTU"
+    },
+    {
+      "_id": "ejHYVy23YhtrWSib",
+      "type": "document",
+      "name": "The Eye of Insubstantial Visioning",
+      "text": "The Eye of Insubstantial Visioning",
+      "description": "The Eye of Insubstantial Visioning",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.ejHYVy23YhtrWSib",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.B9vPzDLfMmt3dyWc"
+    },
+    {
+      "_id": "IMpapDpDGDONLKJ9",
+      "type": "document",
+      "name": "The Eye of Joyful Sitting Amongst Friends",
+      "text": "The Eye of Joyful Sitting Amongst Friends",
+      "description": "The Eye of Joyful Sitting Amongst Friends",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.IMpapDpDGDONLKJ9",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.nukrWSr0q9VlZtI4"
+    },
+    {
+      "_id": "Oo1tpmwEariogBDy",
+      "type": "document",
+      "name": "The Eye of Madness",
+      "text": "The Eye of Madness",
+      "description": "The Eye of Madness",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.Oo1tpmwEariogBDy",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.7BrhJGEstnkhGy5z"
+    },
+    {
+      "_id": "CEQXqqBKyfc8Grp9",
+      "type": "document",
+      "name": "The Eye of Non-Seeing",
+      "text": "The Eye of Non-Seeing",
+      "description": "The Eye of Non-Seeing",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.CEQXqqBKyfc8Grp9",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.7bVZcW6Uat3cFqTQ"
+    },
+    {
+      "_id": "zLKSf8FEZ7CExryV",
+      "type": "document",
+      "name": "The Eye of Opening the Way",
+      "text": "The Eye of Opening the Way",
+      "description": "The Eye of Opening the Way",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.zLKSf8FEZ7CExryV",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.XDoHtjBQxRM0PQmG"
+    },
+    {
+      "_id": "N26HyyKnGCYai9UF",
+      "type": "document",
+      "name": "The Eye of Raising an Infernal Barrier",
+      "text": "The Eye of Raising an Infernal Barrier",
+      "description": "The Eye of Raising an Infernal Barrier",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.N26HyyKnGCYai9UF",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.2prLxrjn3SPWb1kT"
+    },
+    {
+      "_id": "PNV37s4UIOos7L7B",
+      "type": "document",
+      "name": "The Eye of Regeneration",
+      "text": "The Eye of Regeneration",
+      "description": "The Eye of Regeneration",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.PNV37s4UIOos7L7B",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.E7ZIaVtL8s5iFiqR"
+    },
+    {
+      "_id": "VyCg9403mz6ZDxBf",
+      "type": "document",
+      "name": "The Eye of Retaining All Things",
+      "text": "The Eye of Retaining All Things",
+      "description": "The Eye of Retaining All Things",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.VyCg9403mz6ZDxBf",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.QPid3il1ljSNxfrQ"
+    },
+    {
+      "_id": "7BvGp6u3kt0cQ9Uz",
+      "type": "document",
+      "name": "The Eye of Retarding Destiny",
+      "text": "The Eye of Retarding Destiny",
+      "description": "The Eye of Retarding Destiny",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.7BvGp6u3kt0cQ9Uz",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.NsI5qTiIyy9xR4ck"
+    },
+    {
+      "_id": "Nob6M6UPBeKqaanM",
+      "type": "document",
+      "name": "The Eye of Returning Unto Darkness",
+      "text": "The Eye of Returning Unto Darkness",
+      "description": "The Eye of Returning Unto Darkness",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.Nob6M6UPBeKqaanM",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.3p3zVVbolE1l1w0O"
+    },
+    {
+      "_id": "RuZYtQPKY9wMD7NC",
+      "type": "document",
+      "name": "The Eye of Rising Above All",
+      "text": "The Eye of Rising Above All",
+      "description": "The Eye of Rising Above All",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.RuZYtQPKY9wMD7NC",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.brzMxYAtyhPfIoGA"
+    },
+    {
+      "_id": "xpD5kebWCYjF9vAw",
+      "type": "document",
+      "name": "The Eye of Ruling as a King in Glory",
+      "text": "The Eye of Ruling as a King in Glory",
+      "description": "The Eye of Ruling as a King in Glory",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.xpD5kebWCYjF9vAw",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.MqwSSqGMqviRJS77"
+    },
+    {
+      "_id": "Nl3R3YgEwf9vaAh4",
+      "type": "document",
+      "name": "The Eye of Strengthening the Majesty of Weapons",
+      "text": "The Eye of Strengthening the Majesty of Weapons",
+      "description": "The Eye of Strengthening the Majesty of Weapons",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.Nl3R3YgEwf9vaAh4",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.GUeopRQSF13tau8P"
+    },
+    {
+      "_id": "E8RGKn5kGZj05Tec",
+      "type": "document",
+      "name": "The Eye of Transformation",
+      "text": "The Eye of Transformation",
+      "description": "The Eye of Transformation",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.E8RGKn5kGZj05Tec",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.CMmsceW9Smx9fzEN"
+    },
+    {
+      "_id": "wRCPc8kkS6ADYbE6",
+      "type": "document",
+      "name": "The Eye of Triumphant Passage Through Infernos",
+      "text": "The Eye of Triumphant Passage Through Infernos",
+      "description": "The Eye of Triumphant Passage Through Infernos",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.wRCPc8kkS6ADYbE6",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.yDEI6b4l4Xp8isNS"
+    },
+    {
+      "_id": "FthY1S4ZlTr4bZxP",
+      "type": "document",
+      "name": "The Incomparable Eye of Command",
+      "text": "The Incomparable Eye of Command",
+      "description": "The Incomparable Eye of Command",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.FthY1S4ZlTr4bZxP",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.FU7FFibWco84qqbW"
+    },
+    {
+      "_id": "iZt0GNbffOWK2bc6",
+      "type": "document",
+      "name": "The Ineluctable Eye of Healing",
+      "text": "The Ineluctable Eye of Healing",
+      "description": "The Ineluctable Eye of Healing",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.iZt0GNbffOWK2bc6",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.DsWdXKsg8nu3CAPz"
+    },
+    {
+      "_id": "bXYhFhAtx6Z0zoTD",
+      "type": "document",
+      "name": "The Splendid Eye of Krá the Mighty",
+      "text": "The Splendid Eye of Krá the Mighty",
+      "description": "The Splendid Eye of Krá the Mighty",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.bXYhFhAtx6Z0zoTD",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.5xYUTlUpVidQb00Q"
+    },
+    {
+      "_id": "L0mvO2EIsPRrFaVs",
+      "type": "document",
+      "name": "The Terrible Eye of Raging Power",
+      "text": "The Terrible Eye of Raging Power",
+      "description": "The Terrible Eye of Raging Power",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.L0mvO2EIsPRrFaVs",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.S3wJxGz8eRblK30k"
+    },
+    {
+      "_id": "CkuHnIPKrZW2Xbai",
+      "type": "document",
+      "name": "The Thoroughly Useful Eye",
+      "text": "The Thoroughly Useful Eye",
+      "description": "The Thoroughly Useful Eye",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!tlmIXRD90PUJoqnD.CkuHnIPKrZW2Xbai",
+      "documentUuid": "Compendium.petal-throne.eyes.Item.A2Tz3vamO5jrkVJG"
+    }
+  ],
+  "folder": "b0c2cRbpuZuv6NHJ",
+  "sort": 16000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!tlmIXRD90PUJoqnD"
+}

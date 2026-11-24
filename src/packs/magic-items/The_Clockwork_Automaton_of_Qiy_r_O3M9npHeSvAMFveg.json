@@ -1,0 +1,31 @@
+{
+  "_id": "O3M9npHeSvAMFveg",
+  "name": "The Clockwork Automaton of Qiyór",
+  "type": "magicItem",
+  "img": "icons/svg/chest.svg",
+  "system": {
+    "description": "<p>A fighting robot: AC I, 10 hit dice, two huge broadswords (two hit chances a round, +2 damage). Fights ten melee rounds, then needs one round to rewind.</p><p>How many exist: two known (ten were made). Never for sale, though one may sometimes be borrowed from a temple or the Imperium for a mission.</p>",
+    "source": "EPT 1975 Sec. 1500 no. 4",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "misc",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "VKuCjP6BUl5y69Mp",
+  "sort": 4000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!O3M9npHeSvAMFveg"
+}

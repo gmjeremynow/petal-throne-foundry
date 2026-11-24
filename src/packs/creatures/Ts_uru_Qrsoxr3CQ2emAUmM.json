@@ -1,0 +1,58 @@
+{
+  "_id": "Qrsoxr3CQ2emAUmM",
+  "name": "Tsú'uru",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "U",
+    "hitDice": "5+3",
+    "hp": {
+      "value": 20,
+      "max": 20
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "1-6",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "D: 10",
+      "lair": "Lair 30: 2-12; treasure D: 90",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1221 (23); stats Sec. 1222 no. 64",
+    "biography": "<p>In truth a bundle of ropy, lumpy tentacles around a central brain ganglion, but it always wears an illusion until slain.</p><p>A treasure guardian related to the Marashyálu. It reads the party's minds to choose the most convincing disguise (a Ru'ún, a friend) and may travel with them as a friendly character until it can strike. It fights with its own hit dice, not its disguise's. It is immune to all spells, and no ESP, clairvoyance or telepathy reveals it.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 64,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Tsú'uru",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!Qrsoxr3CQ2emAUmM"
+}

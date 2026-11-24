@@ -1,0 +1,31 @@
+{
+  "_id": "zYLzPsuIxGXKBVzP",
+  "name": "The Amulet of Peace Amongst the Servers of Ksárul",
+  "type": "magicItem",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>For three turns Hrá, Mrúr and Qól stop fighting the holder; Biridlú, Marashyálu and Tsú'uru 20%. Charges rolled on d100.</p>",
+    "source": "EPT 1975 Sec. 1400 no. 7",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "category": "amulet",
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "range": "20 ft",
+    "duration": "",
+    "save": "",
+    "alignmentRestriction": "",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!zYLzPsuIxGXKBVzP"
+}

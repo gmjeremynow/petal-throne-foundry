@@ -1,0 +1,34 @@
+{
+  "_id": "FU7FFibWco84qqbW",
+  "name": "The Incomparable Eye of Command",
+  "type": "eye",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>Controls 1d12 beings, who obey without will.</p><p>When found, the referee rolls d100 for charges; 5% of Eyes are defective (Sec. 1300).</p>",
+    "source": "EPT 1975 Sec. 1310 no. 32",
+    "cost": 0,
+    "weight": 0,
+    "quantity": 1,
+    "charges": {
+      "value": 0,
+      "max": 100
+    },
+    "dial": false,
+    "identified": true,
+    "inscription": "",
+    "range": "30 ft",
+    "duration": "2 turns",
+    "targeting": "area",
+    "save": "16+ (I-IV), 13+ (V-VIII), 10+ (IX+)",
+    "damage": "",
+    "rarity": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 32,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!FU7FFibWco84qqbW"
+}

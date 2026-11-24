@@ -1,0 +1,22 @@
+{
+  "_id": "DlZGUT7TWT5sVyQe",
+  "name": "Astrologer",
+  "type": "skill",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Casts a horoscope in one turn with astrolabe and tables: reveals character and motives infallibly; predicts 1 turn ahead 70%, 2 turns 50%, 3 turns 30%. Usable repeatedly.</p><p>Magic User skill no. 6 in order.</p>",
+    "source": "EPT 1975 Sec. 433",
+    "group": "magicUser",
+    "rank": 6,
+    "usesChanceTable": false,
+    "language": ""
+  },
+  "effects": [],
+  "folder": "ryPyL8bQNit56gls",
+  "sort": 6000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!DlZGUT7TWT5sVyQe"
+}

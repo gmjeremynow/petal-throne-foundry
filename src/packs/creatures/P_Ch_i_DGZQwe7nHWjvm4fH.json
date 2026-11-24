@@ -1,0 +1,58 @@
+{
+  "_id": "DGZQwe7nHWjvm4fH",
+  "name": "Pé Chói",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "N",
+    "hitDice": "1+3",
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "ac": 2,
+    "acMagic": 0,
+    "move": "12",
+    "numberAppearing": "2-12",
+    "attitude": "Friendly",
+    "intelligent": true,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "",
+    "treasure": {
+      "carried": "A: 20",
+      "lair": "Lair 70: 100-600; treasure C: 40",
+      "special": ""
+    },
+    "special": "Per ship: 4-24; treasure aboard ship: B: 30.",
+    "source": "EPT 1975 Sec. 1127 (6); stats Sec. 1222 no. 42",
+    "biography": "<p>Slender, stick-like beings of black chitin about seven feet tall, with six limbs, fan-like ear growths and a long, jutting mandible-jaw.</p><p>Friendly to humans. Their wide hearing and sight detect invisible or silent creatures within 200 ft (60%). They find secret doors and traps automatically if they search for a turn, notice secret doors in passing on 1-2 on 1d6, and on a 6 can sense the thoughts in a neighbouring room. They fight with jag-edged swords and spears and can use maces and bows. Racial telepathy tells them when one of their kind is killed, and they never forgive it. They often serve in human armies.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 42,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Pé Chói",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 1,
+    "height": 1
+  },
+  "_key": "!actors!DGZQwe7nHWjvm4fH"
+}

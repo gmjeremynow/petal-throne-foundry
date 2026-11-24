@@ -1,0 +1,58 @@
+{
+  "_id": "tdRwqgKiCxMa4XlA",
+  "name": "Haqél",
+  "type": "creature",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "creatureType": "W",
+    "hitDice": "5/10/15",
+    "hp": {
+      "value": 35,
+      "max": 35
+    },
+    "ac": 3,
+    "acMagic": 0,
+    "move": "9",
+    "numberAppearing": "1",
+    "attitude": "",
+    "intelligent": false,
+    "noMorale": false,
+    "attackTable": "creature",
+    "attacks": 1,
+    "damageDice": "",
+    "hitBonus": 0,
+    "dmgBonus": 0,
+    "saveAs": "warrior",
+    "sizes": "small:50:5:2|medium:40:10:3|huge:10:15:5",
+    "treasure": {
+      "carried": "nil",
+      "lair": "Lair 90: 1-12",
+      "special": ""
+    },
+    "special": "",
+    "source": "EPT 1975 Sec. 1129 (4); stats Sec. 1222 no. 17",
+    "biography": "<p>A scaly creature lurking just below the surface of calm lakes and tidal pools, with a vast horn-rimmed mouth full of razor-sharp horn teeth and a mighty tail. Small ones are about 15 ft long, medium ones 25-30 ft, and real monsters 35-50 ft.</p><p>It waits with mouth open for a swimmer or boat to pass over. A seized victim is dragged under unless he saves on 61-100 on d100 at any level. It bites, and 40% of rounds also strikes with its tail. Repelled by the gland of the Tsi'íl.</p><p>Sizes: small 5 HD (50%), medium 10 HD (40%), huge 15 HD (10%). Each token placed rolls its size and hit points.</p>",
+    "notes": ""
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 17,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Haqél",
+    "actorLink": false,
+    "disposition": -1,
+    "displayName": 30,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "hp"
+    },
+    "width": 3,
+    "height": 3
+  },
+  "_key": "!actors!tdRwqgKiCxMa4XlA"
+}
